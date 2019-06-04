@@ -1,0 +1,7 @@
+.idea/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.toc
