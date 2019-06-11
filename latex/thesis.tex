@@ -1,8 +1,8 @@
-\documentclass[a4paper,12pt,language=finnish,version=draft,hidechapters=true,includereferences=false,realtimesnewroman=false,sharelatex=false,emptyfirstpages=true]{utuftthesis}
+\documentclass[a4paper,12pt,language=english,version=draft,hidechapters=true,includereferences=false,realtimesnewroman=false,sharelatex=false,emptyfirstpages=true]{utuftthesis}
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
 
-\addbibresource{Bibliografia.bib}
+\addbibresource{references.bib}
 \begin{document}
 \begin{comment}
 Document template suitable for use as a LaTeX master-file for master's
@@ -66,17 +66,15 @@ Relies on utuftthesis.cls for the document class definitions.
 \end{comment}
 
 
-\pubyear{2018}
+\pubyear{2019}
 
 \pubmonth{6}
 
-\publab{Labran nimi}
-
-\publaben{Laboratory Name}
+\publaben{Software Engineering}
 
 \pubtype{tkk}
-\title{Name of Thesis}
-\author{My Name}
+\title{Functional programming in front-end web development}
+\author{Konsta Purtsi}
 
 \maketitle
 \input{abstract.tex}
@@ -117,7 +115,8 @@ underscores \_ in file names (may break hyperref).
 Good luck!
 \end{comment}
 
-\input{johdanto.tex}\input{toinenluku.tex}
+\input{01-introduction.tex}
+\input{02-functional-programming.tex}
 
 %\input{file_name_of_chapter_x}
 %\input{file_name_of_chapter_y}
@@ -126,25 +125,6 @@ Good luck!
 The thesis main content ends here.
 \end{comment}
 \printbibliography
-
-\begin{comment}
-Create your appendix chapters with command \textbackslash appchapter\{some
-name\} instead of \textbackslash chapter\{some name\} for the automagic
-page counting to work!
-\end{comment}
-
-
-\appchapter{Liitedokumentti}
-
-Tässä esimerkki\pagebreak{}
-
-kaksisivuisesta liitteestä.
-
-\appchapter{Liitedokumentti 2}
-
-Tässä esimerkki\pagebreak{}
-
-toisesta kaksisivuisesta liitteestä.
 
 \begin{comment}
 main document ends here
