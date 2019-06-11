@@ -5,6 +5,7 @@ compile_pdf:
     - cd latex
   script:
     - pdflatex thesis.tex  # build the pdf just as you would on your computer
+    - pdflatex thesis.tex  # build the pdf again to fix the build. This is a hack
   artifacts:
     paths:
       - latex/thesis.pdf  # instruct GitLab to keep the main.pdf file
