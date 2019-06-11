@@ -4,7 +4,7 @@ compile_pdf:
   before_script:
     - cd latex
   script:
-    - pdflatex latex/thesis.tex  # build the pdf just as you would on your computer
+    - pdflatex thesis.tex  # build the pdf just as you would on your computer
   artifacts:
     paths:
       - latex/thesis.pdf  # instruct GitLab to keep the main.pdf file
