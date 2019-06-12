@@ -1,16 +1,13 @@
 compile_pdf:
   stage: build
-  image: timnn/texlive  # use a Docker image for LaTeX from https://hub.docker.com/
+  image: aergus/latex
   before_script:
     - cd latex
   script:
-    - pdflatex thesis.tex
-    - bibtex thesis.aux
-    - pdflatex thesis.tex
-    - pdflatex thesis.tex
+    - latexmk -pdf thesis.tex
   artifacts:
     paths:
-      - latex/thesis.pdf  # instruct GitLab to keep the main.pdf file
+      - latex/thesis.pdf
 
 pages:
   stage: deploy
