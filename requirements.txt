@@ -1,0 +1,2 @@
+jsx-lexer==0.0.7
+Pygments==2.4.2

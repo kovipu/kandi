@@ -4,7 +4,8 @@ compile_pdf:
   before_script:
     - cd latex
   script:
-    - latexmk -pdf thesis.tex
+    - pip install -r requirements.txt
+    - latexmk -pdf -shell-escape thesis.tex
   artifacts:
     paths:
       - latex/thesis.pdf
