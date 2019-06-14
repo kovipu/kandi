@@ -1,10 +1,11 @@
 compile_pdf:
   stage: build
   image: aergus/latex
-  before_script:
-    - cd latex
   script:
+    - apt-get update -qy
+    - apt-get install -y python python-pip
     - pip install -r requirements.txt
+    - cd latex
     - latexmk -pdf -shell-escape thesis.tex
   artifacts:
     paths:
