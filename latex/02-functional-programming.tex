@@ -7,7 +7,7 @@
 % - The paradigm
 \section{Definition}
 Functional programming is a computer programming paradigm in which the evaluation of a computer program is carried out
-through the evaluation of deeply nested mathematical functions. Declarative programming is a programming paradigm that
+through the computation of deeply nested mathematical functions. Declarative programming is a programming paradigm that
 describes the program only as expressions or declarations instead of statements. Functional programming is a declarative
 programming paradigm that describes the program as function declarations. Functional code avoids changing-state and
 mutable data, which can make understanding a program easier.\cite{hudak}
@@ -33,10 +33,10 @@ Application $ \{ F \} ( X ) $ applies value X to function F.\cite{lambdacalculus
 \subsection{Immutability}
 Declarative programming languages have no implicit state which contrasts to imperative languages where the state is
 modified by constructs (i.e. commands) in the program code. This makes computations only possible with expressions (or
-terms). Functional programming languages in particular use the function as their basis of computation. For instance this
-contrasts to logic programming where such construct would the relation. This makes loops nonexistent in pure functional
-programming. For example, computing the factorial of the number n could be implemented in an imperative language like
-Python:
+terms). Functional programming languages in particular use the function as their basis of computation. For instance,
+this contrasts to logic programming where such construct would be the relation. This makes loops nonexistent in pure
+functional programming. For example, computing the factorial of the number n could be implemented in an imperative
+language like Python:
 \begin{minted}{python}
 def factorial(n):
     result = 1
@@ -46,9 +46,9 @@ def factorial(n):
     return result
 \end{minted}
 With a functional programming language, the repetition has to be implemented using recursion. Functional programming
-languages allow functions to be recursive and, more often than not, make implmenting it easy. Computing the factorial
-of the number n in a functional programming language using recursion could be implemented, for example, like this in
-Haskell:
+languages allow functions to be recursive and, more often than not, make implementing recursion effortless. Computing
+the factorial of the number n in a functional programming language using recursion could be implemented, for example,
+like this in Haskell:
 \begin{minted}{haskell}
 factorial n = if n < 2
                 then 1
@@ -61,7 +61,7 @@ factorial n = if n < 2
 Functional programming languages promote functional programming by allowing higher order functions. This means functions
 are treated as first-class values and they are allowed as parameters to a function, returned as a result or stored in
 data structures.\cite{hudak} For example, the map function is often used to render a list of items in modern web
-front-end.\cite{functionalreact} For example, rendering a list of items using the map function in React:
+front-end.\cite{functionalreact} Here is an example of rendering a list of items in React:
 \begin{minted}{jsx}
 <div className="items">
   {items.map(item => <Item {...item} />)}
@@ -69,8 +69,8 @@ front-end.\cite{functionalreact} For example, rendering a list of items using th
 \end{minted}
 
 \subsection{Lazy evaluation}
-Lazy evaluation is an evaluation strategy where a value of an expression is only computed when its value is needed, and
-that value is stored for later use. This can reduce the computation time of functions and therefore improve program
+Lazy evaluation is an evaluation strategy where an expression is only computed when its value is needed, and
+then stored for later use. This can reduce the computation time of functions and therefore improve program
 performance by an exponential factor over other types of evaluation strategies. Eager evaluation means the value is
 computed on its first point of call. This is the evaluation strategy of most programming languages. Lazy evaluation is
 only implemented by pure functional languages like Haskell.\cite{languagedesign}
