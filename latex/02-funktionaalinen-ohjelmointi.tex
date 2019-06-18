@@ -69,7 +69,7 @@ kerran tarvitaan, mutta ei aikaisemmin. tämä voi vähentää suoritukseen kulu
 suorituskykyä eksponentiaalisesti muihin laskentastrategioihin verrattuna. Innokas laskenta (eng. eager evaluation)
 tarkoittaa lausekkeen arvon laskemista heti ensimmäisellä kerralla, kun lauseke esitellään. Tämä on yleisimpien
 ohjelmointikielten laskentastrategia. Laiskan laskennan toteuttavat vain puhtaasti funktionaaliset ohjelmointikielet,
-kuten Haskell.\cite{languagedesign}
+kuten Haskell.
 
 Laiska laskenta mahdollistaa päättymättömät tietorakenteet. Niin sanottujen laiskojen listojen loppupää evaluoidaan
 vasta kun sitä kutsutaan. Esimerkiksi Haskellissa voidaan määrittää lista kaikista kokonaisluvuista alkaen luvusta n:
@@ -78,7 +78,7 @@ from :: Int -> [Int]
 from n = n : from (n+1)
 \end{minted}
 Funktion rekursiivinen kutsu aiheuttaisi innokkaasti laskevissa ohjelmointikielissä päättymättömän rekursion, mutta
-Haskellin tapauksessa vain määrätty osa listasta evaluoidaan.
+Haskellin tapauksessa vain määrätty osa listasta evaluoidaan.\cite{languagedesign}
 
 % Esimerkki käytännön toteutuksesta, ääretön lista?
 
