@@ -55,8 +55,8 @@ factorial n = if n < 2
 Funktionaaliset ohjelmointikielet rohkaisevat ohjelmoimaan funktionaalisesti muun muassa sallimalla korkeamman asteen
 funktiot. Tämä tarkoittaa, että funktioita kohdellaan ensimmäisen luokan kansalaisina ja niitä voi syöttää parametrina
 funktioille, asettaa paluuarvoksi funktiolle ja tallentaa tietorakenteisiin.\cite{hudak} Esimerkiksi map-funktioita
-käytetään usein modernissa front-end web-ohjelmoinnissa\cite{functionalreact}. Esimerkiksi listan renderöinti React-kirjastolla voidaan
-toteuttaa näin:
+käytetään usein modernissa front-end web-ohjelmoinnissa\cite{functionalreact}. Esimerkiksi listan renderöinti
+React-kirjastolla voidaan toteuttaa näin:
 \begin{minted}{jsx}
 <div className="items">
   {items.map(item => <Item {...item} />)}
@@ -70,6 +70,15 @@ suorituskykyä eksponentiaalisesti muihin laskentastrategioihin verrattuna. Inno
 tarkoittaa lausekkeen arvon laskemista heti ensimmäisellä kerralla, kun lauseke esitellään. Tämä on yleisimpien
 ohjelmointikielten laskentastrategia. Laiskan laskennan toteuttavat vain puhtaasti funktionaaliset ohjelmointikielet,
 kuten Haskell.\cite{languagedesign}
+
+Laiska laskenta mahdollistaa päättymättömät tietorakenteet. Niin sanottujen laiskojen listojen loppupää evaluoidaan
+vasta kun sitä kutsutaan. Esimerkiksi Haskellissa voidaan määrittää lista kaikista kokonaisluvuista alkaen luvusta n:
+\begin{minted}{haskell}
+from :: Int -> [Int]
+from n = n : from (n+1)
+\end{minted}
+Funktion rekursiivinen kutsu aiheuttaisi innokkaasti laskevissa ohjelmointikielissä päättymättömän rekursion, mutta
+Haskellin tapauksessa vain määrätty osa listasta evaluoidaan.
 
 % Esimerkki käytännön toteutuksesta, ääretön lista?
 
