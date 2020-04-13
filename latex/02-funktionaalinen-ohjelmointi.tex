@@ -74,9 +74,8 @@ funktiot. Tämä tarkoittaa, että funktioita kohdellaan ensimmäisen luokan kan
 funktioille, asettaa paluuarvoksi funktiolle ja tallentaa tietorakenteisiin. Korkeamman asteen funktioiden avulla
 ohjelmakoodi ja data ovat jossain määrin vaihdettavissa, joten niiden avulla voidaan abstrahoida kompleksisia
 rakenteita.\cite{hudak} Map-funktio on korkeamman asteen funktio, joka suorittaa parametrina annetun funktion jollekkin
-tietorakennteelle, esimerkiksi listalle. Map-funktiota käytetään usein modernissa front-end
-web-ohjelmoinnissa\cite{functionalreact}. Listan renderöinti React-kirjastolla voidaan toteuttaa näin
-map-funktion avulla:
+tietorakennteelle, esimerkiksi listalle. Map-funktiota käytetään usein modernissa front-end web-ohjelmoinnissa
+\cite{functionalreact}. Listan renderöinti React-kirjastolla voidaan toteuttaa näin map-funktion avulla:
 \begin{minted}{jsx}
 items.map(item => <Item {...item} />)
 \end{minted}
@@ -102,7 +101,6 @@ from n = n : from (n+1)
 Funktion rekursiivinen kutsu aiheuttaisi innokkaasti laskevissa ohjelmointikielissä päättymättömän rekursion, mutta
 Haskellin tapauksessa vain määrätty osa listasta evaluoidaan.\cite{languagedesign}
 
-% Esimerkki modernista sovelluksesta jossa samaa funktiota luupataan
 Funktionaalisissa ohjelmointikielissä rekursio ei aiheuta pinon ylivuotoa, joten päättymätön rekursio on toimiva
 vaihtoehto päättymättömälle silmukalle. Esimerkiksi Haskell-kielen main-funktioita voidaan toistaa äärettömästi näin:
 \begin{minted}{haskell}
@@ -113,18 +111,14 @@ main =
     main
 \end{minted}
 
-% Esimerkki käytännön toteutuksesta, ääretön lista?
-
-\subsection{Hahmonsovitus ja abstraktit tietorakenteet}
-% these are typical for a purely functional language
-
+\subsection{Hahmonsovitus}
 Hahmonsovitus (eng. pattern matching) on puhtaalle funktionaaliselle ohjelmoinnille tyypillinen piirre, jossa sama
 funktio voidaan määritellä useita kertoja. Funktiomäärittelyistä vain yhtä sovelletaan tapauskohtaisesti. Modernit
 funktionaaliset ohjelmointikielet tekevät hahmonsovitustoteutuksistaan mahdollisimman ilmaisuvoimaisia rohkaistakseen
 sen käyttöä. Hahmonsovituksen toteutus on käytännössä case-lauseke, jossa lausekkeen ehto kuvaa syötetyn parametrin
 tietotyyppiä tai sen rakenneta. Tämän avulla ohjelman suoritus jakautuu syötetyn muuttujan tyypin tai rakenteen mukaan.
+\cite{hudak}
 
-% Kertomafunktio pattern matchingin avulla
 Esimerkiksi kertomafunktio voidaan toteuttaa rekursiivisesti hahmonsovituksen avulla.
 \begin{minted}{haskell}
 factorial :: Int -> Int
@@ -132,13 +126,25 @@ factorial 0 = 1
 factorial n = n * factorial (n - 1)
 \end{minted}
 
-\subsection{Funktionaalisen laskentamallin seuraukset}
-% ETSI LÄHDE
+\section{Funktionaalisen laskentamallin seuraukset}
+Puhtaasti funktionaalinen laskentamalli karsii ohjelmasta pois tietyt bugityypit. Puhdas sivuvaikutukseton laskenta on
+automaattisesti säieturvallista (eng. thread safe), mikä tekee ohjelman rinnakkaistamisesta helppoa. Puhtaan funktion
+deterministisyys tarkoittaa, ettei muu samanaikainen suoritus voi vaikuttaa laskennnan oikeuteen, eikä sivuvaikutukseton
+funktio myöskään pysty vaikuttamaan muun samanaikaisen laskennan lopputulokseen.
+
+Deterministisyys ja toistettavuus parantavat ohjelman testattavuutta. Jos deterministinen funktio toimii tietyillä
+parametreilla kerran, se toimii myös joka kerta ajon aikana. Toistettavuus helpottaa ajon aikana löydetyn virheellisen
+tilan toistamista syöttämällä sama tarkkaan määritetty virheellinen tila testiympäristöön.\cite{functionaljava}
+
+Tilattomuus ja abstraktit datatyypit käyttävät tyypillisesti enemmän prosessoritehoa ja muistia, kuin imperatiiviset
+ohjelmat. Pahimmassa tapauksessa tämä aiheuttaa $ O(\log{}n) $ hakuajan funktionaaliselle datatyypille, verrattuna 
+imperatiiviselle ohjelmoinnille tyypilliseen $ O(n) $. Kuitenkin ohjelmat, jotka tekevät intensiivisiä numeerisia 
+laskuja, ovat vain marginaalisesti hitaampia funktionaalisilla ohjelmointikielillä kuten OCaml ja Clean verrattuna 
+C-kieleen.\cite{benchmark}
 
 \section{Ohjelmointikielet}
 % - Lisp vs ML
 % - Modern functional languages. Clojure, Haskell etc
 
 % Kääntäminen lyhyesti
-%   Ei lambdakalkyylin kautta vaan suoraan konekielle
-
+%   Ei lambdakalkyylin kautta vaan suoraan konekielelle
