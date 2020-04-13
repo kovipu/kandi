@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.4.13)  13 APR 2020 13:14
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.4.13)  13 APR 2020 13:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 29 language(s) loaded.
 (./utuftthesis.cls
 Document Class: utuftthesis 2018/10/06 UTU FT dept BSc/MSc thesis
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
@@ -552,20 +552,10 @@ Package: makecmds 2009/09/03 v1.0a extra command making commands
 )
 (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-finnish.ldf
 File: gloss-finnish.ldf polyglossia: module for finnish
-
-
-Package polyglossia Warning: No hyphenation patterns were loaded for `Finnish'
-(polyglossia)                I will use \language=\l@nohyphenation instead on i
-nput line 7.
-
-\l@finnish = a dialect from \language\l@nohyphenation 
-
-Package polyglossia Warning: \setlocalhyphenmin useless for unhyphenated langua
-ge finnish on input line 7.
-
 )
 Package polyglossia Info: Default language is finnish.
- (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
 File: gloss-english.ldf polyglossia: module for english
 )
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -1327,24 +1317,6 @@ uperäisyys on tarkastettu Turnitin OriginalityCheck-
 
 
 ] (./abstract.tex
-Underfull \hbox (badness 3579) in paragraph at lines 9--24
-[]\TU/lmr/m/n/12 Bibliografisten tietojen jälkeen kirjoitetaan varsinainen tiiv
-istelmä. Sen on
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 9--24
-\TU/lmr/m/n/12 oletettava, että lukijalla on yleiset tiedot aiheesta. Tiivistel
-män tulee olla
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 9--24
-\TU/lmr/m/n/12 tai väitteitä, jotka eivät sisälly itse tutkimukseen. Tiivistelm
-än on oltava
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 9--24
 
  []
@@ -1368,285 +1340,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--24
 ]
 \relax  2.
 
-Overfull \hbox (4.082pt too wide) in paragraph at lines 4--9
-\TU/lmr/m/n/12 Funktionaalinen ohjelmointi on deklaratiivinen ohjelmointiparadi
-gma, jossa ohjelman
- []
-
-
-Overfull \hbox (28.56845pt too wide) in paragraph at lines 4--9
-\TU/lmr/m/n/12 suoritus tapahtuu sisäkkäisten matemaattisten funktioiden evaluo
-imisena. Deklaratiivinen
- []
-
-
-Overfull \hbox (45.53247pt too wide) in paragraph at lines 4--9
-\TU/lmr/m/n/12 globaalia tilaa muokkaavin funktiokutsuin. Se on vastakohta peri
-nteisemmälle imperatiiviselle
- []
-
-
-Overfull \hbox (9.70068pt too wide) in paragraph at lines 16--21
-\TU/lmr/m/n/12 Funktionaalinen ohjelmointi perustuu vahvasti lambdakalkyyliin -
- formaalin laskennan
- []
-
-
-Overfull \hbox (33.80048pt too wide) in paragraph at lines 16--21
-\TU/lmr/m/n/12 malliin jonka kehitti Alonzo Church vuonna 1928. Lambdakalkyyliä
- pidetään ensimmäisenä
- []
-
-
-Overfull \hbox (23.16599pt too wide) in paragraph at lines 16--21
-\TU/lmr/m/n/12 funktionaalisena ohjelmointikielenä, vaikka se keksittiinkin enn
-en ensimmäisiä varsinaisia
- []
-
-
-Overfull \hbox (55.2031pt too wide) in paragraph at lines 16--21
-\TU/lmr/m/n/12 ohjelmointikieliä, kuten Lispiä, pidetään abstraktioina lambdaka
-lkyylin päälle. Lambdakalkyyli
+Overfull \hbox (7.99246pt too wide) in paragraph at lines 4--9
+\TU/lmr/m/n/12 man suoritus tapahtuu sisäkkäisten matemaattisten funktioiden ev
+aluoimisena. Dekla-
  []
 
 [2
 
 ]
-Overfull \hbox (15.34056pt too wide) in paragraph at lines 22--26
-[]\TU/lmr/m/n/12 Yksinkertaisimmillaan lambdakalkyyli koostuu vain kolmesta ter
-mistä: muuttujista,
- []
-
-
-Overfull \hbox (21.30447pt too wide) in paragraph at lines 22--26
-\TU/lmr/m/n/12 abstraktioista ja sovelluksista. Muuttujat ovat yksinkertaisesti
- merkkejä tai merkkijonoja
- []
-
 \openout7 = `thesis.pyg'.
 
-(../dist/../dist/_minted-thesis/default-pyg-prefix.pygstyle)
+ (../dist/../dist/_minted-thesis/default-pyg-prefix.pygstyle)
 (../dist/../dist/_minted-thesis/default.pygstyle)
 (../dist/../dist/_minted-thesis/6207B5CF1F1A9650895F2481870B0768FD4E1DDFC09AB01
 9D7D3A9C71E9F7EE4.pygtex
-Overfull \hbox (16.93001pt too wide) in paragraph at lines 45--1
-\TU/lmr/m/n/12 Deklaratiivisissa ohjelmointikielissä ei ole implisiittistä tila
-a, mikä eroaa imperatiivisista
- []
-
-
-Overfull \hbox (21.62956pt too wide) in paragraph at lines 45--1
-\TU/lmr/m/n/12 kielistä, joissa tilaa voi muokata lauseilla (eng. commands) ohj
-elmakoodissa. Tilattomuus
- []
-
-
-Overfull \hbox (14.27625pt too wide) in paragraph at lines 45--1
-\TU/lmr/m/n/12 tekee laskennasta mahdollista ainoastaan lausekkeilla (eng. expr
-ession). Funktionaaliset
- []
-
-
-Overfull \hbox (19.03668pt too wide) in paragraph at lines 45--1
-\TU/lmr/m/n/12 ohjelmointikielet perustuvat lambdakalkyyliin ja siten käyttävät
- ja lambda-abstraktioita
- []
-
-
-Overfull \hbox (8.11247pt too wide) in paragraph at lines 45--1
-\TU/lmr/m/n/12 arvon muuttamisen ja perinteiset silmukat. Puhtaasti funktionaal
-isessa ohjelmoinnissa
- []
-
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
-[3])
+ [3])
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/1CE1BF80BA4300B5351C83F254A07213D007A3F045D5FD7
-D2C2D75CD72DB72BB.pygtex
-Overfull \hbox (10.446pt too wide) in paragraph at lines 60--1
-\TU/lmr/m/n/12 myös vaivatonta.[1] Funktio, joka laskee luvun n kertoman voidaa
-n toteutta esimerkiksi
- []
-
-)
+D2C2D75CD72DB72BB.pygtex)
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/9D5AE769F9D7246E06A3561ADBFA416B9B9069E0E4875F4
-F9D15E060A288209D.pygtex
-Overfull \hbox (15.22867pt too wide) in paragraph at lines 72--1
-\TU/lmr/m/n/12 kohdellaan ensimmäisen luokan kansalaisina ja niitä voi syöttää 
-parametrina funktioille,
- []
-
-
-Overfull \hbox (28.82066pt too wide) in paragraph at lines 72--1
-\TU/lmr/m/n/12 niiden avulla voidaan abstrahoida kompleksisia rakenteita.[1] Ma
-p-funktio on korkeamman
- []
-
-
-Overfull \hbox (12.08199pt too wide) in paragraph at lines 72--1
-\TU/lmr/m/n/12 asteen funktio, joka suorittaa parametrina annetun funktion joll
-ekkin tietorakennteelle,
- []
-
-
-Overfull \hbox (38.20845pt too wide) in paragraph at lines 72--1
-\TU/lmr/m/n/12 esimerkiksi listalle. Map-funktiota käytetään usein modernissa f
-ront-end web-ohjelmoinnissa
- []
-
-)
-Overfull \hbox (34.9287pt too wide) in paragraph at lines 84--92
-\TU/lmr/m/n/12 Tämä voi vähentää suoritukseen kuluvaa aikaa ja siten voi parant
-aa ohjelman suorituskykyä
- []
-
-
-Overfull \hbox (7.22997pt too wide) in paragraph at lines 84--92
-\TU/lmr/m/n/12 Laiskan laskennan toteuttavat useat puhtaasti funktionaaliset oh
-jelmointikielet, kuten
- []
-
-
-Overfull \hbox (19.58978pt too wide) in paragraph at lines 84--92
-\TU/lmr/m/n/12 Haskell. Myös jotkin moniparadigmaiset kielet toteuttavat laiska
-n laskennan, esimerkiksi
- []
-
-[4]
+F9D15E060A288209D.pygtex) [4]
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/7924F2F5F88413EC511D7024E274B1DED007A3F045D5FD7
-D2C2D75CD72DB72BB.pygtex
-Overfull \hbox (2.77248pt too wide) in paragraph at lines 93--1
-\TU/lmr/m/n/12 laiskojen listojen loppupää evaluoidaan vasta kun sitä kutsutaan
-. Tämä näkyy useissa
- []
-
-
-Overfull \hbox (35.202pt too wide) in paragraph at lines 93--1
-\TU/lmr/m/n/12 funktionaalisissa ohjelmointikielissä listan toteutuksena, jossa
- listaa evaluoidaan alkupäästä
- []
-
-
-Overfull \hbox (8.48846pt too wide) in paragraph at lines 93--1
-\TU/lmr/m/n/12 loppua kohti. Esimerkiksi Haskellissa voidaan määrittää lista ka
-ikista kokonaisluvuista
- []
-
-)
+D2C2D75CD72DB72BB.pygtex)
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/1F8CF1B0AC1B40A6F4E88E9DA2ABF415D007A3F045D5FD7
-D2C2D75CD72DB72BB.pygtex
-Overfull \hbox (7.20049pt too wide) in paragraph at lines 104--1
-\TU/lmr/m/n/12 päättymätön rekursio on toimiva vaihtoehto päättymättömälle silm
-ukalle. Esimerkiksi
- []
-
-[5])
-Overfull \hbox (41.18178pt too wide) in paragraph at lines 115--121
-\TU/lmr/m/n/12 tyypillinen piirre, jossa sama funktio voidaan määritellä useita
- kertoja. Funktiomäärittelyistä
- []
-
-
-Overfull \hbox (20.39268pt too wide) in paragraph at lines 115--121
-\TU/lmr/m/n/12 tekevät hahmonsovitustoteutuksistaan mahdollisimman ilmaisuvoima
-isia rohkaistakseen
- []
-
-
-Overfull \hbox (10.69777pt too wide) in paragraph at lines 115--121
-\TU/lmr/m/n/12 sen käyttöä. Hahmonsovituksen toteutus on käytännössä case-lause
-ke, jossa lausekkeen
- []
-
-
-Overfull \hbox (10.89648pt too wide) in paragraph at lines 115--121
-\TU/lmr/m/n/12 ehto kuvaa syötetyn parametrin tietotyyppiä tai sen rakenneta. T
-ämän avulla ohjelman
- []
-
+D2C2D75CD72DB72BB.pygtex [5])
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/2E3654EAE0FC50CE2D31A578FBAAC0FFD007A3F045D5FD7
-D2C2D75CD72DB72BB.pygtex)
-Overfull \hbox (33.76178pt too wide) in paragraph at lines 130--134
-\TU/lmr/m/n/12 safe), mikä tekee ohjelman rinnakkaistamisesta helppoa. Puhtaan 
-funktion deterministisyys
- []
-
-
-Overfull \hbox (46.47649pt too wide) in paragraph at lines 135--138
-[]\TU/lmr/m/n/12 Deterministisyys ja toistettavuus parantavat ohjelman testatta
-vuutta. Jos deterministinen
- []
-
-
-Overfull \hbox (9.09267pt too wide) in paragraph at lines 135--138
-\TU/lmr/m/n/12 Toistettavuus helpottaa ajon aikana löydetyn virheellisen tilan 
-toistamista syöttämällä
- []
-
-[6]
-Overfull \hbox (20.64467pt too wide) in paragraph at lines 139--144
-[]\TU/lmr/m/n/12 Tilattomuus ja abstraktit datatyypit käyttävät tyypillisesti e
-nemmän prosessoritehoa
- []
-
-
-Overfull \hbox (29.4166pt too wide) in paragraph at lines 139--144
-\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 ([] []\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 )$ \T
-U/lmr/m/n/12 hakuajan funktionaaliselle datatyypille, verrattuna imperatiivisel
-le ohjelmoinnille
- []
-
-
-Overfull \hbox (0.74866pt too wide) in paragraph at lines 139--144
-\TU/lmr/m/n/12 ovat vain marginaalisesti hitaampia funktionaalisilla ohjelmoint
-ikielillä kuten OCaml
- []
-
-) (./03-web-teknologiat.tex [7]
+D2C2D75CD72DB72BB.pygtex) [6]) (./03-web-teknologiat.tex [7]
 \relax  3.
 
 Overfull \hbox (3.58179pt too wide) in paragraph at lines 4--8
 \TU/lmr/m/n/12 verkkoa. Web-sisältöä luetaan selaimella, joka hakee sisällön we
 b-palvelimelta HTTP-
- []
-
-
-Overfull \hbox (11.42047pt too wide) in paragraph at lines 10--15
-\TU/lmr/m/n/12 Alkuperäinen tapa jakaa web-sisältöä on staattisena verkkosivuna
- (eng. static website).
- []
-
-
-Overfull \hbox (0.43402pt too wide) in paragraph at lines 10--15
-\TU/lmr/m/n/12 luetaan suoraan web-palvelimen muistista, ilman että palvelin te
-kee niihin muutoksia
- []
-
-
-Overfull \hbox (14.84177pt too wide) in paragraph at lines 10--15
-\TU/lmr/m/n/12 ajon aikana. Staattiset verkkosivut sisältävät usein HTML-, CSS-
- ja multimediasisältöä,
- []
-
-
-Overfull \hbox (10.32573pt too wide) in paragraph at lines 20--25
-\TU/lmr/m/n/12 Python, Perl, Ruby, Java, C# ja Node.js. Dynaaminen verkkosivu t
-allettaa useimmiten
  []
 
 [8
@@ -1663,15 +1403,10 @@ allettaa useimmiten
 \relax  6.
 ) Excluding 'comment' comment. [12
 
+] Excluding 'comment' comment. [13
+
 ]
-Overfull \hbox (33.34961pt too wide) in paragraph at lines 133--133
-[]\TU/lmr/m/n/12 A. Sabry, ”  What is a purely functional language?” \TU/lmr/m/
-it/12 Journal of Functional Programming\TU/lmr/m/n/12 ,
- []
-
-Excluding 'comment' comment. [13
-
-] (../dist/thesis.aux)
+(../dist/thesis.aux)
 runsystem(rm ../dist//thesis.pyg)...executed.
 
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1679,12 +1414,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27705 strings out of 494988
- 562282 string characters out of 6178638
- 1088094 words of memory out of 5000000
- 31165 multiletter control sequences out of 15000+600000
+ 27705 strings out of 494440
+ 562290 string characters out of 6165199
+ 1092464 words of memory out of 5000000
+ 31201 multiletter control sequences out of 15000+600000
  535029 words of font info for 54 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 350 hyphenation exceptions out of 8191
  46i,11n,48p,10447b,5666s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ../dist/thesis.pdf (17 pages).
