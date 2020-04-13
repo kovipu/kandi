@@ -1,0 +1,31 @@
+name: Build pdf
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+
+      - name: Install dependencies
+        run: |
+          sudo apt update -q
+          sudo apt install -yqq python python-pip latexmk texlive-xetex texlive-bibtex-extra biber texlive-lang-european
+          sudo pip install -r requirements.txt
+      
+      - name: Build latex to pdf
+        run: make build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
