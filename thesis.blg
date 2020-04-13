@@ -1,14 +1,14 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is '../dist/thesis.blg'
-[49] biber:313> INFO - === Mon Apr 13, 2020, 13:22:52
-[96] Biber.pm:371> INFO - Reading '../dist/thesis.bcf'
-[159] Biber.pm:857> INFO - Found 9 citekeys in bib section 0
-[173] Biber.pm:3981> INFO - Processing section 0
-[183] Biber.pm:4154> INFO - Looking for bibtex format file 'Bibliografia.bib' for section 0
-[183] bibtex.pm:1468> INFO - LaTeX decoding ...
-[194] bibtex.pm:1294> INFO - Found BibTeX data source 'Bibliografia.bib'
-[240] UCollate.pm:68> INFO - Overriding locale 'fi-FI' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[240] UCollate.pm:68> INFO - Overriding locale 'fi-FI' defaults 'variable = shifted' with 'variable = non-ignorable'
-[240] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fi-FI'
-[245] bbl.pm:617> INFO - Writing '../dist/thesis.bbl' with encoding 'UTF-8'
-[250] bbl.pm:720> INFO - Output to ../dist/thesis.bbl
+[51] biber:313> INFO - === Mon Apr 13, 2020, 13:28:05
+[148] Biber.pm:371> INFO - Reading '../dist/thesis.bcf'
+[212] Biber.pm:857> INFO - Found 9 citekeys in bib section 0
+[227] Biber.pm:3981> INFO - Processing section 0
+[238] Biber.pm:4154> INFO - Looking for bibtex format file 'Bibliografia.bib' for section 0
+[239] bibtex.pm:1468> INFO - LaTeX decoding ...
+[248] bibtex.pm:1294> INFO - Found BibTeX data source 'Bibliografia.bib'
+[302] UCollate.pm:68> INFO - Overriding locale 'fi-FI' defaults 'variable = shifted' with 'variable = non-ignorable'
+[302] UCollate.pm:68> INFO - Overriding locale 'fi-FI' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[302] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fi-FI'
+[308] bbl.pm:617> INFO - Writing '../dist/thesis.bbl' with encoding 'UTF-8'
+[312] bbl.pm:720> INFO - Output to ../dist/thesis.bbl
