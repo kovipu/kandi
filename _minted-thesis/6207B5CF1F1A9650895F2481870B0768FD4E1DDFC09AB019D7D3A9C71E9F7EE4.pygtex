@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{factorial}\PYG{p}{(}\PYG{n}{n}\PYG{p}{):}
+    \PYG{n}{result} \PYG{o}{=} \PYG{l+m+mi}{1}
+    \PYG{k}{while} \PYG{n}{n} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{1}\PYG{p}{:}
+        \PYG{n}{result} \PYG{o}{=} \PYG{n}{result} \PYG{o}{*} \PYG{n}{n}
+        \PYG{n}{n} \PYG{o}{=} \PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}
+    \PYG{k}{return} \PYG{n}{result}
+\end{Verbatim}

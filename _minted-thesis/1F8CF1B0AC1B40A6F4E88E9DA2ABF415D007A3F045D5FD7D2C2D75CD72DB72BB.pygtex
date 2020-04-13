@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{main} \PYG{o+ow}{::} \PYG{k+kt}{IO} \PYG{n+nb}{()}
+\PYG{n+nf}{main} \PYG{o+ow}{=}
+  \PYG{k+kr}{do}
+    \PYG{n}{putStrLn} \PYG{l+s}{\PYGZdq{}do something\PYGZdq{}}
+    \PYG{n}{main}
+\end{Verbatim}
