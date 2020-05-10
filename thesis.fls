@@ -326,10 +326,8 @@ INPUT 03-web-teknologiat.tex
 INPUT 03-web-teknologiat.tex
 INPUT 04-tutkittavat-teknologiat.tex
 INPUT 04-tutkittavat-teknologiat.tex
-INPUT 05-esimerkkisovellukset.tex
-INPUT 05-esimerkkisovellukset.tex
-INPUT 06-loppupaatelmat.tex
-INPUT 06-loppupaatelmat.tex
+INPUT 05-loppupaatelmat.tex
+INPUT 05-loppupaatelmat.tex
 INPUT ../dist/thesis.aux
 INPUT ../dist/../dist//thesis.pyg
 INPUT ../dist/thesis.run.xml
