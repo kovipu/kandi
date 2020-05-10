@@ -1926,19 +1926,21 @@
   <bcf:section number="0">
     <bcf:citekey order="1">hudak</bcf:citekey>
     <bcf:citekey order="2">purelyFunctional</bcf:citekey>
-    <bcf:citekey order="3">hudak</bcf:citekey>
-    <bcf:citekey order="4">lambdacalculus</bcf:citekey>
-    <bcf:citekey order="5">hudak</bcf:citekey>
+    <bcf:citekey order="3">learnhaskell</bcf:citekey>
+    <bcf:citekey order="4">hudak</bcf:citekey>
+    <bcf:citekey order="5">lambdacalculus</bcf:citekey>
     <bcf:citekey order="6">hudak</bcf:citekey>
-    <bcf:citekey order="7">functionalreact</bcf:citekey>
-    <bcf:citekey order="8">languagedesign</bcf:citekey>
+    <bcf:citekey order="7">hudak</bcf:citekey>
+    <bcf:citekey order="8">functionalreact</bcf:citekey>
     <bcf:citekey order="9">languagedesign</bcf:citekey>
-    <bcf:citekey order="10">hudak</bcf:citekey>
-    <bcf:citekey order="11">functionaljava</bcf:citekey>
-    <bcf:citekey order="12">benchmark</bcf:citekey>
-    <bcf:citekey order="13">javascriptguide</bcf:citekey>
-    <bcf:citekey order="14">staticdynamicwebsites</bcf:citekey>
-    <bcf:citekey order="15">staticdynamicwebsites</bcf:citekey>
+    <bcf:citekey order="10">languagedesign</bcf:citekey>
+    <bcf:citekey order="11">learnhaskell</bcf:citekey>
+    <bcf:citekey order="12">hudak</bcf:citekey>
+    <bcf:citekey order="13">functionaljava</bcf:citekey>
+    <bcf:citekey order="14">functionaldatastructures</bcf:citekey>
+    <bcf:citekey order="15">javascriptguide</bcf:citekey>
+    <bcf:citekey order="16">staticdynamicwebsites</bcf:citekey>
+    <bcf:citekey order="17">staticdynamicwebsites</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

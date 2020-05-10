@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.4.13)  13 APR 2020 13:28
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.5.10)  10 MAY 2020 11:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1340,7 +1340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--24
 ]
 \relax  2.
 
-Overfull \hbox (7.99246pt too wide) in paragraph at lines 4--9
+Overfull \hbox (7.99246pt too wide) in paragraph at lines 4--10
 \TU/lmr/m/n/12 man suoritus tapahtuu sisäkkäisten matemaattisten funktioiden ev
 aluoimisena. Dekla-
  []
@@ -1353,10 +1353,10 @@ aluoimisena. Dekla-
  (../dist/../dist/_minted-thesis/default-pyg-prefix.pygstyle)
 (../dist/../dist/_minted-thesis/default.pygstyle)
 (../dist/../dist/_minted-thesis/6207B5CF1F1A9650895F2481870B0768FD4E1DDFC09AB01
-9D7D3A9C71E9F7EE4.pygtex
+9D7D3A9C71E9F7EE4.pygtex [3]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
- [3])
+)
 \openout7 = `thesis.pyg'.
 
 
@@ -1366,7 +1366,13 @@ D2C2D75CD72DB72BB.pygtex)
 
 
 (../dist/../dist/_minted-thesis/9D5AE769F9D7246E06A3561ADBFA416B9B9069E0E4875F4
-F9D15E060A288209D.pygtex) [4]
+F9D15E060A288209D.pygtex
+Overfull \hbox (0.83667pt too wide) in paragraph at lines 65--1
+\TU/lmr/m/n/12 Funktionaaliset ohjelmointikielet helpottavat funktionaalista oh
+jelmointityyliä muun
+ []
+
+[4])
 \openout7 = `thesis.pyg'.
 
 
@@ -1384,7 +1390,7 @@ D2C2D75CD72DB72BB.pygtex [5])
 D2C2D75CD72DB72BB.pygtex) [6]) (./03-web-teknologiat.tex [7]
 \relax  3.
 
-Overfull \hbox (3.58179pt too wide) in paragraph at lines 4--8
+Overfull \hbox (3.58179pt too wide) in paragraph at lines 4--9
 \TU/lmr/m/n/12 verkkoa. Web-sisältöä luetaan selaimella, joka hakee sisällön we
 b-palvelimelta HTTP-
  []
@@ -1414,10 +1420,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27705 strings out of 494440
- 562290 string characters out of 6165199
- 1092464 words of memory out of 5000000
- 31201 multiletter control sequences out of 15000+600000
+ 27707 strings out of 494440
+ 562410 string characters out of 6165199
+ 1092462 words of memory out of 5000000
+ 31203 multiletter control sequences out of 15000+600000
  535029 words of font info for 54 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
  46i,11n,48p,10447b,5666s stack positions out of 5000i,500n,10000p,200000b,80000s

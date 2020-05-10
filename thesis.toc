@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Määritelmä}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Lambdakalkyyli}{2}
+\contentsline {section}{\numberline {2.2}Lambdakalkyyli}{3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Konseptit}{3}
 \defcounter {refsection}{0}\relax 
@@ -38,9 +38,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.4}Hahmonsovitus}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Funktionaalisen laskentamallin seuraukset}{6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Ohjelmointikielet}{7}
+\contentsline {section}{\numberline {2.4}Funktionaalisen laskentamallin seuraukset}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Web-kehitys}{8}
 \defcounter {refsection}{0}\relax 
@@ -48,9 +46,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Staattiset verkkosivut}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Staattisen verkkosivun käännösvaihe}{8}
+\contentsline {subsubsection}{Staattisen verkkosivun käännösvaihe}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Dynaamiset verkkosivut}{8}
+\contentsline {subsection}{\numberline {3.1.2}Dynaamiset verkkosivut}{9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Tutkimuskohteet}{9}
 \defcounter {refsection}{0}\relax 

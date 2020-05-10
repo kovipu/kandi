@@ -68,6 +68,30 @@
       \field{title}{What is a purely functional language?}
       \field{year}{1998}
     \endentry
+    \entry{learnhaskell}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ac77ae14b2dee6805e593c6360135772}{%
+           family={Lipovaca},
+           familyi={L\bibinitperiod},
+           given={Miran},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {No Starch Press}%
+      }
+      \strng{namehash}{ac77ae14b2dee6805e593c6360135772}
+      \strng{fullhash}{ac77ae14b2dee6805e593c6360135772}
+      \strng{bibnamehash}{ac77ae14b2dee6805e593c6360135772}
+      \strng{authorbibnamehash}{ac77ae14b2dee6805e593c6360135772}
+      \strng{authornamehash}{ac77ae14b2dee6805e593c6360135772}
+      \strng{authorfullhash}{ac77ae14b2dee6805e593c6360135772}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learn You a Haskell for Great Good!: A Beginner's Guide}
+      \field{year}{2011}
+    \endentry
     \entry{lambdacalculus}{article}{}
       \name{author}{2}{}{%
         {{hash=ee2b2e2f3d5c2cf3f87eac2b10356d60}{%
@@ -90,8 +114,8 @@
       \strng{authorbibnamehash}{68dab5a06b01cc6afe6f4faa742216ed}
       \strng{authornamehash}{68dab5a06b01cc6afe6f4faa742216ed}
       \strng{authorfullhash}{68dab5a06b01cc6afe6f4faa742216ed}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Handbook of the History of Logic, vol. 5}
@@ -120,8 +144,8 @@
       \strng{authorbibnamehash}{7646e1ed14965980c5bfbf5d108be9b1}
       \strng{authornamehash}{7646e1ed14965980c5bfbf5d108be9b1}
       \strng{authorfullhash}{7646e1ed14965980c5bfbf5d108be9b1}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Learning React: Functional Web Development with React and Redux}
@@ -144,8 +168,8 @@
       \strng{authorbibnamehash}{26e2751069472f5b810a755d4fc2e03b}
       \strng{authornamehash}{26e2751069472f5b810a755d4fc2e03b}
       \strng{authorfullhash}{26e2751069472f5b810a755d4fc2e03b}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Programming Language Design Concepts}
@@ -190,29 +214,29 @@
       \field{title}{Verifiable Functional Purity in Java}
       \field{year}{2008}
     \endentry
-    \entry{benchmark}{article}{}
+    \entry{functionaldatastructures}{article}{}
       \name{author}{1}{}{%
-        {{hash=7aa35f8516729d762fc4aff784e3b4c5}{%
-           family={Fulgham},
-           familyi={F\bibinitperiod},
-           given={Brent},
-           giveni={B\bibinitperiod}}}%
+        {{hash=e4e76cfb2d550f0048c93839f784f76d}{%
+           family={Okasaki},
+           familyi={O\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {benchmarksgame.alioth.debian.org}%
+        {Carnegie Mellon University}%
       }
-      \strng{namehash}{7aa35f8516729d762fc4aff784e3b4c5}
-      \strng{fullhash}{7aa35f8516729d762fc4aff784e3b4c5}
-      \strng{bibnamehash}{7aa35f8516729d762fc4aff784e3b4c5}
-      \strng{authorbibnamehash}{7aa35f8516729d762fc4aff784e3b4c5}
-      \strng{authornamehash}{7aa35f8516729d762fc4aff784e3b4c5}
-      \strng{authorfullhash}{7aa35f8516729d762fc4aff784e3b4c5}
+      \strng{namehash}{e4e76cfb2d550f0048c93839f784f76d}
+      \strng{fullhash}{e4e76cfb2d550f0048c93839f784f76d}
+      \strng{bibnamehash}{e4e76cfb2d550f0048c93839f784f76d}
+      \strng{authorbibnamehash}{e4e76cfb2d550f0048c93839f784f76d}
+      \strng{authornamehash}{e4e76cfb2d550f0048c93839f784f76d}
+      \strng{authorfullhash}{e4e76cfb2d550f0048c93839f784f76d}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Which programs are fastest? | Computer Language Benchmarks Game}
-      \field{year}{2011}
+      \field{title}{Purely Functional Data Structures}
+      \field{year}{1996}
     \endentry
     \entry{javascriptguide}{article}{}
       \name{author}{1}{}{%
