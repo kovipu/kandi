@@ -14,8 +14,6 @@ niihin muutoksia ajon aikana. Staattiset verkkosivut sisältävät usein HTML-, 
 ajettavia skriptejä tai ohjelmia, jotka on kirjoitettu JavaScript-kielellä tai muulla selaimen tulkitsemalla kielellä.
 \cite{staticdynamicwebsites}
 
-\subsection{Staattisen verkkosivun käännösvaihe}
-
 \subsection{Dynaamiset verkkosivut}
 Dynaaminen verkkosivu tarkoittaa sivua, joka ei ole suoraan selaimen luettavassa muodossa. Dynaamisen sivun back-end
 muodostaa selaimella renderöityvän sivun ajon aikana. Dynaamisen verkkosivun operaatioiden toteutus ei olekaan rajattu
@@ -23,7 +21,29 @@ selaimen tulkittaviin ohjelmointikieliin, vaan käytännössä minkä tahansa ki
 kieliä dynaamisen verkkosivun toteuttamiseen ovat PHP, Python, Perl, Ruby, Java, C\# ja Node.js. Dynaaminen verkkosivu
 tallettaa useimmiten sisältönsä tietokantaan. \cite{staticdynamicwebsites}
 
-\subsection{Front-end ja back-end}
+\section{Back-end}
+Back-end tarkoittaa verkkosivun tai -sovelluksen palvelinpäässä ajettavaa osaa, joka ei näy käyttäjälle. Back-end
+kommunikoi front-endin kanssa jonkin yhteisen rajapinnan (eng. Application programming interface, API) kautta. Koska
+backend-ohjelmaa ajetaan palvelinlaitteistolla, sen toteuttamiseen on paljon enemmän vapautta kuin front-endin, jonka
+täytyy olla selaimen tulkittavissa. Back-end vastaa usein kaikesta varsinaisesta toiminnallisuudesta verrattuna
+front-endiin, joka toteutaa pelkän käyttöliittymän ohjelmalle. Backendiin kuuluu usein myös tietokanta, johon
+sovelluksen data tallennetaan. \cite{fullstackdeveloper}
+
+\section{Front-end}
+Front-end tarkoittaa verkkosivun tai -sovelluksen käyttäjälle näkyvää osaa. Koska front-endiä suoritetaan selaimessa,
+se on pakko toteuttaa web-yhteensopivilla tekniikoilla, joista yleisimmät ovat HTML, CSS ja JavaScript. JavaScript on
+nykypäivänä täysiverinen ohjelmointikieli, jolla voidaan toteuttaa interaktiivisuutta sekä manipuloida verkkosovelluksen
+rakennetta ja ulkoasua. \cite{fullstackdeveloper}
+% eli siis mitä frontissa oikeesti tapahtuu? eventit, responsiivisuus yms
+
+\subsection{Käännöstyökalut}
+Modernissa front-end–kehityksessä on tyypillistä toteuttaa verkkosovelluksen ohjelmakoodi jollain korkeamman tason
+ohjelmointikiellä, joka muunnetaan web-natiiviksi käännösvaiheessa. Usein käytetään esimerkiksi CSS-tyylikieleksi
+kääntyvää SCSS-kieltä. Kääntäjiä, jotka kääntävät front-end–kieliä selainyhteensopiviksi kutsutaan käännöstyökaluiksi
+(eng. build tool). Esimerkiksi tämän tutkielman käsittelykohteena oleva Elm-kieli ei ole sellaisenaan
+selainyhteensopiva, vaan vaatii kääntämisen HTML- ja JavaScript-kielille \cite{elmlang}. \cite{fullstackdeveloper}
+
+% lisää asiaa front-end jutuista?
 
 \subsection{Funktionaalinen reaktiivinen ohjelmointi}
 
