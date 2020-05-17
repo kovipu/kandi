@@ -286,6 +286,54 @@
       \field{title}{From Static and Dynamic Websites to Static Site Generators}
       \field{year}{2016}
     \endentry
+    \entry{fullstackdeveloper}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bb826afa321763741c2e09bacfacff02}{%
+           family={Northwood},
+           familyi={N\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APress}%
+      }
+      \strng{namehash}{bb826afa321763741c2e09bacfacff02}
+      \strng{fullhash}{bb826afa321763741c2e09bacfacff02}
+      \strng{bibnamehash}{bb826afa321763741c2e09bacfacff02}
+      \strng{authorbibnamehash}{bb826afa321763741c2e09bacfacff02}
+      \strng{authornamehash}{bb826afa321763741c2e09bacfacff02}
+      \strng{authorfullhash}{bb826afa321763741c2e09bacfacff02}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Full Stack Developer}
+      \field{year}{2018}
+    \endentry
+    \entry{elmlang}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd0b601d2ea72eeb81587cf33772db14}{%
+           family={Czaplicki},
+           familyi={C\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {elm-lang.org}%
+      }
+      \strng{namehash}{bd0b601d2ea72eeb81587cf33772db14}
+      \strng{fullhash}{bd0b601d2ea72eeb81587cf33772db14}
+      \strng{bibnamehash}{bd0b601d2ea72eeb81587cf33772db14}
+      \strng{authorbibnamehash}{bd0b601d2ea72eeb81587cf33772db14}
+      \strng{authornamehash}{bd0b601d2ea72eeb81587cf33772db14}
+      \strng{authorfullhash}{bd0b601d2ea72eeb81587cf33772db14}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elm website}
+      \field{year}{2020}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

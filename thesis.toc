@@ -46,26 +46,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Staattiset verkkosivut}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Staattisen verkkosivun käännösvaihe}{9}
+\contentsline {subsection}{\numberline {3.1.2}Dynaamiset verkkosivut}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Dynaamiset verkkosivut}{9}
+\contentsline {section}{\numberline {3.2}Back-end}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}Front-end ja back-end}{9}
+\contentsline {section}{\numberline {3.3}Front-end}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}Funktionaalinen reaktiivinen ohjelmointi}{9}
+\contentsline {subsection}{\numberline {3.3.1}Käännöstyökalut}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Tutkimuskohteet}{9}
+\contentsline {subsection}{\numberline {3.3.2}Funktionaalinen reaktiivinen ohjelmointi}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Funktionaalinen ohjelmointi front-end kehityksessä}{9}
+\contentsline {section}{\numberline {3.4}Tutkimuskohteet}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Tutkittavat teknologiat}{10}
+\contentsline {subsection}{\numberline {3.4.1}Funktionaalinen ohjelmointi front-end kehityksessä}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}React}{10}
+\contentsline {chapter}{\numberline {4}Tutkittavat teknologiat}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Elm}{10}
+\contentsline {section}{\numberline {4.1}React}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Loppupäätelmät}{11}
+\contentsline {section}{\numberline {4.2}Elm}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lähdeluettelo}{12}
+\contentsline {chapter}{\numberline {5}Loppupäätelmät}{12}
 \defcounter {refsection}{0}\relax 
-\select@language {finnish}
+\contentsline {chapter}{Lähdeluettelo}{13}
