@@ -29,12 +29,19 @@ täytyy olla selaimen tulkittavissa. Back-end vastaa usein kaikesta varsinaisest
 front-endiin, joka toteutaa pelkän käyttöliittymän ohjelmalle. Backendiin kuuluu usein myös tietokanta, johon
 sovelluksen data tallennetaan. \cite{fullstackdeveloper}
 
+\begin{itemize}
+  \item miten liittyy front-endin kanssa elämiseen
+  \item API:t lyhyesti
+  \item dynaaminen sisältö
+\end{itemize}
+
 \section{Front-end}
 Front-end tarkoittaa verkkosivun tai -sovelluksen käyttäjälle näkyvää osaa. Koska front-endiä suoritetaan selaimessa,
 se on pakko toteuttaa web-yhteensopivilla tekniikoilla, joista yleisimmät ovat HTML, CSS ja JavaScript. JavaScript on
 nykypäivänä täysiverinen ohjelmointikieli, jolla voidaan toteuttaa interaktiivisuutta sekä manipuloida verkkosovelluksen
 rakennetta ja ulkoasua. \cite{fullstackdeveloper}
-% eli siis mitä frontissa oikeesti tapahtuu? eventit, responsiivisuus yms
+
+// Tähän tekstiä ainakin: eli siis mitä frontissa oikeesti tapahtuu? eventit, responsiivisuus yms
 
 \subsection{Käännöstyökalut}
 Modernissa front-end–kehityksessä on tyypillistä toteuttaa verkkosovelluksen ohjelmakoodi jollain korkeamman tason
@@ -43,10 +50,31 @@ kääntyvää SCSS-kieltä. Kääntäjiä, jotka kääntävät front-end–kieli
 (eng. build tool). Esimerkiksi tämän tutkielman käsittelykohteena oleva Elm-kieli ei ole sellaisenaan
 selainyhteensopiva, vaan vaatii kääntämisen HTML- ja JavaScript-kielille \cite{elmlang}. \cite{fullstackdeveloper}
 
-% lisää asiaa front-end jutuista?
+\section{Funktionaalinen ohjelmointi web-ohjelmoinnissa}
 
-\subsection{Funktionaalinen reaktiivinen ohjelmointi}
+\begin{itemize}
+  \item yleisiä periaatteita
+  \item mitä tällä tehdään
+  \item koska tutkielman aihe on front-end, kerron seuraavaksi front-endistä enemmän
+\end{itemize}
 
-\section{Tutkimuskohteet}
+\subsection{Front-end kehityksessä}
 
-\subsection{Funktionaalinen ohjelmointi front-end kehityksessä}
+\begin{itemize}
+  \item määrittele työssä käsiteltävät asiat
+  \item yksityiskohtaisempaa kuvausta kappaleeseen 4
+  \item asioita jotka ovat molemmille yhteisiä
+  \item miten tilaa käsitellään front-endissä funktionaalisesti esim. reducerin ja modelin konseptit (tutkimuskohde 1)
+  \item miten frameworkit mahdollistavat sivuvaikutukset (tutkimuskohde 2)
+  \item Elmissä on sivuvaikutuksia, koska innokas laskenta
+\end{itemize}
+
+\subsubsection{Funktionaalinen reaktiivinen ohjelmointi}
+
+// En oo ihan varma minkä tason otsikon tä tarvii. Tosi keskeistä kamaa kuitenkin
+
+\begin{itemize}
+  \item mitä tarkoittaa
+  \item mitä konsepteja molemmat frameworkit sisältävät
+  \item miten framework käsittelee reaktiivisesti esim. eventit, api-kutsut (tutkimuskohde 3)
+\end{itemize}
