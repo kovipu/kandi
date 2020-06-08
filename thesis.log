@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.5.17)  17 MAY 2020 12:09
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.8)  8 JUN 2020 15:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1397,21 +1397,26 @@ b-palvelimelta HTTP-
 
 [8
 
-]
-Overfull \hbox (3.606pt too wide) in paragraph at lines 40--45
+] [9]
+Overfull \hbox (3.606pt too wide) in paragraph at lines 47--52
 \TU/lmr/m/n/12 makoodi jollain korkeamman tason ohjelmointikiellä, joka muunnet
 aan web-natiiviksi
  []
 
-[9]) (./04-tutkittavat-teknologiat.tex [10]
+
+Overfull \hbox (19.03264pt too wide) in paragraph at lines 53--53
+[]\TU/lmr/bx/n/17.28 Funktionaalinen ohjelmointi web-ohjelmoinnissa 
+ []
+
+[10]) (./04-tutkittavat-teknologiat.tex [11]
 \relax  4.
-) (./05-loppupaatelmat.tex [11
+) (./05-loppupaatelmat.tex [12
 
 ]
 \relax  5.
-) Excluding 'comment' comment. [12
+) Excluding 'comment' comment. [13
 
-] Excluding 'comment' comment. [13
+] Excluding 'comment' comment. [14
 
 ]
 (../dist/thesis.aux)
@@ -1423,11 +1428,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  27708 strings out of 494440
- 562513 string characters out of 6165199
- 1092462 words of memory out of 5000000
+ 562513 string characters out of 6165200
+ 1092463 words of memory out of 5000000
  31207 multiletter control sequences out of 15000+600000
  535029 words of font info for 54 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 46i,11n,48p,10447b,5666s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,48p,10447b,5668s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../dist/thesis.pdf (17 pages).
+Output written on ../dist/thesis.pdf (18 pages).

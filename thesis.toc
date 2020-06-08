@@ -54,18 +54,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Käännöstyökalut}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Funktionaalinen reaktiivinen ohjelmointi}{10}
+\contentsline {section}{\numberline {3.4}Funktionaalinen ohjelmointi web-ohjelmoinnissa}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Tutkimuskohteet}{10}
+\contentsline {subsection}{\numberline {3.4.1}Front-end kehityksessä}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Funktionaalinen ohjelmointi front-end kehityksessä}{10}
+\contentsline {subsubsection}{Funktionaalinen reaktiivinen ohjelmointi}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Tutkittavat teknologiat}{11}
+\contentsline {chapter}{\numberline {4}Tutkittavat teknologiat}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}React}{11}
+\contentsline {section}{\numberline {4.1}React}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Elm}{11}
+\contentsline {subsection}{\numberline {4.1.1}Esittely}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Loppupäätelmät}{12}
+\contentsline {subsection}{\numberline {4.1.2}Funktionaalinen ohjelmointi React-kirjastolla}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lähdeluettelo}{13}
+\contentsline {section}{\numberline {4.2}Elm}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Esittely}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Funktionaalinen ohjelmointi Elm-kielellä}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Loppupäätelmät}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lähdeluettelo}{14}
