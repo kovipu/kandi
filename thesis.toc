@@ -62,17 +62,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Tutkittavat teknologiat}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}React}{12}
+\contentsline {section}{\numberline {4.1}Teknologioiden esittely}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Esittely}{12}
+\contentsline {section}{\numberline {4.2}Funktionaalinen ohjelmointi}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Funktionaalinen ohjelmointi React-kirjastolla}{12}
+\contentsline {section}{\numberline {4.3}Funktionaalinen tilankäsittely}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Elm}{12}
+\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Esittely}{12}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Funktionaalinen ohjelmointi Elm-kielellä}{12}
+\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{12}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Loppupäätelmät}{13}
 \defcounter {refsection}{0}\relax 
