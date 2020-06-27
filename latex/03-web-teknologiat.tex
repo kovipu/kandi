@@ -22,18 +22,19 @@ kieliä dynaamisen verkkosivun toteuttamiseen ovat PHP, Python, Perl, Ruby, Java
 tallettaa useimmiten sisältönsä tietokantaan. \cite{staticdynamicwebsites}
 
 \section{Back-end}
-Back-end tarkoittaa verkkosivun tai -sovelluksen palvelinpäässä ajettavaa osaa, joka ei näy käyttäjälle. Back-end
-kommunikoi front-endin kanssa jonkin yhteisen rajapinnan (eng. Application programming interface, API) kautta. Koska
+Back-end tarkoittaa verkkosivun tai -sovelluksen palvelinpäässä ajettavaa osaa, joka ei näy käyttäjälle. Koska
 back-end-ohjelmaa ajetaan palvelinlaitteistolla, sen toteuttamiseen on paljon enemmän vapautta kuin front-endin, jonka
 täytyy olla selaimen tulkittavissa. Back-end vastaa usein kaikesta varsinaisesta toiminnallisuudesta verrattuna
 front-endiin, joka toteutaa pelkän käyttöliittymän ohjelmalle. Back-endiin kuuluu usein myös tietokanta, johon
 sovelluksen data tallennetaan. \cite{fullstackdeveloper}
 
-\begin{itemize}
-  \item miten liittyy front-endin kanssa elämiseen
-  \item API:t lyhyesti
-  \item dynaaminen sisältö
-\end{itemize}
+Back-end kommunikoi front-endin kanssa jonkin yhteisen rajapinnan (eng. Application programming interface, API) kautta.
+Rajapinta on yleensä pääasiallinen tiedonsiirtokanava back-endin ja front-endin välillä. Front-end lähettää rajapintaan
+kutsun useimmiten HTTP-protokollan avulla, palvelin vastaanottaa kutsun ja suorittaa kutsutun toimenpiteen.
+Rajapintaa suunniteltaessa tulee muotoilla rajapinnan rakenne vastaamaan sekä ohjelman datarakennetta, että käyttäjän
+tai front-endin vaatimuksia. Rajapinta tarjoaa staattiselle front-endille mahdollisuuden dynaamiseen ajonaikana
+haettavaan sisältöön ja sen muokkaamiseen. Rajapinta voi tarjota front-endille käyttäjän tunnistautumisen (eng.
+authentication) ja valtuuttamisen (eng. authorization). \cite{fullstackdeveloper}
 
 \section{Front-end}
 Front-end tarkoittaa verkkosivun tai -sovelluksen käyttäjälle näkyvää osaa. Koska front-endiä suoritetaan selaimessa,
@@ -41,7 +42,11 @@ se on pakko toteuttaa web-yhteensopivilla tekniikoilla, joista yleisimmät ovat 
 nykypäivänä täysiverinen ohjelmointikieli, jolla voidaan toteuttaa interaktiivisuutta sekä manipuloida verkkosovelluksen
 rakennetta ja ulkoasua. \cite{fullstackdeveloper}
 
-// Tähän tekstiä ainakin: eli siis mitä frontissa oikeesti tapahtuu? eventit, responsiivisuus yms
+Front-endin keskeisin tehtävä on käyttöliittymän ja tiedon näyttäminen käyttäjälle. Tästä huolimatta modernissa
+front–endissä on paljon asioita joita tulee ottaa huomioon. Front-end ohjelmakoodi muodostaa ja muokkaa verkkosivun HTML
+DOM-puuuta (eng. DOM tree), joka kuvaa sivun rakenteen. Front-end mahdollistaa myös käyttäjältä tulevien DOM-tapahtumien
+(eng. DOM event) vastaanottamisen ja käsittelyn. Modernilta front-endiltä odotetaan myös responsiivista designia, joka
+tarkoittaa että sama sivu toimii usealla erikokoisella päätelaitteella. \cite{bignerdfrontend}
 
 \subsection{Käännöstyökalut}
 Modernissa front-end–kehityksessä on tyypillistä toteuttaa verkkosovelluksen ohjelmakoodi jollain korkeamman tason
