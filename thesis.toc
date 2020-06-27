@@ -50,13 +50,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Back-end}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Front-end}{9}
+\contentsline {section}{\numberline {3.3}Front-end}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Käännöstyökalut}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Funktionaalinen ohjelmointi web-ohjelmoinnissa}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Front-end kehityksessä}{10}
+\contentsline {subsection}{\numberline {3.4.1}Front-end kehityksessä}{11}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Funktionaalinen reaktiivinen ohjelmointi}{11}
 \defcounter {refsection}{0}\relax 
@@ -75,3 +75,5 @@
 \contentsline {chapter}{\numberline {5}Loppupäätelmät}{13}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Lähdeluettelo}{14}
+\defcounter {refsection}{0}\relax 
+\select@language {finnish}

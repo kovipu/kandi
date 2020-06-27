@@ -310,6 +310,35 @@
       \field{title}{The Full Stack Developer}
       \field{year}{2018}
     \endentry
+    \entry{bignerdfrontend}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b0be09bf5f1f2e3b79d8317b3c2014ab}{%
+           family={Aquino},
+           familyi={A\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ca2b514bca8dd2c225b428dfd4327150}{%
+           family={Gandee},
+           familyi={G\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Big Nerd Ranch}%
+      }
+      \strng{namehash}{367100e413b41fafd05b34b4d2f499ba}
+      \strng{fullhash}{367100e413b41fafd05b34b4d2f499ba}
+      \strng{bibnamehash}{367100e413b41fafd05b34b4d2f499ba}
+      \strng{authorbibnamehash}{367100e413b41fafd05b34b4d2f499ba}
+      \strng{authornamehash}{367100e413b41fafd05b34b4d2f499ba}
+      \strng{authorfullhash}{367100e413b41fafd05b34b4d2f499ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Front-End Web Development: The Big Nerd Ranch Guide}
+      \field{year}{2016}
+    \endentry
     \entry{elmlang}{article}{}
       \name{author}{1}{}{%
         {{hash=bd0b601d2ea72eeb81587cf33772db14}{%

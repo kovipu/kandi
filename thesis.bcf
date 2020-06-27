@@ -1943,8 +1943,10 @@
     <bcf:citekey order="17">staticdynamicwebsites</bcf:citekey>
     <bcf:citekey order="18">fullstackdeveloper</bcf:citekey>
     <bcf:citekey order="19">fullstackdeveloper</bcf:citekey>
-    <bcf:citekey order="20">elmlang</bcf:citekey>
-    <bcf:citekey order="21">fullstackdeveloper</bcf:citekey>
+    <bcf:citekey order="20">fullstackdeveloper</bcf:citekey>
+    <bcf:citekey order="21">bignerdfrontend</bcf:citekey>
+    <bcf:citekey order="22">elmlang</bcf:citekey>
+    <bcf:citekey order="23">fullstackdeveloper</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

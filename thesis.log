@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.22)  22 JUN 2020 14:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.27)  27 JUN 2020 10:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1397,14 +1397,20 @@ b-palvelimelta HTTP-
 
 [8
 
-] [9]
-Overfull \hbox (3.606pt too wide) in paragraph at lines 47--52
+]
+Overfull \hbox (10.68448pt too wide) in paragraph at lines 31--38
+[]\TU/lmr/m/n/12 Back-end kommunikoi front-endin kanssa jonkin yhteisen rajapin
+nan (eng. Applica-
+ []
+
+[9]
+Overfull \hbox (3.606pt too wide) in paragraph at lines 52--57
 \TU/lmr/m/n/12 makoodi jollain korkeamman tason ohjelmointikiellä, joka muunnet
 aan web-natiiviksi
  []
 
 
-Overfull \hbox (19.03264pt too wide) in paragraph at lines 53--53
+Overfull \hbox (19.03264pt too wide) in paragraph at lines 58--58
 []\TU/lmr/bx/n/17.28 Funktionaalinen ohjelmointi web-ohjelmoinnissa 
  []
 
@@ -1416,9 +1422,9 @@ Overfull \hbox (19.03264pt too wide) in paragraph at lines 53--53
 \relax  5.
 ) Excluding 'comment' comment. [13
 
-] Excluding 'comment' comment. [14
+] [14
 
-]
+] Excluding 'comment' comment. [15]
 (../dist/thesis.aux)
 runsystem(rm ../dist//thesis.pyg)...executed.
 
@@ -1427,12 +1433,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27708 strings out of 494440
- 562513 string characters out of 6165199
+ 27710 strings out of 494440
+ 562609 string characters out of 6165199
  1092463 words of memory out of 5000000
- 31207 multiletter control sequences out of 15000+600000
+ 31209 multiletter control sequences out of 15000+600000
  535029 words of font info for 54 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 46i,11n,48p,10447b,5668s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,50p,10447b,5857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../dist/thesis.pdf (18 pages).
+Output written on ../dist/thesis.pdf (19 pages).
