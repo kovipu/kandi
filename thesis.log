@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.27)  27 JUN 2020 10:42
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.7.4)  4 JUL 2020 11:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1404,14 +1404,9 @@ nan (eng. Applica-
  []
 
 [9]
-Overfull \hbox (3.606pt too wide) in paragraph at lines 52--57
-\TU/lmr/m/n/12 makoodi jollain korkeamman tason ohjelmointikiellä, joka muunnet
-aan web-natiiviksi
- []
-
-
-Overfull \hbox (19.03264pt too wide) in paragraph at lines 58--58
-[]\TU/lmr/bx/n/17.28 Funktionaalinen ohjelmointi web-ohjelmoinnissa 
+Overfull \hbox (15.67801pt too wide) in paragraph at lines 52--57
+\TU/lmr/m/n/12 jelmakoodi jollain korkeamman tason ohjelmointikiellä, joka muun
+netaan web-natiiviksi
  []
 
 [10]) (./04-tutkittavat-teknologiat.tex [11]
@@ -1433,10 +1428,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27710 strings out of 494440
- 562609 string characters out of 6165199
- 1092463 words of memory out of 5000000
- 31209 multiletter control sequences out of 15000+600000
+ 27712 strings out of 494440
+ 562707 string characters out of 6165200
+ 1092461 words of memory out of 5000000
+ 31211 multiletter control sequences out of 15000+600000
  535029 words of font info for 54 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
  46i,11n,50p,10447b,5857s stack positions out of 5000i,500n,10000p,200000b,80000s

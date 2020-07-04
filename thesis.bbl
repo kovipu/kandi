@@ -363,6 +363,30 @@
       \field{title}{Elm website}
       \field{year}{2020}
     \endentry
+    \entry{functionalwebdev}{article}{}
+      \name{author}{1}{}{%
+        {{hash=54c4d6992b73ddcd847b5c811bab0c9f}{%
+           family={Halvorsen},
+           familyi={H\bibinitperiod},
+           given={Lance},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Pragmatic Programmers}%
+      }
+      \strng{namehash}{54c4d6992b73ddcd847b5c811bab0c9f}
+      \strng{fullhash}{54c4d6992b73ddcd847b5c811bab0c9f}
+      \strng{bibnamehash}{54c4d6992b73ddcd847b5c811bab0c9f}
+      \strng{authorbibnamehash}{54c4d6992b73ddcd847b5c811bab0c9f}
+      \strng{authornamehash}{54c4d6992b73ddcd847b5c811bab0c9f}
+      \strng{authorfullhash}{54c4d6992b73ddcd847b5c811bab0c9f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Functional Web Development with Elixir, OTP, and Phoenix}
+      \field{year}{2018}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

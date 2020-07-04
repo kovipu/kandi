@@ -1947,6 +1947,8 @@
     <bcf:citekey order="21">bignerdfrontend</bcf:citekey>
     <bcf:citekey order="22">elmlang</bcf:citekey>
     <bcf:citekey order="23">fullstackdeveloper</bcf:citekey>
+    <bcf:citekey order="24">functionalwebdev</bcf:citekey>
+    <bcf:citekey order="25">functionalreact</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
