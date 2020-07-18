@@ -1957,6 +1957,10 @@
     <bcf:citekey order="31">fpmattered</bcf:citekey>
     <bcf:citekey order="32">elmlang</bcf:citekey>
     <bcf:citekey order="33">reactjs</bcf:citekey>
+    <bcf:citekey order="34">npmtrends</bcf:citekey>
+    <bcf:citekey order="35">reactjs</bcf:citekey>
+    <bcf:citekey order="36">npmtrends</bcf:citekey>
+    <bcf:citekey order="37">elmlang</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -48,20 +48,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Funktionaalinen reaktiivinen ohjelmointi}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Tutkittavat teknologiat}{13}
+\contentsline {chapter}{\numberline {4}Funktionaaliset front-end ohjelmistokehykset}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Teknologioiden esittely}{13}
+\contentsline {section}{\numberline {4.1}Ohjelmistokehysten esittely}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Funktionaalinen ohjelmointi}{13}
+\contentsline {section}{\numberline {4.2}Funktionaalinen ohjelmointi}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Funktionaalinen tilankäsittely}{13}
+\contentsline {section}{\numberline {4.3}Funktionaalinen tilankäsittely}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{13}
+\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{13}
+\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Loppupäätelmät}{14}
+\contentsline {chapter}{\numberline {5}Loppupäätelmät}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lähdeluettelo}{15}
+\contentsline {chapter}{Lähdeluettelo}{16}
 \defcounter {refsection}{0}\relax 
 \select@language {finnish}

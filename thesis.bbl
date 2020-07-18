@@ -443,6 +443,27 @@
       \field{title}{How functional programming mattered}
       \field{year}{2015}
     \endentry
+    \entry{npmtrends}{article}{}
+      \name{author}{1}{}{%
+        {{hash=12b0f347b765aff847a7fb64837974fe}{%
+           family={Potter},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{12b0f347b765aff847a7fb64837974fe}
+      \strng{fullhash}{12b0f347b765aff847a7fb64837974fe}
+      \strng{bibnamehash}{12b0f347b765aff847a7fb64837974fe}
+      \strng{authorbibnamehash}{12b0f347b765aff847a7fb64837974fe}
+      \strng{authornamehash}{12b0f347b765aff847a7fb64837974fe}
+      \strng{authorfullhash}{12b0f347b765aff847a7fb64837974fe}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NPM Trends}
+      \field{year}{2020}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
