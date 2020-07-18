@@ -16,12 +16,19 @@ Elm on funktionaalinen ohjelmointikieli, joka käännetään JavaScript-kieleksi
 Czaplicki osana maisterin tutkielmaansa (eng. Master's thesis) vuonna 2012. Elm ei ole tutkielman kirjoitushetkellä
 saavuttanut suurta suosiota, vaan sen NPM-paketinhallinnan latausmäärä on vain murto-osa React-kirjaston latausmäärästä 
 \cite{npmtrends}. Elm keskittyy web-pohjaisten graafisten käyttöliittymien deklaratiiviseen toteuttamiseen. Elm
-kytkeytyy tavallisen HTML DOM-puun solmuun. Elm ei myöskään ota kantaa muihin tekniikkaratkaisuihin, mutta sen kanssa on
-mahdotonta käyttää muilla kielillä kirjoitettuja komponentteja ja kirjastoja. \cite{elmlang}
+kytkeytyy tavallisen HTML DOM-puun solmuun. Elm ei myöskään ota kantaa muihin tekniikkaratkaisuihin, kuten tyylikieleen,
+mutta Elm-koodissa on mahdotonta käyttää muilla kielillä kirjoitettuja komponentteja ja kirjastoja. \cite{elmlang}
 
 \section{Funktionaalinen ohjelmointi}
+React korostaa funktionaalista ohjelmointia yli imperatiivisen ohjelmoinnin, mutta sallii silti kaiken tavallisen
+imperatiivisen JavaScript-syntaksin. React ei pystykään välttämään muuttuvia arvoja tai sivuvaikutuksia, mutta rohkaisee
+silti ohjelmoimaan funktionaalisesti, muun muassa tarjoamalla tilanhallinan, joka soveltuu funktionaaliseen
+ohjelmointiin.
 
-// miten mahdollistavat funktionaalista ohjelmointia
+Elm pyrkii olemaan puhtaasti funktionaalinen ohjelmointikieli, eikä salli lainkaan esimerkiksi muuttuvia arvoja tai
+epäpuhtaita funktioita. Elm ei myöskään salli tilanteita, jotka voisivat aiheuttaa ajonaikaisia virheitä, vaan pakottaa
+virheiden käsittelyn funktionaalisesti datana. Elm-kielen ajonaikanen ohjelmistokehys abstraktoi näennäisesti kaikki
+epäpuhtaudet sisällensä, joten Elm-kielellä toteutettu ohjelma on näennäisest puhtaan funktionaalinen. \cite{elmlang}
 
 \section{Funktionaalinen tilankäsittely}
 
