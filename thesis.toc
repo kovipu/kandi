@@ -4,6 +4,14 @@
 \defcounter {refsection}{0}\relax 
 \select@language {finnish}
 \defcounter {refsection}{0}\relax 
+\select@language {finnish}
+\defcounter {refsection}{0}\relax 
+\select@language {finnish}
+\defcounter {refsection}{0}\relax 
+\select@language {finnish}
+\defcounter {refsection}{0}\relax 
+\select@language {finnish}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Johdanto}{1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Motivaatio}{1}
@@ -58,10 +66,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Sivuvaikutukset}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{14}
+\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Loppupäätelmät}{15}
+\contentsline {chapter}{\numberline {5}Loppupäätelmät}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lähdeluettelo}{16}
+\contentsline {chapter}{Lähdeluettelo}{17}
 \defcounter {refsection}{0}\relax 
 \select@language {finnish}

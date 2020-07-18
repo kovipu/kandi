@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.7.18)  18 JUL 2020 13:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.7.18)  18 JUL 2020 14:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1316,15 +1316,23 @@ uperäisyys on tarkastettu Turnitin OriginalityCheck-
 [1
 
 
-] (./abstract.tex) (../dist/thesis.toc [2
+] (./abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--24
+
+ []
+
+[2
+
+
+]) (../dist/thesis.toc [1
 
 
 ])
 \tf@toc=\write9
 \openout9 = `thesis.toc'.
 
- Excluding 'comment' comment.
-(./01-johdanto.tex [3]
+ Excluding 'comment' comment. (./01-johdanto.tex
+[2]
 \relax  1.
 ) (./02-funktionaalinen-ohjelmointi.tex [1
 
@@ -1405,13 +1413,13 @@ netaan web-natiiviksi
 \relax  4.
 [13
 
-]) (./05-loppupaatelmat.tex [14]
+] [14]) (./05-loppupaatelmat.tex [15]
 \relax  5.
-) Excluding 'comment' comment. [15
+) Excluding 'comment' comment. [16
 
-] [16
+] [17
 
-] Excluding 'comment' comment. [17]
+] Excluding 'comment' comment. [18]
 (../dist/thesis.aux)
 runsystem(rm ../dist//thesis.pyg)...executed.
 
@@ -1420,12 +1428,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27715 strings out of 494440
- 562861 string characters out of 6165199
- 1091464 words of memory out of 5000000
- 31216 multiletter control sequences out of 15000+600000
- 535021 words of font info for 53 fonts, out of 8000000 for 9000
+ 27718 strings out of 494440
+ 562957 string characters out of 6165199
+ 1092464 words of memory out of 5000000
+ 31217 multiletter control sequences out of 15000+600000
+ 535029 words of font info for 54 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
  46i,11n,50p,10447b,5857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../dist/thesis.pdf (20 pages).
+Output written on ../dist/thesis.pdf (22 pages).
