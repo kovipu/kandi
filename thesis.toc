@@ -4,14 +4,6 @@
 \defcounter {refsection}{0}\relax 
 \select@language {finnish}
 \defcounter {refsection}{0}\relax 
-\select@language {finnish}
-\defcounter {refsection}{0}\relax 
-\select@language {finnish}
-\defcounter {refsection}{0}\relax 
-\select@language {finnish}
-\defcounter {refsection}{0}\relax 
-\select@language {finnish}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Johdanto}{1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Motivaatio}{1}
@@ -54,22 +46,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Funktionaalinen web-ohjelmointi}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Funktionaalinen reaktiivinen ohjelmointi}{11}
+\contentsline {section}{\numberline {3.5}Funktionaalinen reaktiivinen ohjelmointi}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Tutkittavat teknologiat}{12}
+\contentsline {chapter}{\numberline {4}Tutkittavat teknologiat}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Teknologioiden esittely}{12}
+\contentsline {section}{\numberline {4.1}Teknologioiden esittely}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Funktionaalinen ohjelmointi}{12}
+\contentsline {section}{\numberline {4.2}Funktionaalinen ohjelmointi}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Funktionaalinen tilankäsittely}{12}
+\contentsline {section}{\numberline {4.3}Funktionaalinen tilankäsittely}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{12}
+\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{12}
+\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Loppupäätelmät}{13}
+\contentsline {chapter}{\numberline {5}Loppupäätelmät}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lähdeluettelo}{14}
+\contentsline {chapter}{Lähdeluettelo}{15}
 \defcounter {refsection}{0}\relax 
 \select@language {finnish}

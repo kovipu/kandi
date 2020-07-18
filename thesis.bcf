@@ -1949,6 +1949,14 @@
     <bcf:citekey order="23">fullstackdeveloper</bcf:citekey>
     <bcf:citekey order="24">functionalwebdev</bcf:citekey>
     <bcf:citekey order="25">functionalreact</bcf:citekey>
+    <bcf:citekey order="26">functionalreact</bcf:citekey>
+    <bcf:citekey order="27">elmlang</bcf:citekey>
+    <bcf:citekey order="28">reactjs</bcf:citekey>
+    <bcf:citekey order="29">elmlang</bcf:citekey>
+    <bcf:citekey order="30">reactjs</bcf:citekey>
+    <bcf:citekey order="31">fpmattered</bcf:citekey>
+    <bcf:citekey order="32">elmlang</bcf:citekey>
+    <bcf:citekey order="33">reactjs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -387,6 +387,62 @@
       \field{title}{Functional Web Development with Elixir, OTP, and Phoenix}
       \field{year}{2018}
     \endentry
+    \entry{reactjs}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2b0e03c50a28e1305252856af7d16516}{%
+           family={{Facebook Inc.}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {reactjs.org}%
+      }
+      \strng{namehash}{2b0e03c50a28e1305252856af7d16516}
+      \strng{fullhash}{2b0e03c50a28e1305252856af7d16516}
+      \strng{bibnamehash}{2b0e03c50a28e1305252856af7d16516}
+      \strng{authorbibnamehash}{2b0e03c50a28e1305252856af7d16516}
+      \strng{authornamehash}{2b0e03c50a28e1305252856af7d16516}
+      \strng{authorfullhash}{2b0e03c50a28e1305252856af7d16516}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{React website}
+      \field{year}{2020}
+    \endentry
+    \entry{fpmattered}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aa123f617e3811bba0121021e0329f91}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Zhenjiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=05db43db1a50c29c0eca01fd35ec8758}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=00b734eb3fb588e4c6c94e4271080d0b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{4ba6228142f3b47ed4b63f42b7e70868}
+      \strng{fullhash}{4ba6228142f3b47ed4b63f42b7e70868}
+      \strng{bibnamehash}{4ba6228142f3b47ed4b63f42b7e70868}
+      \strng{authorbibnamehash}{4ba6228142f3b47ed4b63f42b7e70868}
+      \strng{authornamehash}{4ba6228142f3b47ed4b63f42b7e70868}
+      \strng{authorfullhash}{4ba6228142f3b47ed4b63f42b7e70868}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How functional programming mattered}
+      \field{year}{2015}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
