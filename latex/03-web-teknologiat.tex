@@ -65,21 +65,26 @@ suosivien tekniikoiden, kuten React, ansiosta. Funktionaalinen front-end–ohjel
 ohjelmoinnin hyötyjä, kuten parantaa ohjelman suorituskykyä ja testattavuutta. \cite{functionalreact} Koska tutkielman
 aihe on funktionaalinen front-end web-kehitys, käsitellään seuraavaksi enemmän front-endia.
 
-\begin{itemize}
-  \item määrittele työssä käsiteltävät asiat
-  \item yksityiskohtaisempaa kuvausta kappaleeseen 4
-  \item asioita jotka ovat molemmille yhteisiä
-  \item miten tilaa käsitellään front-endissä funktionaalisesti esim. reducerin ja modelin konseptit (tutkimuskohde 1)
-  \item miten frameworkit mahdollistavat sivuvaikutukset (tutkimuskohde 2)
-  \item Elmissä on sivuvaikutuksia, koska innokas laskenta
-\end{itemize}
+Funktionaalista paradigmaa toteuttava front-end perustuu datan ja näkymän yhdistämiseen puhtaiden funktioiden avulla.
+Tämänkaltainen front-end vaatii jonkin eksplisiittisen mekanismin datan muuttamiseen ja näkymän uudelleen renderöitiin.
+Funktionaaliset front-end tekniikat suosivatkin usein muuttumatonta (eng. immutable) tilanhallintaa, joka vaatii tilan
+uudeelleenasettamisen sen muuttamiseksi. Tämänkaltaiselle tilanhallinnalle on myös tyypillistä säilöä koko ohjelman tila
+yhdessä paikassa, ja muuttaa sitä lähettämällä sille käskyjä (eng. dispatching actions). Käskyn vastaanottaa puhdas
+funktio, joka ottaa parametreina käskyn ja aiemman tilan, palauttaen ohjelman uuden tilan. Näin ohjelma on näennäisesti
+puhtaan funktionaalinen ja sivuvaikutukseton. \cite{functionalreact}
 
-\subsubsection{Funktionaalinen reaktiivinen ohjelmointi}
+Kuten tosielämän ohjelmille on tyypillistä, front-endissa tarvitaan myös sivuvaikutuksia joidenkin toiminnallisuuksien
+toteuttamiseen. Sivuvaikutukset ovat hyödyllisiä esimerkiksi tiedon tallentamiseen selaimen muistiin ja satunnaisten
+numeroiden tuottamiseen. Funktionaaliset front-end ohjelmistokehykset tarjoavatkin tyypillisesti toiminnallisuuden
+sivuvaikutusten toteuttamiseen funktionaaliselle ohjelmoinnille tyypillisen rajatusti. \cite{elmlang}\cite{reactjs}
 
-// En oo ihan varma minkä tason otsikon tä tarvii. Tosi keskeistä kamaa kuitenkin
+\section{Funktionaalinen reaktiivinen ohjelmointi}
+Reaktiivinen ohjelmointi tarkoittaa asynkronisen datan ja tapahtumien kytkemistä ohjelmointikielen tai
+ohjelmistokehyksen sisäänrakennetuilla tekniikoilla muuttumattomiin datatyyppeihin. Immutaavisten datavirtojen käsittely
+voidaan toteuttaa puhtaasti funktionaalisilla operaatioilla. Tämä on funktionaalisen reaktiivisen ohjelmoinnin (eng. 
+Functional Reactive Programming, FRP) keskeinen konsepti, jota esimerkiksi React ja Elm hyödyntävät 
+\cite{elmlang}\cite{reactjs}. \cite{fpmattered}
 
-\begin{itemize}
-  \item mitä tarkoittaa
-  \item mitä konsepteja molemmat frameworkit sisältävät
-  \item miten framework käsittelee reaktiivisesti esim. eventit, api-kutsut (tutkimuskohde 3)
-\end{itemize}
+Reaktiiviseen ohjelmointimalliin soveltuvia tapahtumia ja asynkronisia datalähteitä front-end web-sovelluksessa ovat
+muun muassa DOM-tapahtumat ja rajapinta-kutsut. Funktionaaliset reaktiiviset front-end ohjelmistokehykset tarjoavat
+sisäänrakennetun menetelmän funktionaaliseen front-end toteutukseen. \cite{elmlang}\cite{reactjs}
