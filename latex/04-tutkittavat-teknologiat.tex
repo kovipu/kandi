@@ -23,16 +23,42 @@ mutta Elm-koodissa on mahdotonta käyttää muilla kielillä kirjoitettuja kompo
 React korostaa funktionaalista ohjelmointia yli imperatiivisen ohjelmoinnin, mutta sallii silti kaiken tavallisen
 imperatiivisen JavaScript-syntaksin. React ei pystykään välttämään muuttuvia arvoja tai sivuvaikutuksia, mutta rohkaisee
 silti ohjelmoimaan funktionaalisesti, muun muassa tarjoamalla tilanhallinan, joka soveltuu funktionaaliseen
-ohjelmointiin.
+ohjelmointiin. \cite{reactjs}
 
 Elm pyrkii olemaan puhtaasti funktionaalinen ohjelmointikieli, eikä salli lainkaan esimerkiksi muuttuvia arvoja tai
 epäpuhtaita funktioita. Elm ei myöskään salli tilanteita, jotka voisivat aiheuttaa ajonaikaisia virheitä, vaan pakottaa
 virheiden käsittelyn funktionaalisesti datana. Elm-kielen ajonaikanen ohjelmistokehys abstraktoi näennäisesti kaikki
-epäpuhtaudet sisällensä, joten Elm-kielellä toteutettu ohjelma on näennäisest puhtaan funktionaalinen. \cite{elmlang}
+epäpuhtaudet sisällensä, joten Elm-kielellä toteutettu ohjelma on näennäisesti puhtaan funktionaalinen. \cite{elmlang}
 
 \section{Funktionaalinen tilankäsittely}
-
-// Reactissa: useState, useReducer, Redux
+React tukee lokaalia tilaa missä tahansa komponentissa, joka on ristiriidassa funktionaalisen paradigman kanssa. Tila
+React-kirjastossa on kuitenkin muuttumaton datarakenne, jonka muuttaminen vaatii sen korvaamisen uudella datalla. Tilan
+muokkaamiseen on perinteisesti käytetty React-kirjaston Component-luokan setState-metodia, joka ylikirjoittaa tilan.
+% tähän koodiesimerkkiin tarvitsee kaiketi viitata jotenkin.
+\begin{minted}{js}
+// väärin
+this.state.greeting = 'Moikku';
+// oikein
+this.setState({ greeting: 'Moikku' });
+\end{minted}
+React-kirjasto tukee nykyään vakiona myös epäpuhtauksia funktioiksi abstraktoivia koukkuja (eng. hooks). Koukut
+mahdollistavat esimerkiksi tilankäsittelyn puhtaassa funktionaalisessa komponentissa, ilman että tarvitaan luokkaa.
+% tähän tarttis varmaan kans viitata.
+\begin{minted}{jsx}
+const Example = () => {
+  // greeting on tila, joka muuttuu reaktiivisesti
+  // setGreeting on funktio, jonka kutsuminen muuttaa tilan
+  const [greeting, setGreeting] = useState('Moikku');
+  return (
+    <h1>{greeting}</h1>
+  );
+}
+\end{minted}
+Moderni React tukee myös koko sovelluksen globaalia tilanhallintaa, jota muokataan puhtailla funktiokutsuilla.
+Tämänkaltaisen tilanhallinan toteuttamiseen voi käyttää React-kirjaston useReducer-koukkua. React-kirjaston kanssa
+voidaan myös käyttää kolmannen osapuolen tilanhallintakirjastoa, esimerkiksi Redux on suosittu esimerkki
+\cite{functionalwebdev}. \cite{reactjs}
+% koodiesimerkki reducerista?
 
 // Elmissä: Model-abstraktio
 
