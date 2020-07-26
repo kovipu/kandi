@@ -64,12 +64,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Funktionaalinen tilankäsittely}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{14}
+\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{15}
+\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Loppupäätelmät}{16}
+\contentsline {chapter}{\numberline {5}Loppupäätelmät}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lähdeluettelo}{17}
+\contentsline {chapter}{Lähdeluettelo}{18}
 \defcounter {refsection}{0}\relax 
 \select@language {finnish}

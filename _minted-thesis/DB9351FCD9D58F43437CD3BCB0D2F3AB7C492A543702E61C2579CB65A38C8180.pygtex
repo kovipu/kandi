@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// väärin}
+\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{state}\PYG{p}{.}\PYG{n+nx}{greeting} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Moikku\PYGZsq{}}\PYG{p}{;}
+\PYG{c+c1}{// oikein}
+\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{setState}\PYG{p}{(\PYGZob{}} \PYG{n+nx}{greeting}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}Moikku\PYGZsq{}} \PYG{p}{\PYGZcb{});}
+\end{Verbatim}

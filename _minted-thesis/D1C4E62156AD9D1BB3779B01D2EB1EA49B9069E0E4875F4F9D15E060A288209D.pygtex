@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{const} \PYG{n+nx}{Example} \PYG{o}{=} \PYG{p}{()} \PYG{p}{=\PYGZgt{}} \PYG{p}{\PYGZob{}}
+  \PYG{c+c1}{// greeting on tila, joka muuttuu reaktiivisesti}
+  \PYG{c+c1}{// setGreeting on funktio, jonka kutsuminen muuttaa tilan}
+  \PYG{k+kr}{const} \PYG{p}{[}\PYG{n+nx}{greeting}\PYG{p}{,} \PYG{n+nx}{setGreeting}\PYG{p}{]} \PYG{o}{=} \PYG{n+nx}{useState}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Moikku\PYGZsq{}}\PYG{p}{);}
+  \PYG{k}{return} \PYG{p}{(}
+    \PYG{p}{\PYGZlt{}}\PYG{n+nt}{h1}\PYG{p}{\PYGZgt{}\PYGZob{}}\PYG{n+nx}{greeting}\PYG{p}{\PYGZcb{}\PYGZlt{}/}\PYG{n+nt}{h1}\PYG{p}{\PYGZgt{}}
+  \PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

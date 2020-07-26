@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.7.18)  18 JUL 2020 14:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.7.26)  26 JUL 2020 10:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1413,13 +1413,23 @@ netaan web-natiiviksi
 \relax  4.
 [13
 
-] [14]) (./05-loppupaatelmat.tex [15]
+]
+\openout7 = `thesis.pyg'.
+
+
+(../dist/../dist/_minted-thesis/DB9351FCD9D58F43437CD3BCB0D2F3AB7C492A543702E61
+C2579CB65A38C8180.pygtex [14])
+\openout7 = `thesis.pyg'.
+
+
+(../dist/../dist/_minted-thesis/D1C4E62156AD9D1BB3779B01D2EB1EA49B9069E0E4875F4
+F9D15E060A288209D.pygtex)) (./05-loppupaatelmat.tex [15] [16]
 \relax  5.
-) Excluding 'comment' comment. [16
+) Excluding 'comment' comment. [17
 
-] [17
+] [18
 
-] Excluding 'comment' comment. [18]
+] Excluding 'comment' comment. [19]
 (../dist/thesis.aux)
 runsystem(rm ../dist//thesis.pyg)...executed.
 
@@ -1428,12 +1438,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27718 strings out of 494440
- 562957 string characters out of 6165199
- 1092464 words of memory out of 5000000
- 31217 multiletter control sequences out of 15000+600000
- 535029 words of font info for 54 fonts, out of 8000000 for 9000
+ 27733 strings out of 494440
+ 563810 string characters out of 6165199
+ 1092460 words of memory out of 5000000
+ 31224 multiletter control sequences out of 15000+600000
+ 535037 words of font info for 55 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
  46i,11n,50p,10447b,5857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../dist/thesis.pdf (22 pages).
+Output written on ../dist/thesis.pdf (23 pages).
