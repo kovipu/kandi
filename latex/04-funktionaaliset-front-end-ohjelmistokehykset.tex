@@ -17,7 +17,7 @@ Czaplicki osana maisterin tutkielmaansa (eng. Master's thesis) vuonna 2012. Elm 
 saavuttanut suurta suosiota, vaan sen NPM-paketinhallinnan latausmäärä on vain noin kolmekymmentä tuhatta latausta
 viikossa \cite{npmtrends}. Elm keskittyy web-pohjaisten graafisten käyttöliittymien deklaratiiviseen toteuttamiseen. Elm
 kytkeytyy tavallisen HTML DOM-puun solmuun. Elm ei myöskään ota kantaa muihin tekniikkaratkaisuihin, kuten tyylikieleen,
-mutta Elm-koodissa on mahdotonta käyttää muilla kielillä kirjoitettuja komponentteja ja kirjastoja. \cite{elmlang}
+mutta Elm-koodissa on hyvin vaikeaa käyttää muilla kielillä kirjoitettuja komponentteja ja kirjastoja. \cite{elmlang}
 
 \section{Funktionaalinen ohjelmointi}
 React korostaa funktionaalista ohjelmointia yli imperatiivisen ohjelmoinnin, mutta sallii silti kaiken tavallisen
@@ -62,10 +62,34 @@ toteutuksen tarjoaa myös kolmannen osapuolien toteutuksista suosituimpiin kuulu
 \cite{functionalwebdev}. Yksinkertaisiin sovelluksiin on silti riittävää käyttää lyhyemmän syntaksin natiiveja
 vaihtoehtoja, kuten perinteinen setState-toteutus ja useState-koukku. \cite{reactjs}
 
-// Elmissä: Model-abstraktio
-Elm-kielen arkkitehtuurissa tila on Model-nimisessä abstraktoidussa datamallissa. Model-tilan 
+Elm-kielen arkkitehtuurissa tila on Model-nimisessä abstraktoidussa datamallissa. Model-tilan kuvaaminen ja
+päivittäminen on hyvin samankaltaista, kuin React-kirjaston Redux-tilanhallinta. Redux on ottanutkin inspiraatiota
+Elm-kielen Model-tilanhallinnasta. Model-tilan muokkaaminen tapahtuu kutsumalla update-funktiota message-parametrilla,
+samankaltaisesti, kuin Redux-kirjaston reducer-funktiossa. \cite{elmlang}
+\begin{minted}{elm}
+-- MODEL
+type alias Model = Int
 
-% miten vertautuvat toisiinsa
+init : Model
+init =
+  0
+
+-- UPDATE
+type MSG = Increment | Decrement
+
+update : Msg -> Model -> Model
+update msg model =
+  case msg of
+    Increment ->
+      model + 1
+    Decrement ->
+      model - 1
+\end{minted}
+
+Sekä React-kirjaston, että Elm-kielen tilanhallinta on hyvin tyypillistä funktionaalista ohjelmointia. Kumpikaan
+ohjelmistokehys ei suosittele muuttuvaa tilaa, vaan tilaa säilötään muuttumattomassa tietorakenteessa. React-kirjastossa
+yksittäisellä komponentilla voi olla lokaali tila, joka ei ole Elm-kielessä mahdollista, vaan kaikki tila on
+keskitetysti Model-rakenteessa.
 
 \section{Sivuvaikutukset}
 

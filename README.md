@@ -10,8 +10,8 @@
 
 - [ ] Johdanto (1 sivu)
 - [x] Funktionaalinen ohjelmointi (6 sivua)
-- [ ] Web-kehitys (6 sivua)
-- [ ] Tutkittavat teknologiat (6 sivua)
+- [x] Web-kehitys (6 sivua)
+- [ ] Funktionaaliset front-end ohjelmistokehykset (6 sivua)
 - [ ] Loppupäätelmät (1 sivua)
 
 Yhteensä 20 sivua.
