@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.9.6)  6 SEP 2020 15:12
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.9.6)  6 SEP 2020 15:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1424,18 +1424,23 @@ C2579CB65A38C8180.pygtex [14])
 
 (../dist/../dist/_minted-thesis/D1C4E62156AD9D1BB3779B01D2EB1EA49B9069E0E4875F4
 F9D15E060A288209D.pygtex)
-Overfull \hbox (2.33658pt too wide) in paragraph at lines 65--67
-[]\TU/lmr/m/n/12 // Elmissä: Model-abstraktio Elm-kielen arkkitehtuurissa tila 
-on Model-nimisessä
+\openout7 = `thesis.pyg'.
+
+
+(../dist/../dist/_minted-thesis/02DE996EE7C0895FAD1231C7BDA67B037133A973E3D9838
+01E94AC7A4B1046A7.pygtex
+Overfull \hbox (4.45908pt too wide) in paragraph at lines 65--1
+\TU/lmr/m/n/12 message-parametrilla, samankaltaisesti, kuin Redux-kirjaston red
+ucer-funktiossa. [13] 
  []
 
-[15]) (./05-loppupaatelmat.tex [16]
+[15]) [16]) (./05-loppupaatelmat.tex [17]
 \relax  5.
-) Excluding 'comment' comment. [17
+) Excluding 'comment' comment. [18
 
-] [18
+] [19
 
-] Excluding 'comment' comment. [19]
+] Excluding 'comment' comment. [20]
 (../dist/thesis.aux)
 runsystem(rm ../dist//thesis.pyg)...executed.
 
@@ -1444,12 +1449,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27733 strings out of 494440
- 563873 string characters out of 6165200
- 1092463 words of memory out of 5000000
- 31224 multiletter control sequences out of 15000+600000
+ 27741 strings out of 494440
+ 564326 string characters out of 6165200
+ 1092461 words of memory out of 5000000
+ 31229 multiletter control sequences out of 15000+600000
  535037 words of font info for 55 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
  46i,12n,50p,10447b,5857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../dist/thesis.pdf (23 pages).
+Output written on ../dist/thesis.pdf (24 pages).
