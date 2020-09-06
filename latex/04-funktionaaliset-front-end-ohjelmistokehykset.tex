@@ -7,15 +7,15 @@ asynkroniset tapahtumat.
 \section{Ohjelmistokehysten esittely}
 React on Facebookin ylläpitämä avoimen lähdekoodin käyttöliittymäkirjasto, jota käytetään tyypillisesti
 JavaScript-kielen kanssa. React on alunperin julkaistu vuonna 2013 ja se on kirjoitushetkellä vuonna 2020 maailman
-suosituin front-end ohjelmistokehys \cite{npmtrends}. React-kirjaston syntaksi on deklaratiivista, ja se mahdollistaa
-käyttöliittymän pilkkomisen komponentteihin. React ei ota kantaa muihin tekniikkaratkaisuihin, vaan keskittyy pelkästään
-yksittäisen DOM-puun hallitsemiseen. Ohjelmistokehittäjälle jää näin täysi valta valita muut teknologiat vapaasti.
-\cite{reactjs}
+suosituin front-end ohjelmistokehys noin yhdeksällä miljoonalla viikoittaisella latauksella NPM-palvelusta 
+\cite{npmtrends}. React-kirjaston syntaksi on deklaratiivista, ja se mahdollistaa käyttöliittymän pilkkomisen
+komponentteihin. React ei ota kantaa muihin tekniikkaratkaisuihin, vaan keskittyy pelkästään yksittäisen DOM-puun
+hallitsemiseen. Ohjelmistokehittäjälle jää näin täysi valta valita muut teknologiat vapaasti. \cite{reactjs}
 
 Elm on funktionaalinen ohjelmointikieli, joka käännetään JavaScript-kieleksi. Elmin on alunperin kehittänyt Evan
 Czaplicki osana maisterin tutkielmaansa (eng. Master's thesis) vuonna 2012. Elm ei ole tutkielman kirjoitushetkellä
-saavuttanut suurta suosiota, vaan sen NPM-paketinhallinnan latausmäärä on vain murto-osa React-kirjaston latausmäärästä 
-\cite{npmtrends}. Elm keskittyy web-pohjaisten graafisten käyttöliittymien deklaratiiviseen toteuttamiseen. Elm
+saavuttanut suurta suosiota, vaan sen NPM-paketinhallinnan latausmäärä on vain noin kolmekymmentä tuhatta latausta
+viikossa \cite{npmtrends}. Elm keskittyy web-pohjaisten graafisten käyttöliittymien deklaratiiviseen toteuttamiseen. Elm
 kytkeytyy tavallisen HTML DOM-puun solmuun. Elm ei myöskään ota kantaa muihin tekniikkaratkaisuihin, kuten tyylikieleen,
 mutta Elm-koodissa on mahdotonta käyttää muilla kielillä kirjoitettuja komponentteja ja kirjastoja. \cite{elmlang}
 
@@ -34,7 +34,6 @@ epäpuhtaudet sisällensä, joten Elm-kielellä toteutettu ohjelma on näennäis
 React tukee lokaalia tilaa missä tahansa komponentissa, joka on ristiriidassa funktionaalisen paradigman kanssa. Tila
 React-kirjastossa on kuitenkin muuttumaton datarakenne, jonka muuttaminen vaatii sen korvaamisen uudella datalla. Tilan
 muokkaamiseen on perinteisesti käytetty React-kirjaston Component-luokan setState-metodia, joka ylikirjoittaa tilan.
-% tähän koodiesimerkkiin tarvitsee kaiketi viitata jotenkin.
 \begin{minted}{js}
 // väärin
 this.state.greeting = 'Moikku';
@@ -43,7 +42,6 @@ this.setState({ greeting: 'Moikku' });
 \end{minted}
 React-kirjasto tukee nykyään vakiona myös epäpuhtauksia funktioiksi abstraktoivia koukkuja (eng. hooks). Koukut
 mahdollistavat esimerkiksi tilankäsittelyn puhtaassa funktionaalisessa komponentissa, ilman että tarvitaan luokkaa.
-% tähän tarttis varmaan kans viitata.
 \begin{minted}{jsx}
 const Example = () => {
   // greeting on tila, joka muuttuu reaktiivisesti
@@ -54,16 +52,24 @@ const Example = () => {
   );
 }
 \end{minted}
-Moderni React tukee myös koko sovelluksen globaalia tilanhallintaa, jota muokataan puhtailla funktiokutsuilla.
-Tämänkaltaisen tilanhallinan toteuttamiseen voi käyttää React-kirjaston useReducer-koukkua. React-kirjaston kanssa
-voidaan myös käyttää kolmannen osapuolen tilanhallintakirjastoa, esimerkiksi Redux on suosittu esimerkki
-\cite{functionalwebdev}. \cite{reactjs}
-% koodiesimerkki reducerista?
+
+Funktionaalisen React-sovelluksen toteutukseen on tyypillistä käyttää funktionaaliselle ohjelmalle tyypillistä
+tilamallia, jossa koko sovelluksen tilaa kuvataan yhdessä paikassa. Tämänkaltainen tilanhallinta yksinkertaistaa
+ymmärtämään tilan muutosten vaikutusta sovellukseen. Tyypillinen tapa toteuttaa keskitetty tilanhallinta
+funktionaalisesti on reducer-funktion avulla, joka palauttaa uuden tilan aiemman tilan ja tapahtuman perusteella.
+Modernissa React-kirjastossa tämänkaltaista tilanhallintaa voidaan käyttää useReducer-koukun avulla. Vastaavan
+toteutuksen tarjoaa myös kolmannen osapuolien toteutuksista suosituimpiin kuuluva Redux-kirjasto
+\cite{functionalwebdev}. Yksinkertaisiin sovelluksiin on silti riittävää käyttää lyhyemmän syntaksin natiiveja
+vaihtoehtoja, kuten perinteinen setState-toteutus ja useState-koukku. \cite{reactjs}
 
 // Elmissä: Model-abstraktio
+Elm-kielen arkkitehtuurissa tila on Model-nimisessä abstraktoidussa datamallissa. Model-tilan 
+
+% miten vertautuvat toisiinsa
 
 \section{Sivuvaikutukset}
 
+% Selitä sivuvaikutus auki
 // Reactissa: imperatiivinen ohjelmointi, useEffect
 
 // Elmissä: Elm-runtime abstraktoi, innokas laskenta aiheuttaa sivuvaikutuksia

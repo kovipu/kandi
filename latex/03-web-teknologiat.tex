@@ -80,11 +80,14 @@ sivuvaikutusten toteuttamiseen funktionaaliselle ohjelmoinnille tyypillisen raja
 
 \section{Funktionaalinen reaktiivinen ohjelmointi}
 Reaktiivinen ohjelmointi tarkoittaa asynkronisen datan ja tapahtumien kytkemistä ohjelmointikielen tai
-ohjelmistokehyksen sisäänrakennetuilla tekniikoilla muuttumattomiin datatyyppeihin. Immutaavisten datavirtojen käsittely
-voidaan toteuttaa puhtaasti funktionaalisilla operaatioilla. Tämä on funktionaalisen reaktiivisen ohjelmoinnin (eng. 
-Functional Reactive Programming, FRP) keskeinen konsepti, jota esimerkiksi React ja Elm hyödyntävät 
+ohjelmistokehyksen sisäänrakennetuilla tekniikoilla muuttumattomiin datatyyppeihin. Muuttumattomien datavirtojen 
+käsittely voidaan toteuttaa puhtaasti funktionaalisilla operaatioilla. Tämä on funktionaalisen reaktiivisen ohjelmoinnin
+(eng. Functional Reactive Programming, FRP) keskeinen konsepti, jota esimerkiksi React ja Elm hyödyntävät
 \cite{elmlang}\cite{reactjs}. \cite{fpmattered}
 
-Reaktiiviseen ohjelmointimalliin soveltuvia tapahtumia ja asynkronisia datalähteitä front-end web-sovelluksessa ovat
-muun muassa DOM-tapahtumat ja rajapinta-kutsut. Funktionaaliset reaktiiviset front-end ohjelmistokehykset tarjoavat
-sisäänrakennetun menetelmän funktionaaliseen front-end toteutukseen. \cite{elmlang}\cite{reactjs}
+Funktionaalinen reaktiivinen ohjelmointii mahdollistaa perinteisten puhtaiden funktioiden (esim. map, filter, reduce)
+käyttämisen sovelluksen kuvaamiseen. Keskeinen idea on, että ohjelman ympäristöstä tuleva data sidotaan näennäisesti
+muuttumattomiin signaaleihin, joita voidaan käsitellä puhtaasti funktionaalisesti. Kun data muuttuu, suoritetaan
+laskenta uudestaan, uudella arvolla. Toteutus on tällöin tavallaan muuttumaton, vaikkakin data on muuttuvaa.
+Reaktiiviseen ohjelmointimalliin soveltuvia tapahtumia ja datalähteitä front-end web-sovelluksessa ovat muun muassa
+DOM-tapahtumat ja rajapinta-kutsut. \cite{elmlang}
