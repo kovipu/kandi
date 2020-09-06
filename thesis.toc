@@ -64,7 +64,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Funktionaalinen tilankäsittely}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{15}
+\contentsline {section}{\numberline {4.4}Sivuvaikutukset}{16}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{16}
 \defcounter {refsection}{0}\relax 

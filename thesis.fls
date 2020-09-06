@@ -324,8 +324,8 @@ INPUT ../dist/../dist/_minted-thesis/2E3654EAE0FC50CE2D31A578FBAAC0FFD007A3F045D
 INPUT ../dist/../dist/_minted-thesis/2E3654EAE0FC50CE2D31A578FBAAC0FFD007A3F045D5FD7D2C2D75CD72DB72BB.pygtex
 INPUT 03-web-teknologiat.tex
 INPUT 03-web-teknologiat.tex
-INPUT 04-tutkittavat-teknologiat.tex
-INPUT 04-tutkittavat-teknologiat.tex
+INPUT 04-funktionaaliset-front-end-ohjelmistokehykset.tex
+INPUT 04-funktionaaliset-front-end-ohjelmistokehykset.tex
 OUTPUT ../dist/thesis.pyg
 INPUT ../dist/thesis.pyg
 INPUT ../dist/_minted-thesis/DB9351FCD9D58F43437CD3BCB0D2F3AB7C492A543702E61C2579CB65A38C8180.pygtex
