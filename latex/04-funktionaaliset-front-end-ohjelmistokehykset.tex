@@ -17,7 +17,8 @@ Czaplicki osana maisterin tutkielmaansa (eng. Master's thesis) vuonna 2012. Elm 
 saavuttanut suurta suosiota, vaan sen NPM-paketinhallinnan latausmäärä on vain noin kolmekymmentä tuhatta latausta
 viikossa \cite{npmtrends}. Elm keskittyy web-pohjaisten graafisten käyttöliittymien deklaratiiviseen toteuttamiseen. Elm
 kytkeytyy tavallisen HTML DOM-puun solmuun. Elm ei myöskään ota kantaa muihin tekniikkaratkaisuihin, kuten tyylikieleen,
-mutta Elm-koodissa on hyvin vaikeaa käyttää muilla kielillä kirjoitettuja komponentteja ja kirjastoja. \cite{elmlang}
+mutta Elm-koodissa on haastavampaa käyttää muilla kuin Elm-kielellä kirjoitettuja komponentteja ja kirjastoja.
+\cite{elmlang}
 
 \section{Funktionaalinen ohjelmointi}
 React korostaa funktionaalista ohjelmointia yli imperatiivisen ohjelmoinnin, mutta sallii silti kaiken tavallisen
@@ -92,12 +93,35 @@ yksittäisellä komponentilla voi olla lokaali tila, joka ei ole Elm-kielessä m
 keskitetysti Model-rakenteessa.
 
 \section{Sivuvaikutukset}
+Sivuvaikutukset ovat käytännössä pakollisia tosimaailman front-end sovellukselle. Tyypillisiä sivuvaikutuksia front-end
+ohjelmassa ovat muun muassa ulkoisen datan hakeminen, tapahtumankuuntelijan asettaminen ja manuaalinen DOM-puun
+muokkaaminen.
 
-% Selitä sivuvaikutus auki
-// Reactissa: imperatiivinen ohjelmointi, useEffect
+React sallii kaiken perinteisen JavaScript-syntaksin, kuten muuttujat ja sivuvaikutukselliset funktiot. Funktionaalinen
+ohjelmointimalli vaatiikin React-ohjelmoijalta omaa tahtoa kirjoittaa ohjelma funktionaalisesti. React kuitenkin suosii
+monella tavalla funktionaalista ohjelmointimallia. Moderni React suosii komponenttien toteuttamista niin kutsuttuina
+funktiokomponentteina, joiden oma tila ja sivuvaikutukset on toteutettava funktionaalisilla ohjelmointitavoilla.
+Funktiokomponentissa sivuvaikutuksen toteuttaminen vaatii useEffect-koukun käyttämistä, joka tekee sivuvaikutuksen
+käsittelemisestä näennäisesti funktionaalista. \cite{reactjs}
+\begin{minted}{jsx}
+const Example = ({ cardId }) => {
+  const [card, setCard] = useState(null);
+  // aiheuttaa sivuvaikutuksen, joka hakee uuden datan
+  // rajapinnasta kun cardId-parametri muuttuu.
+  useEffect(() => {
+    const newCard = api.getCardById(cardId);
+    setCard(newCard);
+  }, [cardId]);
+  return (
+    <Card card={card} />
+  );
+}
+\end{minted}
 
-// Elmissä: Elm-runtime abstraktoi, innokas laskenta aiheuttaa sivuvaikutuksia
+\includegraphics[width=\textwidth]{elm-runtime}
+Elm-kieli ei salli epäpuhtauksia itse ohjelmakoodissa, vaan ne on kaikki toteutettava Elmin ajonaikaohjelmassa (eng. Elm
+runtime). Näin itse ohjelma on puhtaasti funktionaalinen, mutta sivuvaikutuksellisia ohjelmia on silti mahdollista
+kirjoittaa. Todellisuudessa Elm-kielen innokas laskentamalli aiheuttaa myös sivuvaikutuksia. \cite{elmlang}
 
-\section{Funktionaalinen tapahtumankäsittely}
-
-// eventit, api-kutsut \& asynkronisuus
+% \section{Funktionaalinen tapahtumankäsittely}
+% eventit, api-kutsut \& asynkronisuus

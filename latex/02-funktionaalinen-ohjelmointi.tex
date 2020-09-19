@@ -8,13 +8,13 @@ lausekkeista, jotka voivat sisältää lokaalia epätarkkaa tilaa. Se on vastako
 ohjelmoinnille. Funktionaalinen ohjelmakoodi pyrkii käsittelemään tilaa tarkemmin ja välttämään muuttuvia
 arvoja. \cite{hudak}
 
-Puhtaasti funktionaalinen ohjelmointikieli ei salli lainkaan muuttuvaa tilaa tai datan muokkaamista. Tämä vaatii sen,
-että funktioiden paluuarvo riippuu ainoastaan funktion saamista parametreista, eikä mikään muu kuin parametrit voi
-vaikuttaa funktion paluuarvoon. Funktionaaliseksi ohjelmointikieleksi lasketaan kuitenkin myös moniparadigmaiset
-ohjelmointikielet, jotka sisältävät funktionaalisia piirteitä. Yksinkertaisten loogisten toimintojen lisäksi realistinen
-ohjelmointikieli vaatii epäpuhtauksia muun muassa siirrännän (eng. Input/Output) toteuttamiseen. \cite{purelyFunctional}
-Moderneissa ohjelmointikielissä tähän on myös funktionaalisia ratkaisuja, esimerkiksi Haskell-kielen
-IO-monadi \cite{learnhaskell}.
+Puhtaasti funktionaalinen ohjelmointikieli ei salli lainkaan muuttuvaa tilaa tai datan muokkaamista, eli niin kutsuttuja
+sivuvaikutuksia (eng. side-effect). Tämä vaatii sen, että funktioiden paluuarvo riippuu ainoastaan funktion saamista
+parametreista, eikä mikään muu kuin parametrit voi vaikuttaa funktion paluuarvoon. Funktionaaliseksi ohjelmointikieleksi
+lasketaan kuitenkin myös moniparadigmaiset ohjelmointikielet, jotka sisältävät funktionaalisia piirteitä.
+Yksinkertaisten loogisten toimintojen lisäksi realistinen ohjelmointikieli vaatii epäpuhtauksia muun muassa siirrännän
+(eng. Input/Output) toteuttamiseen. \cite{purelyFunctional} Moderneissa ohjelmointikielissä tähän on myös
+funktionaalisia ratkaisuja, esimerkiksi Haskell-kielen IO-monadi \cite{learnhaskell}.
 
 \section{Lambdakalkyyli}
 Funktionaalinen ohjelmointi perustuu lambdakalkyyliin - formaalin laskennan malliin jonka kehitti Alonzo Church vuonna
