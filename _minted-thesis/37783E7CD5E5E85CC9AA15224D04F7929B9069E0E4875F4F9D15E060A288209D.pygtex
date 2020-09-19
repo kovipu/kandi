@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kr}{const} \PYG{n+nx}{Example} \PYG{o}{=} \PYG{p}{(\PYGZob{}} \PYG{n+nx}{cardId} \PYG{p}{\PYGZcb{})} \PYG{p}{=\PYGZgt{}} \PYG{p}{\PYGZob{}}
+  \PYG{k+kr}{const} \PYG{p}{[}\PYG{n+nx}{card}\PYG{p}{,} \PYG{n+nx}{setCard}\PYG{p}{]} \PYG{o}{=} \PYG{n+nx}{useState}\PYG{p}{(}\PYG{k+kc}{null}\PYG{p}{);}
+  \PYG{c+c1}{// aiheuttaa sivuvaikutuksen, joka hakee uuden datan}
+  \PYG{c+c1}{// rajapinnasta kun cardId\PYGZhy{}parametri muuttuu.}
+  \PYG{n+nx}{useEffect}\PYG{p}{(()} \PYG{p}{=\PYGZgt{}} \PYG{p}{\PYGZob{}}
+    \PYG{k+kr}{const} \PYG{n+nx}{newCard} \PYG{o}{=} \PYG{n+nx}{api}\PYG{p}{.}\PYG{n+nx}{getCardById}\PYG{p}{(}\PYG{n+nx}{cardId}\PYG{p}{);}
+    \PYG{n+nx}{setCard}\PYG{p}{(}\PYG{n+nx}{newCard}\PYG{p}{);}
+  \PYG{p}{\PYGZcb{},} \PYG{p}{[}\PYG{n+nx}{cardId}\PYG{p}{]);}
+  \PYG{k}{return} \PYG{p}{(}
+    \PYG{p}{\PYGZlt{}}\PYG{n+nt}{Card} \PYG{n+na}{card}\PYG{o}{=}\PYG{p}{\PYGZob{}}\PYG{n+nx}{card}\PYG{p}{\PYGZcb{}} \PYG{p}{/\PYGZgt{}}
+  \PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

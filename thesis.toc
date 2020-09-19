@@ -66,10 +66,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Sivuvaikutukset}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Funktionaalinen tapahtumankäsittely}{17}
+\contentsline {chapter}{\numberline {5}Loppupäätelmät}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Loppupäätelmät}{18}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lähdeluettelo}{19}
+\contentsline {chapter}{Lähdeluettelo}{20}
 \defcounter {refsection}{0}\relax 
 \select@language {finnish}
