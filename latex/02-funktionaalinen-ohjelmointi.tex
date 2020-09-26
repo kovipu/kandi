@@ -9,11 +9,11 @@ ohjelmoinnille. Funktionaalinen ohjelmakoodi pyrkii käsittelemään tilaa tarke
 arvoja. \cite{hudak}
 
 Puhtaasti funktionaalinen ohjelmointikieli ei salli lainkaan muuttuvaa tilaa tai datan muokkaamista, eli niin kutsuttuja
-sivuvaikutuksia (eng. side-effect). Tämä vaatii sen, että funktioiden paluuarvo riippuu ainoastaan funktion saamista
+sivuvaikutuksia (engl. side-effect). Tämä vaatii sen, että funktioiden paluuarvo riippuu ainoastaan funktion saamista
 parametreista, eikä mikään muu kuin parametrit voi vaikuttaa funktion paluuarvoon. Funktionaaliseksi ohjelmointikieleksi
 lasketaan kuitenkin myös moniparadigmaiset ohjelmointikielet, jotka sisältävät funktionaalisia piirteitä.
 Yksinkertaisten loogisten toimintojen lisäksi realistinen ohjelmointikieli vaatii epäpuhtauksia muun muassa siirrännän
-(eng. Input/Output) toteuttamiseen. \cite{purelyFunctional} Moderneissa ohjelmointikielissä tähän on myös
+(engl. Input/Output) toteuttamiseen. \cite{purelyFunctional} Moderneissa ohjelmointikielissä tähän on myös
 funktionaalisia ratkaisuja, esimerkiksi Haskell-kielen IO-monadi \cite{learnhaskell}.
 
 \section{Lambdakalkyyli}
@@ -36,12 +36,12 @@ arvolla X. \cite{lambdacalculus}
 
 \subsection{Tilattomuus}
 Deklaratiivisissa ohjelmointikielissä ei ole implisiittistä tilaa, mikä eroaa imperatiivisista kielistä, joissa tilaa
-voi muokata lauseilla (eng. commands) ohjelmakoodissa. Tilattomuus tekee laskennasta mahdollista ainoastaan lausekkeilla
-(eng. expression). Funktionaaliset ohjelmointikielet käyttävät lambda-abstraktioita kaiken laskennan perustana.
-Esimerkiksi logiikkaohjelmoinnissa vastaava rakenne on relaatio. Tilattomuus sallii vain muuttumattomat vakiot, mikä
-estää muuttujien arvon muuttamisen ja perinteiset silmukat. Puhtaasti funktionaalisessa ohjelmoinnissa rekursio on ainoa
-tapa toteuttaa toisto. Esimerkiksi funktio, joka laskee luvun \textit{n} kertoman voitaisiin toteuttaa imperatiivisesti
-Python-kielessä esimerkiksi näin:
+voi muokata lauseilla (engl. commands) ohjelmakoodissa. Tilattomuus tekee laskennasta mahdollista ainoastaa
+lausekkeilla (engl. expression). Funktionaaliset ohjelmointikielet käyttävät lambda-abstraktioita kaiken laskennan
+perustana. Esimerkiksi logiikkaohjelmoinnissa vastaava rakenne on relaatio. Tilattomuus sallii vain muuttumattomat
+vakiot, mikä estää muuttujien arvon muuttamisen ja perinteiset silmukat. Puhtaasti funktionaalisessa ohjelmoinnissa
+rekursio on ainoa tapa toteuttaa toisto. Esimerkiksi funktio, joka laskee luvun \textit{n} kertoman voitaisiin toteuttaa
+imperatiivisesti Python-kielessä esimerkiksi näin:
 \begin{minted}{python}
 def factorial(n):
     result = 1
@@ -69,21 +69,22 @@ siten, että se voi ottaa parametrinaan tai palauttaa funktion. Ohjelmointikieli
 funktioita, funktiot ovat ensimmäisen luokan kansalaisia. Korkeamman asteen funktioiden avulla ohjelmakoodi ja data ovat
 jossain määrin vaihdettavissa, joten niiden avulla voidaan abstrahoida kompleksisia rakenteita. \cite{hudak} Map-funktio
 on korkeamman asteen funktio, joka suorittaa parametrina annetun funktion jollekkin tietorakenteelle, esimerkiksi
-listalle. Map-funktiota käytetään usein modernissa front-end web-ohjelmoinnissa \cite{functionalreact}. Listan
+listalle. Map-funktiota käytetään usein modernissa frontend web-ohjelmoinnissa \cite{functionalreact}. Listan
 renderöinti React-kirjastolla voidaan toteuttaa näin map-funktion avulla:
 \begin{minted}{jsx}
 items.map(item => <Item {...item} />)
 \end{minted}
 
 \subsection{Laiska laskenta}
-Laiska laskenta (eng. lazy evaluation) on funktion laskentastrategia, jossa lausekkeen arvo lasketaan vasta kun sitä
+Laiska laskenta (engl. lazy evaluation) on funktion laskentastrategia, jossa lausekkeen arvo lasketaan vasta kun sitä
 ensimmäisen kerran tarvitaan, mutta ei aikaisemmin. Laiska laskenta on päinvastainen laskentastrategia innokkaaseen
-laskentaan (eng. eager evaluation), jossa lausekkeen arvo lasketaan heti ensimmäisellä kerralla, kun lauseke esitellään.
-Yleisimmät ohjelmointikielet käyttävät innokasta laskentastrategiaa. Laiska laskenta vähentää suoritukseen kuluvaa aikaa
-ja siten voi parantaa ohjelman suorituskykyä eksponentiaalisesti esimerkiksi call by name -laskentastrategiaan
-verrattuna, jossa lausekkeen arvo voidaan joutua laskemaan useita kertoja. Laiskan laskennan toteuttavat useat puhtaasti
-funktionaaliset ohjelmointikielet, kuten Haskell. Myös jotkin moniparadigmaiset kielet toteuttavat laiskan laskennan,
-esimerkiksi Scala-kieli mahdollistaa sen \textit{lazy val}-lausekkeen avulla. \cite{languagedesign}
+laskentaan (engl. eager evaluation), jossa lausekkeen arvo lasketaan heti ensimmäisellä kerralla, kun lauseke
+esitellään. Yleisimmät ohjelmointikielet käyttävät innokasta laskentastrategiaa. Laiska laskenta vähentää suoritukseen
+kuluvaa aikaa ja siten voi parantaa ohjelman suorituskykyä eksponentiaalisesti esimerkiksi call by name
+-laskentastrategiaan verrattuna, jossa lausekkeen arvo voidaan joutua laskemaan useita kertoja. Laiskan laskennan
+toteuttavat useat puhtaasti funktionaaliset ohjelmointikielet, kuten Haskell. Myös jotkin moniparadigmaiset kielet
+toteuttavat laiskan laskennan, esimerkiksi Scala-kieli mahdollistaa sen \textit{lazy val}-lausekkeen avulla.
+\cite{languagedesign}
 
 Laiska laskenta mahdollistaa päättymättömät tietorakenteet. Niin sanottujen laiskojen listojen loppupää evaluoidaan
 vasta kun sitä kutsutaan. Tämä näkyy useissa funktionaalisissa ohjelmointikielissä listan toteutuksena, jossa listaa
@@ -107,13 +108,12 @@ main =
 \end{minted}
 
 \subsection{Hahmonsovitus}
-Hahmonsovitus (eng. pattern matching) on funktionaaliselle ohjelmoinnille tyypillinen piirre, jossa sama funktio voidaan
-määritellä useita kertoja. Funktiomäärittelyistä vain yhtä sovelletaan tapauskohtaisesti. Modernit funktionaaliset
-ohjelmointikielet, kuten Haskell, mahdollistavat monimutkaisten tyyppien ja lausekkeiden dekonstruoimisen
-hahmonsovituksen avulla \cite{learnhaskell}. Hahmonsovituksen toteutus on käytännössä case-lauseke, jossa lausekkeen
-ehto kuvaa syötetyn parametrin tietotyyppiä tai sen rakenneta. Tämän avulla ohjelman suoritus jakautuu syötetyn
-muuttujan tyypin tai rakenteen mukaan.
-\cite{hudak}
+Hahmonsovitus (engl. pattern matching) on funktionaaliselle ohjelmoinnille tyypillinen piirre, jossa sama funktio
+voidaan määritellä useita kertoja. Funktiomäärittelyistä vain yhtä sovelletaan tapauskohtaisesti. Modernit
+funktionaaliset ohjelmointikielet, kuten Haskell, mahdollistavat monimutkaisten tyyppien ja lausekkeiden
+dekonstruoimisen hahmonsovituksen avulla \cite{learnhaskell}. Hahmonsovituksen toteutus on käytännössä case-lauseke,
+jossa lausekkeen ehto kuvaa syötetyn parametrin tietotyyppiä tai sen rakenneta. Tämän avulla ohjelman suoritus jakautuu
+syötetyn muuttujan tyypin tai rakenteen mukaan. \cite{hudak}
 
 Esimerkiksi kertomafunktio voidaan toteuttaa rekursiivisesti hahmonsovituksen avulla. Tässä esimerkissä rekursion
 alkuarvo määritetään syötteelle \textit{0}, ja muut syötteet käsitellään parametrina \textit{n}.
@@ -125,14 +125,14 @@ factorial n = n * factorial (n - 1)
 
 \section{Funktionaalisen laskentamallin seuraukset}
 Puhtaasti funktionaalinen laskentamalli karsii ohjelmasta pois tietyt bugityypit. Puhdas sivuvaikutukseton laskenta on
-automaattisesti säieturvallista (eng. thread safe) tarkoittaen, ettei sitä tarvitse manuaalisesti synkronoida. Koska
+automaattisesti säieturvallista (engl. thread safe) tarkoittaen, ettei sitä tarvitse manuaalisesti synkronoida. Koska
 puhtaan funktion lopputulos riippuu ainoastaan syötteistä, ei syötteiden laskujärjestyksellä ole väliä. Laskennan
 lopputulosta voidaan siten pitää deterministisenä, mikä helpottaa monisäikeistystä.
 
-Toistettavuus (eng. reproducibility) tarkoittaa, että ohjelman tietynlainen toiminta on toistettavissa. Deterministisyys
-ja toistettavuus parantavat ohjelman testattavuutta. Jos puhdas funktio toimii tietyllä tavalla kerran, se toimii niin
-myös joka kerta ajon aikana. Toistettavuus helpottaa ajon aikana löydetyn virheellisen tilan toistamista syöttämällä
-sama tarkkaan määritetty virheellinen tila testiympäristöön. \cite{functionaljava}
+Toistettavuus (engl. reproducibility) tarkoittaa, että ohjelman tietynlainen toiminta on toistettavissa.
+Deterministisyys ja toistettavuus parantavat ohjelman testattavuutta. Jos puhdas funktio toimii tietyllä tavalla kerran,
+se toimii niin myös joka kerta ajon aikana. Toistettavuus helpottaa ajon aikana löydetyn virheellisen tilan toistamista
+syöttämällä sama tarkkaan määritetty virheellinen tila testiympäristöön. \cite{functionaljava}
 
 Funktionaaliset ohjelmointikielet ovat olleet hitaampia kuin niiden perinteisemmät imperatiiviset sukulaiset, kuten
 C-kieli, mutta ero on ajan kuluessa kaventunut. Kääntäjäoptimoinneista huolimatta imperatiiviset ohjelmointikielt
