@@ -48,17 +48,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}Dynaamiset verkkosivut}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Back-end}{9}
+\contentsline {section}{\numberline {3.2}Backend}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Front-end}{10}
+\contentsline {section}{\numberline {3.3}Frontend}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Funktionaalinen web-ohjelmointi}{10}
+\contentsline {section}{\numberline {3.4}Funktionaalinen web-ohjelmointi}{11}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Funktionaalinen reaktiivinen ohjelmointi}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Funktionaaliset front-end ohjelmistokehykset}{13}
+\contentsline {chapter}{\numberline {4}Funktionaaliset frontend-ohjelmistokehykset}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Ohjelmistokehysten esittely}{13}
+\contentsline {section}{\numberline {4.1}Ohjelmistokehykset}{13}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Funktionaalinen ohjelmointi}{14}
 \defcounter {refsection}{0}\relax 

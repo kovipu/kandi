@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.9.20)  20 SEP 2020 08:50
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.9.26)  26 SEP 2020 13:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1390,21 +1390,33 @@ D2C2D75CD72DB72BB.pygtex [5])
 D2C2D75CD72DB72BB.pygtex) [6]) (./03-web-teknologiat.tex [7]
 \relax  3.
 
-Overfull \hbox (3.58179pt too wide) in paragraph at lines 4--9
-\TU/lmr/m/n/12 verkkoa. Web-sisältöä luetaan selaimella, joka hakee sisällön we
-b-palvelimelta HTTP-
+Overfull \hbox (3.21pt too wide) in paragraph at lines 4--10
+\TU/lmr/m/n/12 luetaan selaimella, joka hakee sisällön web-palvelimelta HTTP-si
+irtoprotokollan avul-
+ []
+
+
+Overfull \hbox (1.29639pt too wide) in paragraph at lines 4--10
+\TU/lmr/m/n/12 la. Verkkosivujen sisällön kuvaamiseen on perinteiseti ollut kol
+me tekniikkaa: HTML-
+ []
+
+
+Overfull \hbox (1.10602pt too wide) in paragraph at lines 4--10
+\TU/lmr/m/n/12 kieli sivun sisällön kuvaamiseen, CSS-kieli sivun ulkoasun kuvaa
+miseen ja JavaScript-
  []
 
 [8
 
 ]
-Overfull \hbox (10.68448pt too wide) in paragraph at lines 31--38
-[]\TU/lmr/m/n/12 Back-end kommunikoi front-endin kanssa jonkin yhteisen rajapin
-nan (eng. Applica-
+Overfull \hbox (5.80046pt too wide) in paragraph at lines 32--39
+[]\TU/lmr/m/n/12 Backend kommunikoi frontendin kanssa jonkin yhteisen rajapinna
+n (engl. Applica-
  []
 
 [9]
-Overfull \hbox (15.67801pt too wide) in paragraph at lines 52--57
+Overfull \hbox (15.67801pt too wide) in paragraph at lines 55--60
 \TU/lmr/m/n/12 jelmakoodi jollain korkeamman tason ohjelmointikiellä, joka muun
 netaan web-natiiviksi
  []
@@ -1423,42 +1435,47 @@ C2579CB65A38C8180.pygtex [14])
 
 
 (../dist/../dist/_minted-thesis/D1C4E62156AD9D1BB3779B01D2EB1EA49B9069E0E4875F4
-F9D15E060A288209D.pygtex)
+F9D15E060A288209D.pygtex) [15]
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/02DE996EE7C0895FAD1231C7BDA67B037133A973E3D9838
 01E94AC7A4B1046A7.pygtex
-Overfull \hbox (4.45908pt too wide) in paragraph at lines 66--1
-\TU/lmr/m/n/12 message-parametrilla, samankaltaisesti, kuin Redux-kirjaston red
-ucer-funktiossa. [13] 
+Overfull \hbox (26.64868pt too wide) in paragraph at lines 67--1
+\TU/lmr/m/n/12 funktiota message-parametrilla samankaltaisesti kuin Redux-kirja
+ston reducer-funktiossa.
  []
 
-[15]) [16]
+) [16]
+Overfull \hbox (7.86845pt too wide) in paragraph at lines 98--101
+\TU/lmr/m/n/12 Sivuvaikutukset ovat käytännössä pakollisia tosimaailman fronten
+d-sovellukselle. Tyy-
+ []
+
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/37783E7CD5E5E85CC9AA15224D04F7929B9069E0E4875F4
 F9D15E060A288209D.pygtex
-Overfull \hbox (4.90045pt too wide) in paragraph at lines 100--1
+Overfull \hbox (4.90045pt too wide) in paragraph at lines 102--1
 \TU/lmr/m/n/12 kutukselliset funktiot. Funktionaalinen ohjelmointimalli vaatiik
 in React-ohjelmoijalta
  []
 
-)
+[17])
 File: ./images/elm-runtime.png Graphic file (type bmp)
 <./images/elm-runtime.png>
-
-Overfull \hbox (18.0pt too wide) in paragraph at lines 121--125
+) (./05-loppupaatelmat.tex
+Overfull \hbox (18.0pt too wide) in paragraph at lines 123--1
 [][]
  []
 
-[17]) (./05-loppupaatelmat.tex [18]
+[18]
 \relax  5.
 
-Overfull \hbox (18.96066pt too wide) in paragraph at lines 2--7
+Overfull \hbox (15.04866pt too wide) in paragraph at lines 2--7
 \TU/lmr/m/n/12 Funktionaalinen ohjelmointi on kasvattanut suosiotaan etenkin fr
-ont-end-ohjelmoinnissa
+ontend-ohjelmoinnissa
  []
 
 ) Excluding 'comment' comment. [19
@@ -1476,7 +1493,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  27756 strings out of 494440
  564823 string characters out of 6165199
- 1092481 words of memory out of 5000000
+ 1092483 words of memory out of 5000000
  31233 multiletter control sequences out of 15000+600000
  535037 words of font info for 55 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
