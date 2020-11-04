@@ -3,8 +3,8 @@
 \section{Määritelmä}
 Funktionaalinen ohjelmointi on deklaratiivinen ohjelmointiparadigma, jossa ohjelman suoritus tapahtuu sisäkkäisten
 matemaattisten funktioiden evaluoimisena. Deklaratiivinen ohjelmointi on ohjelmointiparadigma, jossa kuvaillaan ohjelman
-lopputulos tai tila. Deklaratiivisessa ohjelmoinnissa ei ole epätarkkaa globaalia tilaa, ja siten ohjelma koostuu
-lausekkeista, jotka voivat sisältää lokaalia epätarkkaa tilaa. Se on vastakohta perinteisemmälle imperatiiviselle 
+lopputulos tai tila. Deklaratiivisessa ohjelmoinnissa ei ole implisiittistä globaalia tilaa, ja siten ohjelma koostuu
+lausekkeista, joiden välillä tilaa siirretään eksplisiittisesti. Se on vastakohta perinteisemmälle imperatiiviselle 
 ohjelmoinnille. Funktionaalinen ohjelmakoodi pyrkii käsittelemään tilaa tarkemmin ja välttämään muuttuvia
 arvoja. \cite{hudak}
 
@@ -17,7 +17,7 @@ Yksinkertaisten loogisten toimintojen lisäksi realistinen ohjelmointikieli vaat
 funktionaalisia ratkaisuja, esimerkiksi Haskell-kielen IO-monadi \cite{learnhaskell}.
 
 \section{Lambdakalkyyli}
-Funktionaalinen ohjelmointi perustuu lambdakalkyyliin - formaalin laskennan malliin jonka kehitti Alonzo Church vuonna
+Funktionaalinen ohjelmointi perustuu lambdakalkyyliin – formaalin laskennan malliin jonka kehitti Alonzo Church vuonna
 1928. Lambdakalkyyliä pidetään ensimmäisenä funktionaalisena ohjelmointikielenä, vaikka se keksittiinkin ennen
 ensimmäisiä varsinaisia tietokoneita, eikä sitä pidettykään aikanaan ohjelmointikielenä. Useita moderneja
 ohjelmointikieliä, kuten Lispiä, pidetään abstraktioina lambdakalkyylin päälle. Lambdakalkyyli voidaan kirjoittaa myös
@@ -29,10 +29,7 @@ alkuperäinen lambdakalkyyli ei tuntenut muuttujien asettamista, ainoastaan arvo
 $ \lambda x [ M ] $ määrittelee funktion parametrille x toteutuksella M. Sovellus $ \{ F \} ( X ) $ suorittaa funktion F
 arvolla X. \cite{lambdacalculus}
 
-% - moderni lambdakalkyyli
-
 \section{Konseptit}
-% * declarative?
 
 \subsection{Tilattomuus}
 Deklaratiivisissa ohjelmointikielissä ei ole implisiittistä tilaa, mikä eroaa imperatiivisista kielistä, joissa tilaa
@@ -59,7 +56,6 @@ factorial n = if n < 2
                 then 1
                 else n * factorial (n-1)
 \end{minted}
-% add reasons why this is a good idea, i.e. side-effects
 
 \subsection{Korkeamman asteen funktiot}
 Funktionaaliset ohjelmointikielet helpottavat funktionaalista ohjelmointityyliä muun muassa sallimalla korkeamman asteen
@@ -80,8 +76,8 @@ Laiska laskenta (engl. lazy evaluation) on funktion laskentastrategia, jossa lau
 ensimmäisen kerran tarvitaan, mutta ei aikaisemmin. Laiska laskenta on päinvastainen laskentastrategia innokkaaseen
 laskentaan (engl. eager evaluation), jossa lausekkeen arvo lasketaan heti ensimmäisellä kerralla, kun lauseke
 esitellään. Yleisimmät ohjelmointikielet käyttävät innokasta laskentastrategiaa. Laiska laskenta vähentää suoritukseen
-kuluvaa aikaa ja siten voi parantaa ohjelman suorituskykyä eksponentiaalisesti esimerkiksi call by name
--laskentastrategiaan verrattuna, jossa lausekkeen arvo voidaan joutua laskemaan useita kertoja. Laiskan laskennan
+kuluvaa aikaa ja siten voi parantaa ohjelman suorituskykyä eksponentiaalisesti esimerkiksi call by name innokkaaseen
+laskentastrategiaan verrattuna, jossa lausekkeen arvo voidaan joutua laskemaan useita kertoja. Laiskan laskennan
 toteuttavat useat puhtaasti funktionaaliset ohjelmointikielet, kuten Haskell. Myös jotkin moniparadigmaiset kielet
 toteuttavat laiskan laskennan, esimerkiksi Scala-kieli mahdollistaa sen \textit{lazy val}-lausekkeen avulla.
 \cite{languagedesign}

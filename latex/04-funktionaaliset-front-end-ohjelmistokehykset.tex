@@ -67,7 +67,7 @@ vaihtoehtoja, kuten perinteinen setState-toteutus ja useState-koukku. \cite{reac
 Elm-kielen arkkitehtuurissa tila on Model-nimisessä abstraktoidussa datamallissa. Model-tilan kuvaaminen ja
 päivittäminen on hyvin samankaltaista, kuin React-kirjaston Redux-tilanhallinta. Reduxin kehitys on saanutkin
 inspiraation Elm-kielen Model-tilanhallinnasta. Model-tilan muokkaaminen tapahtuu kutsumalla update-funktiota
-message-parametrilla samankaltaisesti kuin Redux-kirjaston reducer-funktiossa. \cite{elmlang} Esimerkki Elmin tilan
+message-parametrilla samankaltaisesti kuin Redux-kirjaston reducer-funk\-tiossa. \cite{elmlang} Esimerkki Elmin tilan
 toteutuksesta:
 \begin{minted}{elm}
 -- MODEL
@@ -124,3 +124,10 @@ const Example = ({ cardId }) => {
 Elm-kieli ei salli epäpuhtauksia itse ohjelmakoodissa, vaan ne on kaikki toteutettava Elmin ajonaikaohjelmassa (engl.
 Elm runtime). Näin itse ohjelma on puhtaasti funktionaalinen, mutta sivuvaikutuksellisia ohjelmia on silti mahdollista
 kirjoittaa. Todellisuudessa Elm-kielen innokas laskentamalli aiheuttaa myös sivuvaikutuksia. \cite{elmlang}
+
+\section{Vertailu}
+Elm on suunniteltu mahdollisimman puhtaan funktionaaliseksi kieleksi. Elmin arvot ovatkin kaikki immutatiivisa, eikä Elm
+salli esimerkiksi poikkeuksia, vaan pakottaa virhetilan käsittelyn arvona. React-sovelluksen ohjelmakoodi on
+deklaratiivista ja reaktiivista, mutta sisältää usein epäpuhtauksia, kuten lokaalia tilaa. Reactia voi kuitenkin
+ohjelmoida funktionaalisesti sisäänrakennettujen koukkujen avulla, mutta se ei vaadi käyttäjältä funktionaalista
+lähestymistapaa.
