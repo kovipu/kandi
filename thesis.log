@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.9.26)  26 SEP 2020 13:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.11.4)  4 NOV 2020 11:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1367,7 +1367,7 @@ D2C2D75CD72DB72BB.pygtex)
 
 (../dist/../dist/_minted-thesis/9D5AE769F9D7246E06A3561ADBFA416B9B9069E0E4875F4
 F9D15E060A288209D.pygtex
-Overfull \hbox (0.83667pt too wide) in paragraph at lines 65--1
+Overfull \hbox (0.83667pt too wide) in paragraph at lines 61--1
 \TU/lmr/m/n/12 Funktionaaliset ohjelmointikielet helpottavat funktionaalista oh
 jelmointityyliä muun
  []
@@ -1440,13 +1440,7 @@ F9D15E060A288209D.pygtex) [15]
 
 
 (../dist/../dist/_minted-thesis/02DE996EE7C0895FAD1231C7BDA67B037133A973E3D9838
-01E94AC7A4B1046A7.pygtex
-Overfull \hbox (26.64868pt too wide) in paragraph at lines 67--1
-\TU/lmr/m/n/12 funktiota message-parametrilla samankaltaisesti kuin Redux-kirja
-ston reducer-funktiossa.
- []
-
-) [16]
+01E94AC7A4B1046A7.pygtex) [16]
 Overfull \hbox (7.86845pt too wide) in paragraph at lines 98--101
 \TU/lmr/m/n/12 Sivuvaikutukset ovat käytännössä pakollisia tosimaailman fronten
 d-sovellukselle. Tyy-
@@ -1465,25 +1459,25 @@ in React-ohjelmoijalta
 [17])
 File: ./images/elm-runtime.png Graphic file (type bmp)
 <./images/elm-runtime.png>
-) (./05-loppupaatelmat.tex
-Overfull \hbox (18.0pt too wide) in paragraph at lines 123--1
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 123--127
 [][]
  []
 
-[18]
+) (./05-loppupaatelmat.tex [18] [19]
 \relax  5.
 
-Overfull \hbox (15.04866pt too wide) in paragraph at lines 2--7
-\TU/lmr/m/n/12 Funktionaalinen ohjelmointi on kasvattanut suosiotaan etenkin fr
-ontend-ohjelmoinnissa
+Overfull \hbox (1.19647pt too wide) in paragraph at lines 8--11
+\TU/lmr/m/n/12 ohjelmoinnissa suosittuja kieliä ovat muun muassa Clojure- ja El
+ixir-kielet. Frontend-
  []
 
-) Excluding 'comment' comment. [19
+[20
 
-] [20
+]) Excluding 'comment' comment. [21] [22
 
-] Excluding 'comment' comment. [21]
-(../dist/thesis.aux)
+] Excluding 'comment' comment.
+[23] (../dist/thesis.aux)
 runsystem(rm ../dist//thesis.pyg)...executed.
 
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1499,4 +1493,4 @@ Here is how much of TeX's memory you used:
  350 hyphenation exceptions out of 8191
  46i,11n,50p,10447b,5857s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../dist/thesis.pdf (25 pages).
+Output written on ../dist/thesis.pdf (27 pages).
