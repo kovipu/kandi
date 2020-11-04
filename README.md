@@ -8,7 +8,7 @@
 
 ## Suunnitelma
 
-- [ ] Johdanto (1 sivu)
+- [x] Johdanto (1 sivu)
 - [x] Funktionaalinen ohjelmointi (6 sivua)
 - [x] Web-kehitys (6 sivua)
 - [x] Funktionaaliset frontend ohjelmistokehykset (6 sivua)
