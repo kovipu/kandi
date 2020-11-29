@@ -2,11 +2,11 @@
 
 \section{Määritelmä}
 Funktionaalinen ohjelmointi on deklaratiivinen ohjelmointiparadigma, jossa ohjelman suoritus tapahtuu sisäkkäisten
-matemaattisten funktioiden evaluoimisena. Deklaratiivinen ohjelmointi on ohjelmointiparadigma, jossa kuvaillaan ohjelman
-lopputulos tai tila. Deklaratiivisessa ohjelmoinnissa ei ole implisiittistä globaalia tilaa, ja siten ohjelma koostuu
-lausekkeista, joiden välillä tilaa siirretään eksplisiittisesti. Se on vastakohta perinteisemmälle imperatiiviselle 
-ohjelmoinnille. Funktionaalinen ohjelmakoodi pyrkii käsittelemään tilaa tarkemmin ja välttämään muuttuvia
-arvoja. \cite{hudak}
+matemaattisten funktioiden evaluoimisena. Dek\-laratiivisessa ohjelmoinnissa määritetään \textit{mitä} ohjelmoidaan, ei
+\textit{miten}. Deklaratiivisessa ohjelmoinnissa ei ole implisiittistä globaalia tilaa, ja siten ohjelma koostuu
+lausekkeista, joiden välillä tilaa siirretään eksplisiittisesti. Se on vastakohta perinteisemmälle imperatiiviselle
+ohjelmoinnille. Funktionaalinen ohjelmakoodi pyrkii käsittelemään tilaa tarkemmin ja välttämään muuttuvia arvoja.
+\cite{hudak}
 
 Puhtaasti funktionaalinen ohjelmointikieli ei salli lainkaan muuttuvaa tilaa tai datan muokkaamista, eli niin kutsuttuja
 sivuvaikutuksia (engl. side effect). Tämä vaatii sen, että funktioiden paluuarvo riippuu ainoastaan funktion saamista
@@ -33,7 +33,7 @@ arvolla X. \cite{lambdacalculus}
 
 \subsection{Tilattomuus}
 Deklaratiivisissa ohjelmointikielissä ei ole implisiittistä tilaa, mikä eroaa imperatiivisista kielistä, joissa tilaa
-voi muokata lauseilla (engl. commands) ohjelmakoodissa. Tilattomuus tekee laskennasta mahdollista ainoastaa
+voi muokata lauseilla (engl. statement) ohjelmakoodissa. Tilattomuus tekee laskennasta mahdollista ainoastaan
 lausekkeilla (engl. expression). Funktionaaliset ohjelmointikielet käyttävät lambda-abstraktioita kaiken laskennan
 perustana. Esimerkiksi logiikkaohjelmoinnissa vastaava rakenne on relaatio. Tilattomuus sallii vain muuttumattomat
 vakiot, mikä estää muuttujien arvon muuttamisen ja perinteiset silmukat. Puhtaasti funktionaalisessa ohjelmoinnissa
@@ -48,8 +48,9 @@ def factorial(n):
     return result
 \end{minted}
 Funktionaalisessa ohjelmointikielessä toistorakenne on toteutettava rekursion avulla, mutta tästä on usein tehty
-vaivatonta muun muassa yksinkertaisen syntaksin ja teho-optimoinnin avulla. \cite{hudak} Funktio, joka laskee luvun n
-kertoman voidaan toteuttaa esimerkiksi näin funktionaalisesti Haskell-kielessä:
+vaivatonta muun muassa yksinkertaisen syntaksin ja tehokasta väliaikaisten arvojen pois optimoinnin ansiosta.
+\cite{hudak} Funktio, joka laskee luvun n kertoman voidaan toteuttaa esimerkiksi näin funktionaalisesti
+Haskell-kielessä:
 \begin{minted}{haskell}
 factorial :: Int -> Int
 factorial n = if n < 2
@@ -59,42 +60,43 @@ factorial n = if n < 2
 
 \subsection{Korkeamman asteen funktiot}
 Funktionaaliset ohjelmointikielet helpottavat funktionaalista ohjelmointityyliä muun muassa sallimalla korkeamman asteen
-funktiot. Ensimmäisen luokan kansalainen on ohjelmointikielen rakenne, jonka voi syöttää parametrina funktioille,
-asettaa paluuarvoksi funktiolle ja tallentaa tietorakenteisiin. Korkeamman asteen funktio eroaa tavallisesta funktiosta
-siten, että se voi ottaa parametrinaan tai palauttaa funktion. Ohjelmointikielissä, jotka tukevat korkeamman asteen
-funktioita, funktiot ovat ensimmäisen luokan kansalaisia. Korkeamman asteen funktioiden avulla ohjelmakoodi ja data ovat
-jossain määrin vaihdettavissa, joten niiden avulla voidaan abstrahoida kompleksisia rakenteita. \cite{hudak} Map-funktio
-on korkeamman asteen funktio, joka suorittaa parametrina annetun funktion jollekkin tietorakenteelle, esimerkiksi
-listalle. Map-funktiota käytetään usein modernissa frontend web-ohjelmoinnissa \cite{functionalreact}. Listan
-renderöinti React-kirjastolla voidaan toteuttaa näin map-funktion avulla:
+funktiot (engl. higher-order function).  Korkeamman asteen funktio eroaa tavallisesta funktiosta siten, että se voi
+ottaa parametrinaan tai palauttaa funktion. Ensimmäisen luokan kansalainen on ohjelmointikielen rakenne, jonka voi
+syöttää parametrina funktioille, asettaa paluuarvoksi funktiolle ja tallentaa tietorakenteisiin. Ohjelmointikielissä,
+jotka tukevat korkeamman asteen funktioita, funktiot ovat ensimmäisen luokan kansalaisia. Korkeamman asteen funktioiden
+avulla ohjelmakoodi ja data ovat jossain määrin vaihdettavissa, joten niiden avulla voidaan abstrahoida kompleksisia
+rakenteita. \cite{hudak} Esimerkiksi map-funktio on korkeamman asteen funktio, joka suorittaa parametrina annetun
+funktion listalle. Map-funktiota käytetään usein modernissa webin frontend-ohjelmoinnissa \cite{functionalreact}.
+Esimerkiksi listaa voidaan käsitellä React-sovelluksessa map-funktiota käyttäen:
 \begin{minted}{jsx}
-items.map(item => <Item {...item} />)
+items.map(item => <Item {...item} />);
 \end{minted}
 
 \subsection{Laiska laskenta}
 Laiska laskenta (engl. lazy evaluation) on funktion laskentastrategia, jossa lausekkeen arvo lasketaan vasta kun sitä
 ensimmäisen kerran tarvitaan, mutta ei aikaisemmin. Laiska laskenta on päinvastainen laskentastrategia innokkaaseen
 laskentaan (engl. eager evaluation), jossa lausekkeen arvo lasketaan heti ensimmäisellä kerralla, kun lauseke
-esitellään. Yleisimmät ohjelmointikielet käyttävät innokasta laskentastrategiaa. Laiska laskenta vähentää suoritukseen
-kuluvaa aikaa ja siten voi parantaa ohjelman suorituskykyä eksponentiaalisesti esimerkiksi call by name innokkaaseen
-laskentastrategiaan verrattuna, jossa lausekkeen arvo voidaan joutua laskemaan useita kertoja. Laiskan laskennan
-toteuttavat useat puhtaasti funktionaaliset ohjelmointikielet, kuten Haskell. Myös jotkin moniparadigmaiset kielet
-toteuttavat laiskan laskennan, esimerkiksi Scala-kieli mahdollistaa sen \textit{lazy val}-lausekkeen avulla.
+esitellään. Yleisimmät ohjelmointikielet käyttävät innokasta laskentastrategiaa. Laiska laskenta voi vähentää
+suoritukseen kuluvaa aikaa ja siten voi parantaa ohjelman suorituskykyä eksponentiaalisesti esimerkiksi call by name
+innokkaaseen laskentastrategiaan verrattuna, jossa lausekkeen arvo voidaan joutua laskemaan useita kertoja. Laiskan
+laskennan toteuttavat useat puhtaasti funktionaaliset ohjelmointikielet, kuten Haskell. Myös jotkin moniparadigmaiset
+kielet toteuttavat laiskan laskennan, esimerkiksi Scala-kieli mahdollistaa sen \textit{lazy val}-lausekkeen avulla.
 \cite{languagedesign}
 
 Laiska laskenta mahdollistaa päättymättömät tietorakenteet. Niin sanottujen laiskojen listojen loppupää evaluoidaan
-vasta kun sitä kutsutaan. Tämä näkyy useissa funktionaalisissa ohjelmointikielissä listan toteutuksena, jossa listaa
-evaluoidaan alkupäästä loppua kohti. Esimerkiksi Haskellissa voidaan määrittää lista kaikista kokonaisluvuista
-tietotyypin rajoissa alkaen luvusta \textit{n}:
+vasta kun sitä käytetään laskennassa. Tämä näkyy useissa funktionaalisissa ohjelmointikielissä listan toteutuksena,
+jossa listaa evaluoidaan alkupäästä loppua kohti. Esimerkiksi Haskellissa voidaan määrittää lista kaikista
+kokonaisluvuista (Int-tietotyypin rajoissa) alkaen luvusta \textit{n}:
 \begin{minted}{haskell}
 from :: Int -> [Int]
 from n = n : from (n+1)
 \end{minted}
 Funktion rekursiivinen kutsu aiheuttaisi innokkaasti laskevissa ohjelmointikielissä päättymättömän rekursion, mutta
-Haskellin tapauksessa vain määrätty osa listasta evaluoidaan. \cite{languagedesign}
+Haskellin tapauksessa vain laskennan tarvitsema osa listasta evaluoidaan. \cite{languagedesign}
 
-Funktionaalisissa ohjelmointikielissä häntärekursio ei aiheuta pinon ylivuotoa, joten päättymätön rekursio on toimiva
-vaihtoehto päättymättömälle silmukalle. Esimerkiksi Haskell-kielen main-funktioita voidaan toistaa äärettömästi näin:
+Funktionaalisissa ohjelmointikielissä häntärekursio ei aiheuta pinon ylivuotoa toisin kuin kielissä, joissa jokainen
+kutsu varaa osan kutsupinosta. Näinollen päättymätön rekursio on toimiva vaihtoehto päättymättömälle silmukalle.
+Esimerkiksi Haskell-kielen main-funktioita voidaan toistaa äärettömästi näin:
 \begin{minted}{haskell}
 main :: IO ()
 main =
@@ -105,11 +107,11 @@ main =
 
 \subsection{Hahmonsovitus}
 Hahmonsovitus (engl. pattern matching) on funktionaaliselle ohjelmoinnille tyypillinen piirre, jossa sama funktio
-voidaan määritellä useita kertoja. Funktiomäärittelyistä vain yhtä sovelletaan tapauskohtaisesti. Modernit
-funktionaaliset ohjelmointikielet, kuten Haskell, mahdollistavat monimutkaisten tyyppien ja lausekkeiden
-dekonstruoimisen hahmonsovituksen avulla \cite{learnhaskell}. Hahmonsovituksen toteutus on käytännössä case-lauseke,
-jossa lausekkeen ehto kuvaa syötetyn parametrin tietotyyppiä tai sen rakenneta. Tämän avulla ohjelman suoritus jakautuu
-syötetyn muuttujan tyypin tai rakenteen mukaan. \cite{hudak}
+voidaan määritellä useita kertoja. Funktiomäärittelyistä vain yhtä sovelletaan tapauskohtaisesti purkamalla parametri
+ja haarautumalla sen mukaan mikä sen "hahmo" on. Modernit funktionaaliset ohjelmointikielet, kuten Haskell,
+mahdollistavat monimutkaisten tyyppien ja lausekkeiden dekonstruoimisen hahmonsovituksen avulla \cite{learnhaskell}.
+Hahmonsovituksen toteutus on käytännössä case-lauseke, jossa lausekkeen ehto kuvaa syötetyn parametrin tietotyyppiä tai
+sen rakenneta. Tämän avulla ohjelman suoritus jakautuu syötetyn muuttujan tyypin tai rakenteen mukaan. \cite{hudak}
 
 Esimerkiksi kertomafunktio voidaan toteuttaa rekursiivisesti hahmonsovituksen avulla. Tässä esimerkissä rekursion
 alkuarvo määritetään syötteelle \textit{0}, ja muut syötteet käsitellään parametrina \textit{n}.
@@ -120,10 +122,12 @@ factorial n = n * factorial (n - 1)
 \end{minted}
 
 \section{Funktionaalisen laskentamallin seuraukset}
-Puhtaasti funktionaalinen laskentamalli karsii ohjelmasta pois tietyt bugityypit. Puhdas sivuvaikutukseton laskenta on
-automaattisesti säieturvallista (engl. thread safe) tarkoittaen, ettei sitä tarvitse manuaalisesti synkronoida. Koska
-puhtaan funktion lopputulos riippuu ainoastaan syötteistä, ei syötteiden laskujärjestyksellä ole väliä. Laskennan
-lopputulosta voidaan siten pitää deterministisenä, mikä helpottaa monisäikeistystä.
+Puhtaasti funktionaalinen laskentamalli karsii ohjelmasta pois tietyt ohjelmointivirheiden tyypit. Ohjelman
+monisäikeistys on hyödyllistä laitteiston tehokkaamman käytön kannalta, mutta vaatii useissa kielissä ohjelmoijalta
+säikeiden synkronoimista ohjelmakoodissa. Puhdas sivuvaikutukseton laskenta on automaattisesti säieturvallista (engl.
+thread safe) tarkoittaen, ettei sitä tarvitse manuaalisesti synkronoida. Koska puhtaan funktion lopputulos riippuu
+ainoastaan syötteistä, ei syötteiden laskujärjestyksellä ole väliä. Laskennan lopputulosta voidaan siten pitää
+deterministisenä, mikä helpottaa monisäikeistystä.
 
 Toistettavuus (engl. reproducibility) tarkoittaa, että ohjelman tietynlainen toiminta on toistettavissa.
 Deterministisyys ja toistettavuus parantavat ohjelman testattavuutta. Jos puhdas funktio toimii tietyllä tavalla kerran,
@@ -131,7 +135,7 @@ se toimii niin myös joka kerta ajon aikana. Toistettavuus helpottaa ajon aikana
 syöttämällä sama tarkkaan määritetty virheellinen tila testiympäristöön. \cite{functionaljava}
 
 Funktionaaliset ohjelmointikielet ovat olleet hitaampia kuin niiden perinteisemmät imperatiiviset sukulaiset, kuten
-C-kieli, mutta ero on ajan kuluessa kaventunut. Kääntäjäoptimoinneista huolimatta imperatiiviset ohjelmointikielt
-tulevat aina olemaan optimoidumpia imperatiivisella laitteistolla. Imperatiivisille tietorakenteille on nykyään olemassa
-monia funktionaalisia vaihtoehtoja, jotka voivat parantaa ohjelman suoritusaikaa ja säästää muistia.
+C-kieli, mutta ero on ajan kuluessa kaventunut. Kääntäjäoptimoinneista huolimatta imperatiiviset ohjelmointikielet
+ovat useimmiten optimoidumpia imperatiivisella laitteistolla. Imperatiivisille tietorakenteille on nykyään olemassa
+monia funktionaalisia vaihtoehtoja, jotka voivat kääntyä optimaalisemmin kuin perinteiset funktionaaliset toteutukset.
 \cite{functionaldatastructures}

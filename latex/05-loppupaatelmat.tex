@@ -1,23 +1,23 @@
 \chapter{Loppupäätelmät}
 Funktionaalinen ohjelmointi on kasvattanut suosiotaan etenkin frontend-ohjelmoin\-nis\-sa viime vuosina.
 Funktionaalisesta ohjelmoinnista onkin paljon hyötyjä verrattuna perinteiseen imperatiiviseen ohjelmointiin. Puhtaan
-funktionaalisen ohjelman tilattomuus tekee ohjelmasta helpommin järkeiltävää ja testattavampaa. Puhdas funktio on myös
+funktionaalisen ohjelman tilattomuus tekee ohjelmasta helpommin toistettavaa ja testattavampaa. Puhdas funktio on myös
 automaattisesti säieturvallinen. Funktionaaliselle ohjelmointityylille on myös tyypillistä koodin kompaktiutta ja
-luettavuutta parantavien abstraktioiden, kuten hahmonsovitus, käyttö.
+luettavuutta parantavien abstraktioiden, kuten hahmonsovituksen, käyttö.
 
 Funktionaalinen paradigma soveltuu erinomaisesti web-kehitykseen. Backend-ohjelmoinnissa suosittuja kieliä ovat muun
-muassa Clojure- ja Elixir-kielet. Frontend-ohrjelmoinnissa funktionaalinen reaktiivinen ohjelmointi on hyvin tyypillinen
+muassa Clojure- ja Elixir-kielet. Frontend-ohjelmoinnissa funktionaalinen reaktiivinen ohjelmointi on hyvin tyypillinen
 toteutustapa verkkosovellukselle muun muassa React-kirjaston myötä.
 
 Tässä tutkielmassa esitellyt teknologiat, React-kirjasto ja Elm-ohjelmointikieli ovat molemmat selaimen tulkittavaksi
 JavaScript-koodiksi käännettäviä ohjelmistokehyksiä. Molemmat tekniikat toteuttavat funktionaalista
 ohjelmointiparadigmaa, joskin Elm ei salli lainkaan muita paradigmoja. Näistä kahdesta etenkin React on saavuttanut
-valtavan suosion, ja onkin kirjoitushetkellä maailman suosituin frontend ohjelmistokehys. Sekä React että Elm
-mahdollistavat funktionaalisen ohjelmoinnin piirteiden, kuten sivuvaikutusten ja funktionaalisen tilanhallinnan
-toteuttamisen.
+valtavan suosion, ja onkin kirjoitushetkellä maailman suosituin frontend-ohjelmistokehys. Sekä React että Elm
+mahdollistavat funktionaalisen ohjelmoinnin piirteiden, kuten sivuvaikutusten välttämisen ja funktionaalisen
+tilanhallinnan toteuttamisen.
 
 Etenkin funktionaalinen reaktiivinen ohjelmointi on hyvin luonteva tapa toteuttaa frontend-verkkosovellus.
-Tapahtumavirta on luonteva tapa kuvata frontendin tapahtumienkäsittelyä, ja se kytkeytyy mukavasti puhtaasti
+Tapahtumavirta on luonteva tapa kuvata frontendin tapahtumienkäsittelyä, ja se kytkeytyy helposti puhtaasti
 funktionaalisiin tapahtumankäsittelijöihin. Valitettavasti tässä tutkielmassa käsiteltiin pääasiassa frontendin
 toteutusta yleisesti funktionaalisella ohjelmoinnilla, ja reaktiivisen funktionaalisen ohjelmoinnin tutkimus jäi hyvin
 pintapuoliseksi. FRP-ohjelmoinnin käyttäminen frontend-sovelluksen toteuttamiseen olisi luonteva jatko tälle
@@ -27,4 +27,4 @@ Tämän tutkielman tutkimuskohteet on myös rajattu hyvin niukasti Reactin ja El
 tekniikoista ovat funktionaalisen ohjelmoinnin kannalta erittäin käyttökelpoisia ja mielenkiintoisia, vaikka ne
 tarjoavatkin erilaisia lähestymistapoja toteutuksiin. Molemmissa teknologioissa olisi kuitenkin vielä paljon
 tutkittavaa. Frontend-verkkosovelluksen toteutukseen on myös useita muita mielenkiintoisia tekniikkavaihtoehtoja, muun
-muassa puhtaasti reaktiivisfunktionaaliset RxJS- ja Bacon.js-kirjastot.
+muassa puhtaasti funktionaaliset reaktiiviset RxJS- ja Bacon.js-kirjastot.

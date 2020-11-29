@@ -8,21 +8,21 @@ React on Facebookin ylläpitämä avoimen lähdekoodin käyttöliittymäkirjasto
 JavaScript-kielen kanssa. React on alunperin julkaistu vuonna 2013, ja se on kirjoitushetkellä vuonna 2020 maailman
 suosituin frontend-ohjelmistokehys. Sillä on kirjoitushetkellä noin yhdeksän miljoonaa viikoittaista latausta
 NPM-palvelusta \cite{npmtrends}. React-kirjaston syntaksi on deklaratiivista, ja se mahdollistaa käyttöliittymän
-pilkkomisen komponentteihin. React ei ota kantaa muihin tekniikkaratkaisuihin, vaan keskittyy pelkästään yksittäisen
-DOM-puun hallitsemiseen. Ohjelmistokehittäjälle jää näin täysi valta valita muut teknologiat vapaasti. \cite{reactjs}
+pilkkomisen komponentteihin. React ei ota kantaa muihin tekniikkaratkaisuihin, vaan keskittyy pelkästään DOM-puun
+hallitsemiseen. Ohjelmistokehittäjälle jää näin täysi valta valita muut teknologiat vapaasti. \cite{reactjs}
 
 Elm on funktionaalinen ohjelmointikieli, joka käännetään JavaScript-kieleksi. Elmin on alunperin kehittänyt Evan
 Czaplicki osana maisterin tutkielmaansa vuonna 2012. Elm ei ole tutkielman kirjoitushetkellä saavuttanut suurta
 suosiota, vaan sen NPM-paketinhallinnan latausmäärä on vain noin kolmekymmentä tuhatta latausta viikossa
 \cite{npmtrends}. Elm keskittyy web-pohjaisten graafisten käyttöliittymien deklaratiiviseen toteuttamiseen. Elm
-kytkeytyy tavallisen HTML DOM-puun solmuun. Elm ei myöskään rajoita muita tekniikkaratkaisuja, kuten tyylikielen
+kytkeytyy tavallisen HTML DOM -puun solmuun. Elm ei myöskään rajoita muita tekniikkaratkaisuja, kuten tyylikielen
 valintaa, mutta Elm-koodissa on haastavampaa käyttää muilla kuin Elm-kielellä kirjoitettuja komponentteja ja kirjastoja.
 \cite{elmlang}
 
 \section{Funktionaalinen ohjelmointi}
 React korostaa funktionaalista ohjelmointityyliä imperatiivisen ohjelmoinnin sijaan, mutta sallii kuitenkin kaiken
 tavallisen imperatiivisen JavaScript-syntaksin. React ei pystykään välttämään muuttuvia arvoja tai sivuvaikutuksia mutta
-rohkaisee silti ohjelmoimaan funktionaalisesti muun muassa tarjoamalla tilanhallinan, joka soveltuu funktionaaliseen
+rohkaisee silti ohjelmoimaan funktionaalisesti muun muassa tarjoamalla tilanhallinnan, joka soveltuu funktionaaliseen
 ohjelmointiin. \cite{reactjs}
 
 Elm taas pyrkii olemaan puhtaasti funktionaalinen ohjelmointikieli eikä salli lainkaan esimerkiksi muuttuvia arvoja tai
@@ -41,9 +41,11 @@ this.state.greeting = 'Moikku';
 // oikein
 this.setState({ greeting: 'Moikku' });
 \end{minted}
-React-kirjasto tukee nykyään vakiona myös epäpuhtauksia funktioiksi abstraktoivia koukkuja (engl. hooks), suomenkielinen
+React-kirjasto tukee nykyään vakiona myös epäpuhtauksia funktioiksi abstraktoivia koukkuja (engl. hooks). Suomenkielinen
 termi ei ole vakiintunut, mutta mielestäni ymmärrettävä. Koukut mahdollistavat esimerkiksi tilankäsittelyn puhtaassa
-funktionaalisessa komponentissa, ilman että tarvitaan luokkaa. Esimerkki React-kirjaston useState-koukun käytöstä:
+funktionaalisessa komponentissa, ilman että tarvitaan luokkaa. Perinteisesti luokka säilöö tilan lokaalissa muuttujassa,
+mutta koukkua käyttämällä voidaan abstrahoida tilanhallinta viittauksen taakse. Esimerkki React-kirjaston
+useState-koukun käytöstä:
 \begin{minted}{jsx}
 const Example = () => {
   // greeting on tila, joka muuttuu reaktiivisesti
@@ -70,16 +72,20 @@ inspiraation Elm-kielen Model-tilanhallinnasta. Model-tilan muokkaaminen tapahtu
 message-parametrilla samankaltaisesti kuin Redux-kirjaston reducer-funk\-tiossa. \cite{elmlang} Esimerkki Elmin tilan
 toteutuksesta:
 \begin{minted}{elm}
--- MODEL
+-- Model-tyyppi kuvaa ohjelman tilan tyypityksen
 type alias Model = Int
 
+-- init-funktio kuvaa ohjelman alkutilan
 init : Model
 init =
   0
 
--- UPDATE
-type MSG = Increment | Decrement
+-- Msg-tyyppi kuvaa signaalin tyypin, jonka
+-- ohjelma voi vastaanottaa tilan muuttamiseen
+type Msg = Increment | Decrement
 
+-- update-funktio ottaa Msg-parametrin,
+-- ja palauttaa ohjelman uuden tilan
 update : Msg -> Model -> Model
 update msg model =
   case msg of
@@ -100,16 +106,17 @@ frontend-ohjelmassa ovat muun muassa ulkoisen datan hakeminen, tapahtumankuuntel
 muokkaaminen.
 
 React sallii kaiken perinteisen JavaScript-syntaksin, kuten muuttujat ja sivuvaikutukselliset funktiot. Funktionaalinen
-ohjelmointimalli vaatiikin React-ohjelmoijalta omaa tahtoa kirjoittaa ohjelma funktionaalisesti. React kuitenkin suosii
-monella tavalla funktionaalista ohjelmointimallia. Moderni React suosii komponenttien toteuttamista niin kutsuttuina
-funktiokomponentteina, joiden oma tila ja sivuvaikutukset on toteutettava funktionaalisilla ohjelmointitavoilla.
-Funktiokomponentissa sivuvaikutuksen toteuttaminen vaatii useEffect-koukun käyttämistä, joka tekee sivuvaikutuksen
-käsittelemisestä näennäisesti funktionaalista. \cite{reactjs}
+ohjelmointimalli vaatiikin React-ohjelmoijal\-ta omaa tahtoa kirjoittaa ohjelma funktionaalisesti. React kuitenkin
+suosii monella tavalla funktionaalista ohjelmointimallia. Moderni React suosii komponenttien toteuttamista niin
+kutsuttuina funktiokomponentteina, joiden oma tila ja sivuvaikutukset on toteutettava funktionaalisilla
+ohjelmointitavoilla. Funktiokomponentissa sivuvaikutuksen toteuttaminen vaatii useEffect-koukun käyttämistä, joka tekee
+sivuvaikutuksen käsittelemisestä näennäisesti funktionaalista. \cite{reactjs}
 \begin{minted}{jsx}
 const Example = ({ cardId }) => {
   const [card, setCard] = useState(null);
-  // aiheuttaa sivuvaikutuksen, joka hakee uuden datan
-  // rajapinnasta kun cardId-parametri muuttuu.
+  // Aiheuttaa sivuvaikutuksen kun cardId-parametri muuttuu.
+  // Sivuvaikutus hakee datan rajapinnasta ja asettaa sen
+  // card-muuttujan arvoksi.
   useEffect(() => {
     const newCard = api.getCardById(cardId);
     setCard(newCard);
@@ -120,13 +127,13 @@ const Example = ({ cardId }) => {
 }
 \end{minted}
 
-\includegraphics[width=\textwidth]{elm-runtime}
 Elm-kieli ei salli epäpuhtauksia itse ohjelmakoodissa, vaan ne on kaikki toteutettava Elmin ajonaikaohjelmassa (engl.
 Elm runtime). Näin itse ohjelma on puhtaasti funktionaalinen, mutta sivuvaikutuksellisia ohjelmia on silti mahdollista
-kirjoittaa. Todellisuudessa Elm-kielen innokas laskentamalli aiheuttaa myös sivuvaikutuksia. \cite{elmlang}
+kirjoittaa. Todellisuudessa Elm-kielen innokas laskentamalli aiheuttaa myös sivuvaikutuksia, mutta teknologia on
+suunniteltu minimoimaan näiden vaikutusta. \cite{elmlang}
 
 \section{Vertailu}
-Elm on suunniteltu mahdollisimman puhtaan funktionaaliseksi kieleksi. Elmin arvot ovatkin kaikki immutatiivisa, eikä Elm
+Elm on suunniteltu mahdollisimman puhtaan funktionaaliseksi kieleksi. Elmin arvot ovatkin kaikki muuttumattomia, eikä Elm
 salli esimerkiksi poikkeuksia, vaan pakottaa virhetilan käsittelyn arvona. React-sovelluksen ohjelmakoodi on
 deklaratiivista ja reaktiivista, mutta sisältää usein epäpuhtauksia, kuten lokaalia tilaa. Reactia voi kuitenkin
 ohjelmoida funktionaalisesti sisäänrakennettujen koukkujen avulla, mutta se ei vaadi käyttäjältä funktionaalista
