@@ -41,6 +41,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Conception, Evolution, and Application of Functional Programming Languages}
+      \field{volume}{21}
       \field{year}{1989}
     \endentry
     \entry{purelyFunctional}{article}{}
@@ -68,7 +69,7 @@
       \field{title}{What is a purely functional language?}
       \field{year}{1998}
     \endentry
-    \entry{learnhaskell}{article}{}
+    \entry{learnhaskell}{book}{}
       \name{author}{1}{}{%
         {{hash=ac77ae14b2dee6805e593c6360135772}{%
            family={Lipovaca},
@@ -122,7 +123,7 @@
       \field{title}{History of Lambda-calculus and Combinatory Logic}
       \field{year}{2006}
     \endentry
-    \entry{functionalreact}{article}{}
+    \entry{functionalreact}{book}{}
       \name{author}{2}{}{%
         {{hash=6611f68d993477a1078ecf350add0286}{%
            family={Banks},
@@ -151,7 +152,7 @@
       \field{title}{Learning React: Functional Web Development with React and Redux}
       \field{year}{2017}
     \endentry
-    \entry{languagedesign}{article}{}
+    \entry{languagedesign}{book}{}
       \name{author}{1}{}{%
         {{hash=26e2751069472f5b810a755d4fc2e03b}{%
            family={Watt},
@@ -175,7 +176,7 @@
       \field{title}{Programming Language Design Concepts}
       \field{year}{2006}
     \endentry
-    \entry{functionaljava}{article}{}
+    \entry{functionaljava}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=576d8202935abf8396e744b628e9a48e}{%
            family={Finifter},
@@ -214,7 +215,7 @@
       \field{title}{Verifiable Functional Purity in Java}
       \field{year}{2008}
     \endentry
-    \entry{functionaldatastructures}{article}{}
+    \entry{functionaldatastructures}{thesis}{}
       \name{author}{1}{}{%
         {{hash=e4e76cfb2d550f0048c93839f784f76d}{%
            family={Okasaki},
@@ -238,7 +239,7 @@
       \field{title}{Purely Functional Data Structures}
       \field{year}{1996}
     \endentry
-    \entry{javascriptguide}{article}{}
+    \entry{javascriptguide}{book}{}
       \name{author}{1}{}{%
         {{hash=2caeb722af2e88c021f73029f9740851}{%
            family={Flanagan},
@@ -262,7 +263,7 @@
       \field{title}{JavaScript – The definitive guide (6 ed.)}
       \field{year}{2016}
     \endentry
-    \entry{staticdynamicwebsites}{article}{}
+    \entry{staticdynamicwebsites}{thesis}{}
       \name{author}{1}{}{%
         {{hash=c9dde7ae807209046972012c58e59e06}{%
            family={Pettersen},
@@ -286,7 +287,7 @@
       \field{title}{From Static and Dynamic Websites to Static Site Generators}
       \field{year}{2016}
     \endentry
-    \entry{fullstackdeveloper}{article}{}
+    \entry{fullstackdeveloper}{book}{}
       \name{author}{1}{}{%
         {{hash=bb826afa321763741c2e09bacfacff02}{%
            family={Northwood},
@@ -310,7 +311,7 @@
       \field{title}{The Full Stack Developer}
       \field{year}{2018}
     \endentry
-    \entry{bignerdfrontend}{article}{}
+    \entry{bignerdfrontend}{book}{}
       \name{author}{2}{}{%
         {{hash=b0be09bf5f1f2e3b79d8317b3c2014ab}{%
            family={Aquino},
@@ -339,16 +340,13 @@
       \field{title}{Front-End Web Development: The Big Nerd Ranch Guide}
       \field{year}{2016}
     \endentry
-    \entry{elmlang}{article}{}
+    \entry{elmlang}{online}{}
       \name{author}{1}{}{%
         {{hash=bd0b601d2ea72eeb81587cf33772db14}{%
            family={Czaplicki},
            familyi={C\bibinitperiod},
            given={Evan},
            giveni={E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {elm-lang.org}%
       }
       \strng{namehash}{bd0b601d2ea72eeb81587cf33772db14}
       \strng{fullhash}{bd0b601d2ea72eeb81587cf33772db14}
@@ -360,10 +358,17 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 17.05.2020)}
       \field{title}{Elm website}
       \field{year}{2020}
+      \verb{urlraw}
+      \verb https://elm-lang.org
+      \endverb
+      \verb{url}
+      \verb https://elm-lang.org
+      \endverb
     \endentry
-    \entry{functionalwebdev}{article}{}
+    \entry{functionalwebdev}{book}{}
       \name{author}{1}{}{%
         {{hash=54c4d6992b73ddcd847b5c811bab0c9f}{%
            family={Halvorsen},
@@ -387,14 +392,11 @@
       \field{title}{Functional Web Development with Elixir, OTP, and Phoenix}
       \field{year}{2018}
     \endentry
-    \entry{reactjs}{article}{}
+    \entry{reactjs}{online}{}
       \name{author}{1}{}{%
         {{hash=2b0e03c50a28e1305252856af7d16516}{%
            family={{Facebook Inc.}},
            familyi={F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {reactjs.org}%
       }
       \strng{namehash}{2b0e03c50a28e1305252856af7d16516}
       \strng{fullhash}{2b0e03c50a28e1305252856af7d16516}
@@ -406,8 +408,15 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 18.07.2020)}
       \field{title}{React website}
       \field{year}{2020}
+      \verb{urlraw}
+      \verb https://reactjs.org
+      \endverb
+      \verb{url}
+      \verb https://reactjs.org
+      \endverb
     \endentry
     \entry{fpmattered}{article}{}
       \name{author}{3}{}{%
@@ -443,7 +452,7 @@
       \field{title}{How functional programming mattered}
       \field{year}{2015}
     \endentry
-    \entry{npmtrends}{article}{}
+    \entry{npmtrends}{online}{}
       \name{author}{1}{}{%
         {{hash=12b0f347b765aff847a7fb64837974fe}{%
            family={Potter},
@@ -461,8 +470,15 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 18.07.2020)}
       \field{title}{NPM Trends}
       \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.npmtrends.com/
+      \endverb
+      \verb{url}
+      \verb https://www.npmtrends.com/
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

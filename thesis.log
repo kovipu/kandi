@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.11.4)  4 NOV 2020 14:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.11.29)  29 NOV 2020 15:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1334,23 +1334,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
  Excluding 'comment' comment. (./01-johdanto.tex
 [2]
 \relax  1.
-
-Overfull \hbox (31.46448pt too wide) in paragraph at lines 10--13
-\TU/lmr/m/n/12 naalisuudelle. Tutkittaviksi teknologioiksi on valittu React-kir
-jasto ja Elm-ohjelmointikieli,
- []
-
 ) (./02-funktionaalinen-ohjelmointi.tex [1
 
 
 ]
 \relax  2.
-
-Overfull \hbox (7.99246pt too wide) in paragraph at lines 4--10
-\TU/lmr/m/n/12 man suoritus tapahtuu sisäkkäisten matemaattisten funktioiden ev
-aluoimisena. Dekla-
- []
-
 [2
 
 ]
@@ -1371,9 +1359,9 @@ D2C2D75CD72DB72BB.pygtex)
 \openout7 = `thesis.pyg'.
 
 
-(../dist/../dist/_minted-thesis/9D5AE769F9D7246E06A3561ADBFA416B9B9069E0E4875F4
+(../dist/../dist/_minted-thesis/E7592B00E80359AC63AD22BF977C7CB29B9069E0E4875F4
 F9D15E060A288209D.pygtex
-Overfull \hbox (0.83667pt too wide) in paragraph at lines 61--1
+Overfull \hbox (0.83667pt too wide) in paragraph at lines 62--1
 \TU/lmr/m/n/12 Funktionaaliset ohjelmointikielet helpottavat funktionaalista oh
 jelmointityyliä muun
  []
@@ -1383,17 +1371,17 @@ jelmointityyliä muun
 
 
 (../dist/../dist/_minted-thesis/7924F2F5F88413EC511D7024E274B1DED007A3F045D5FD7
-D2C2D75CD72DB72BB.pygtex)
+D2C2D75CD72DB72BB.pygtex) [5]
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/1F8CF1B0AC1B40A6F4E88E9DA2ABF415D007A3F045D5FD7
-D2C2D75CD72DB72BB.pygtex [5])
+D2C2D75CD72DB72BB.pygtex)
 \openout7 = `thesis.pyg'.
 
 
 (../dist/../dist/_minted-thesis/2E3654EAE0FC50CE2D31A578FBAAC0FFD007A3F045D5FD7
-D2C2D75CD72DB72BB.pygtex) [6]) (./03-web-teknologiat.tex [7]
+D2C2D75CD72DB72BB.pygtex [6])) (./03-web-teknologiat.tex [7]
 \relax  3.
 
 Overfull \hbox (3.21pt too wide) in paragraph at lines 4--10
@@ -1421,13 +1409,7 @@ Overfull \hbox (5.80046pt too wide) in paragraph at lines 32--39
 n (engl. Applica-
  []
 
-[9]
-Overfull \hbox (15.67801pt too wide) in paragraph at lines 55--60
-\TU/lmr/m/n/12 jelmakoodi jollain korkeamman tason ohjelmointikiellä, joka muun
-netaan web-natiiviksi
- []
-
-[10] [11]) (./04-funktionaaliset-front-end-ohjelmistokehykset.tex [12]
+[9] [10] [11]) (./04-funktionaaliset-front-end-ohjelmistokehykset.tex [12]
 \relax  4.
 [13
 
@@ -1445,9 +1427,9 @@ F9D15E060A288209D.pygtex) [15]
 \openout7 = `thesis.pyg'.
 
 
-(../dist/../dist/_minted-thesis/02DE996EE7C0895FAD1231C7BDA67B037133A973E3D9838
-01E94AC7A4B1046A7.pygtex) [16]
-Overfull \hbox (7.86845pt too wide) in paragraph at lines 98--101
+(../dist/../dist/_minted-thesis/9B528D2B5E2B3EEE96018DFFCD06ECC57133A973E3D9838
+01E94AC7A4B1046A7.pygtex [16])
+Overfull \hbox (7.86845pt too wide) in paragraph at lines 104--107
 \TU/lmr/m/n/12 Sivuvaikutukset ovat käytännössä pakollisia tosimaailman fronten
 d-sovellukselle. Tyy-
  []
@@ -1455,22 +1437,8 @@ d-sovellukselle. Tyy-
 \openout7 = `thesis.pyg'.
 
 
-(../dist/../dist/_minted-thesis/37783E7CD5E5E85CC9AA15224D04F7929B9069E0E4875F4
-F9D15E060A288209D.pygtex
-Overfull \hbox (4.90045pt too wide) in paragraph at lines 102--1
-\TU/lmr/m/n/12 kutukselliset funktiot. Funktionaalinen ohjelmointimalli vaatiik
-in React-ohjelmoijalta
- []
-
-[17])
-File: ./images/elm-runtime.png Graphic file (type bmp)
-<./images/elm-runtime.png>
-
-Overfull \hbox (18.0pt too wide) in paragraph at lines 123--127
-[][]
- []
-
-) (./05-loppupaatelmat.tex [18] [19]
+(../dist/../dist/_minted-thesis/9CA70E9BDCEAC7F0E879154FFDFD1FA19B9069E0E4875F4
+F9D15E060A288209D.pygtex [17])) (./05-loppupaatelmat.tex [18]
 \relax  5.
 
 Overfull \hbox (1.19647pt too wide) in paragraph at lines 8--11
@@ -1478,12 +1446,18 @@ Overfull \hbox (1.19647pt too wide) in paragraph at lines 8--11
 ixir-kielet. Frontend-
  []
 
-[20
 
-]) Excluding 'comment' comment. [21] [22
+Overfull \hbox (1.918pt too wide) in paragraph at lines 12--18
+\TU/lmr/m/n/12 saavuttanut valtavan suosion, ja onkin kirjoitushetkellä maailma
+n suosituin frontend-
+ []
+
+[19
+
+]) Excluding 'comment' comment. [20] [21
 
 ] Excluding 'comment' comment.
-[23] (../dist/thesis.aux)
+[22] (../dist/thesis.aux)
 runsystem(rm ../dist//thesis.pyg)...executed.
 
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1491,12 +1465,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27756 strings out of 494440
- 564823 string characters out of 6165199
- 1091483 words of memory out of 5000000
- 31233 multiletter control sequences out of 15000+600000
- 535037 words of font info for 55 fonts, out of 8000000 for 9000
+ 27773 strings out of 494440
+ 565198 string characters out of 6165198
+ 1091481 words of memory out of 5000000
+ 31248 multiletter control sequences out of 15000+600000
+ 536768 words of font info for 67 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 46i,11n,50p,10447b,5857s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,50p,10447b,5861s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../dist/thesis.pdf (27 pages).
+Output written on ../dist/thesis.pdf (26 pages).

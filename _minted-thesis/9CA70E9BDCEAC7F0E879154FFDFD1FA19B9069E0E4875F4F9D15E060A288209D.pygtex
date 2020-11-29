@@ -1,8 +1,9 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{k+kr}{const} \PYG{n+nx}{Example} \PYG{o}{=} \PYG{p}{(\PYGZob{}} \PYG{n+nx}{cardId} \PYG{p}{\PYGZcb{})} \PYG{p}{=\PYGZgt{}} \PYG{p}{\PYGZob{}}
   \PYG{k+kr}{const} \PYG{p}{[}\PYG{n+nx}{card}\PYG{p}{,} \PYG{n+nx}{setCard}\PYG{p}{]} \PYG{o}{=} \PYG{n+nx}{useState}\PYG{p}{(}\PYG{k+kc}{null}\PYG{p}{);}
-  \PYG{c+c1}{// aiheuttaa sivuvaikutuksen, joka hakee uuden datan}
-  \PYG{c+c1}{// rajapinnasta kun cardId\PYGZhy{}parametri muuttuu.}
+  \PYG{c+c1}{// Aiheuttaa sivuvaikutuksen kun cardId\PYGZhy{}parametri muuttuu.}
+  \PYG{c+c1}{// Sivuvaikutus hakee datan rajapinnasta ja asettaa sen}
+  \PYG{c+c1}{// card\PYGZhy{}muuttujan arvoksi.}
   \PYG{n+nx}{useEffect}\PYG{p}{(()} \PYG{p}{=\PYGZgt{}} \PYG{p}{\PYGZob{}}
     \PYG{k+kr}{const} \PYG{n+nx}{newCard} \PYG{o}{=} \PYG{n+nx}{api}\PYG{p}{.}\PYG{n+nx}{getCardById}\PYG{p}{(}\PYG{n+nx}{cardId}\PYG{p}{);}
     \PYG{n+nx}{setCard}\PYG{p}{(}\PYG{n+nx}{newCard}\PYG{p}{);}

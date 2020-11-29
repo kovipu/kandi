@@ -60,8 +60,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Vertailu}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Loppupäätelmät}{20}
+\contentsline {chapter}{\numberline {5}Loppupäätelmät}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lähdeluettelo}{22}
+\contentsline {chapter}{Lähdeluettelo}{21}
 \defcounter {refsection}{0}\relax 
 \select@language {finnish}
