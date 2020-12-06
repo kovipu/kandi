@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{hudak}{article}{}
+    \entry{hudak}{book}{}
       \name{author}{1}{}{%
         {{hash=ebfbf9d5ed6e5a1698b8fe9fb2b322a4}{%
            family={Hudak},
@@ -66,8 +66,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Functional Programming}
+      \field{number}{1}
       \field{title}{What is a purely functional language?}
+      \field{volume}{8}
       \field{year}{1998}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
     \endentry
     \entry{learnhaskell}{book}{}
       \name{author}{1}{}{%
@@ -76,6 +80,9 @@
            familyi={L\bibinitperiod},
            given={Miran},
            giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
       }
       \list{publisher}{1}{%
         {No Starch Press}%
@@ -119,8 +126,10 @@
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Handbook of the History of Logic, vol. 5}
+      \field{journaltitle}{Handbook of the History of Logic}
+      \field{month}{01}
       \field{title}{History of Lambda-calculus and Combinatory Logic}
+      \field{volume}{5}
       \field{year}{2006}
     \endentry
     \entry{functionalreact}{book}{}
@@ -137,7 +146,7 @@
            giveni={E\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {O'Reilly Media, Inc}%
+        {O'Reilly Media, Inc.}%
       }
       \strng{namehash}{7646e1ed14965980c5bfbf5d108be9b1}
       \strng{fullhash}{7646e1ed14965980c5bfbf5d108be9b1}
@@ -149,6 +158,7 @@
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{edition}{1}
       \field{title}{Learning React: Functional Web Development with React and Redux}
       \field{year}{2017}
     \endentry
@@ -160,8 +170,11 @@
            given={David\bibnamedelima A.},
            giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Hoboken, NJ, USA}%
+      }
       \list{publisher}{1}{%
-        {Wiley}%
+        {John Wiley \& Sons, Inc.}%
       }
       \strng{namehash}{26e2751069472f5b810a755d4fc2e03b}
       \strng{fullhash}{26e2751069472f5b810a755d4fc2e03b}
@@ -174,7 +187,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Programming Language Design Concepts}
-      \field{year}{2006}
+      \field{year}{2004}
     \endentry
     \entry{functionaljava}{inproceedings}{}
       \name{author}{4}{}{%
@@ -200,7 +213,7 @@
            giveni={D\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {University of California}%
+        {Association for Computing Machinery}%
       }
       \strng{namehash}{48f9126136baace3f46217e66d4a38f7}
       \strng{fullhash}{b3901cf1d3164d36f6d886145f132343}
@@ -212,10 +225,13 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 15th ACM Conference on Computer and Communications Security}
       \field{title}{Verifiable Functional Purity in Java}
       \field{year}{2008}
+      \field{pages}{161\bibrangedash 174}
+      \range{pages}{14}
     \endentry
-    \entry{functionaldatastructures}{thesis}{}
+    \entry{functionaldatastructures}{book}{}
       \name{author}{1}{}{%
         {{hash=e4e76cfb2d550f0048c93839f784f76d}{%
            family={Okasaki},
@@ -223,8 +239,11 @@
            given={Chris},
            giveni={C\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {USA}%
+      }
       \list{publisher}{1}{%
-        {Carnegie Mellon University}%
+        {Cambridge University Press}%
       }
       \strng{namehash}{e4e76cfb2d550f0048c93839f784f76d}
       \strng{fullhash}{e4e76cfb2d550f0048c93839f784f76d}
@@ -237,7 +256,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Purely Functional Data Structures}
-      \field{year}{1996}
+      \field{year}{1998}
     \endentry
     \entry{javascriptguide}{book}{}
       \name{author}{1}{}{%
@@ -260,8 +279,9 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{JavaScript – The definitive guide (6 ed.)}
-      \field{year}{2016}
+      \field{edition}{6}
+      \field{title}{JavaScript: The Definitive Guide Activate Your Web Pages}
+      \field{year}{2011}
     \endentry
     \entry{staticdynamicwebsites}{thesis}{}
       \name{author}{1}{}{%
@@ -308,7 +328,7 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{The Full Stack Developer}
+      \field{title}{he full stack developer: Your essential guide to the everyday skills expected of a modern full stack Web developer}
       \field{year}{2018}
     \endentry
     \entry{bignerdfrontend}{book}{}
@@ -324,8 +344,11 @@
            given={Todd},
            giveni={T\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Atlanta, GA}%
+      }
       \list{publisher}{1}{%
-        {Big Nerd Ranch}%
+        {Big Nerd Ranch Guides}%
       }
       \strng{namehash}{367100e413b41fafd05b34b4d2f499ba}
       \strng{fullhash}{367100e413b41fafd05b34b4d2f499ba}
@@ -337,6 +360,7 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{edition}{1}
       \field{title}{Front-End Web Development: The Big Nerd Ranch Guide}
       \field{year}{2016}
     \endentry
@@ -358,7 +382,7 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{(accessed: 17.05.2020)}
+      \field{addendum}{(noudettu: 17.05.2020)}
       \field{title}{Elm website}
       \field{year}{2020}
       \verb{urlraw}
@@ -377,7 +401,7 @@
            giveni={L\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {The Pragmatic Programmers}%
+        {Pragmatic Bookshelf}%
       }
       \strng{namehash}{54c4d6992b73ddcd847b5c811bab0c9f}
       \strng{fullhash}{54c4d6992b73ddcd847b5c811bab0c9f}
@@ -389,7 +413,8 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Functional Web Development with Elixir, OTP, and Phoenix}
+      \field{edition}{1}
+      \field{title}{Functional Web Development with Elixir, OTP, and Phoenix: Rethink the Modern Web App}
       \field{year}{2018}
     \endentry
     \entry{reactjs}{online}{}
@@ -408,7 +433,7 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{(accessed: 18.07.2020)}
+      \field{addendum}{(noudettu: 18.07.2020)}
       \field{title}{React website}
       \field{year}{2020}
       \verb{urlraw}
@@ -449,8 +474,14 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{National Science Review}
+      \field{month}{07}
+      \field{number}{3}
       \field{title}{How functional programming mattered}
+      \field{volume}{2}
       \field{year}{2015}
+      \field{pages}{349\bibrangedash 370}
+      \range{pages}{22}
     \endentry
     \entry{npmtrends}{online}{}
       \name{author}{1}{}{%
@@ -470,7 +501,7 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{(accessed: 18.07.2020)}
+      \field{addendum}{(noudettu: 18.07.2020)}
       \field{title}{NPM Trends}
       \field{year}{2020}
       \verb{urlraw}
