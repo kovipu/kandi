@@ -17,7 +17,8 @@ build: clean
 		-e '$$pdflatex=q/xelatex %O \
 		-interaction=nonstopmode %S/' \
 		-output-directory=../${OUT_DIR} \
-		${INPUT_FILE}.tex
+		${INPUT_FILE}.tex \
+		; true
 
 watch: clean
 	cd ${INPUT_DIR} && \
