@@ -1,0 +1,98 @@
+\chapter{Web-kehitys}
+
+\section{World Wide Web}
+World Wide Web tai WWW on järjestelmä tiedon jakamiseen verkkosivuina ja -sovelluksina. Se hyödyntää maailmanlaajuista
+Internet-tietoverkkoa. Web-sisältöä luetaan selaimella, joka hakee sisällön web-palvelimelta HTTP-siirtoprotokollan
+avulla. Verkkosivujen sisällön kuvaamiseen on perinteiseti ollut kolme tekniikkaa: HTML-kieli sivun sisällön
+kuvaamiseen, CSS-kieli sivun ulkoasun kuvaamiseen ja JavaScript-kieli sivun toiminnallisuuden toteuttamiseen. On myös
+mahdollista käyttää esimerkiksi Flash- ja Java-liitännäisiä, mutta nykyään on tyypillisempää käyttää pelkästään
+JavaScript-kieltä. \cite{javascriptguide}
+
+\subsection{Staattiset verkkosivut}
+Alkuperäinen tapa jakaa web-sisältöä on staattisena verkkosivuna (engl. static website). Staattinen verkkosivu koostuu
+HTML-sivuista, dokumenteista ja mediasta, jotka luetaan suoraan web-palvelimen massamuistista. Palvelin lähettää
+tiedostot selaimelle tekemättä niihin muutoksia ajon aikana. Staattiset verkkosivut sisältävät usein HTML-, CSS- ja
+multimediasisältöä, sekä selaimessa ajettavia komentosarjoja (engl. script) tai ohjelmia, jotka on kirjoitettu
+JavaScript-kielellä tai muulla selaimen tulkitsemalla kielellä. \cite{staticdynamicwebsites}
+
+\subsection{Dynaamiset verkkosivut}
+Dynaaminen verkkosivu tarkoittaa sivua, joka ei ole suoraan selaimen luettavassa muodossa. Tällaisen sivun HTML-koodi
+generoidaan lennosta verkkosivun palvelimella. Dynaamisen verkkosivun operaatioiden toteutus ei olekaan rajattu selaimen
+tulkittaviin ohjelmointikieliin, vaan käytännössä minkä tahansa kielen käyttäminen on mahdollista. Yleisimpiä kieliä
+dynaamisen verkkosivun toteuttamiseen ovat muun muassa Python, Java, C\# ja Node.js. Dynaaminen verkkosivu tallettaa
+useimmiten sisältönsä tietokantaan. \cite{staticdynamicwebsites}
+
+\section{Backend}
+Backend tarkoittaa verkkosivun tai -sovelluksen palvelinpäässä ajettavaa osaa, joka ei näy käyttäjälle. Koska
+backend-ohjelmaa ajetaan palvelinlaitteistolla, sen toteuttamiseen on paljon enemmän vapautta kuin frontendin, jonka
+täytyy olla selaimen tulkittavissa. Backend vastaa usein kaikesta varsinaisesta toiminnallisuudesta verrattuna
+frontendiin, joka toteuttaa pelkän käyttöliittymän ohjelmalle. Backendiin kuuluu usein myös tietokanta, johon sovelluksen
+data tallennetaan. \cite{fullstackdeveloper}
+
+Backend kommunikoi frontendin kanssa jonkin yhteisen rajapinnan (engl. Application programming interface, API) kautta.
+Rajapinta on yleensä pääasiallinen tiedonsiirtokanava backendin ja frontendin välillä. Frontend lähettää rajapintaan
+kutsun useimmiten HTTP-protokollan avulla, jonka jälkeen palvelin vastaanottaa kutsun ja suorittaa kutsutun
+toimenpiteen. Rajapintaa suunniteltaessa tulee muotoilla rajapinnan rakenne vastaamaan sekä ohjelman datarakennetta,
+että käyttäjän tai frontendin vaatimuksia. Rajapinta mahdollistaa staattiselle frontendille dynaamisen sisällön
+hakemisen ja muokkaamisen ajonaikana. Rajapinta voi myös mahdollistaa frontendille käyttäjän tunnistautumisen (engl.
+authentication) ja valtuuttamisen (engl. authorization). \cite{fullstackdeveloper}
+
+\section{Frontend}
+Frontend tarkoittaa verkkosivun tai -sovelluksen käyttäjälle näkyvää osaa. Koska frontendiä suoritetaan selaimessa,
+se on pakko toteuttaa web-yhteensopivilla tekniikoilla. Yleisimpiä tekniikoita ovat HTML, CSS ja JavaScript. JavaScript
+kehitettiin alunperin hyvin yksinkertaisiin käyttöliittymätoimintoihin, kuten animaatoiden toteuttamiseen. Kuitenkin
+nykypäivänä se on täysi ohjelmointikieli, jolla voidaan toteuttaa interaktiivisuutta sekä manipuloida verkkosovelluksen
+rakennetta ja ulkoasua. Dokumenttioliomalli tai DOM (engl. Document Object Model) kuvaa verkkosivun puurakenteena, jonka
+pohjalta sivu piirretään (engl. rendering), eli muodostetaan varsinainen kuva datamallien pohjalta.
+\cite{fullstackdeveloper}
+
+Frontendin keskeisin tehtävä on käyttöliittymän ja tiedon näyttäminen käyttäjälle. Tästä huolimatta modernissa
+front–endissä on paljon muitakin asioita joita tulee ottaa huomioon. Frontend-ohjelmakoodi muodostaa ja muokkaa
+verkkosivun HTML DOM-puuuta (engl. DOM tree), joka kuvaa sivun rakenteen. Frontend mahdollistaa myös käyttäjältä
+tulevien DOM-tapahtumien (engl. DOM event) vastaanottamisen ja käsittelyn. Modernilta frontendiltä odotetaan myös
+responsiivista designia, joka tarkoittaa että sama sivu toimii usealla erikokoisella päätelaitteella.
+\cite{bignerdfrontend}
+
+Modernissa frontend–kehityksessä on tyypillistä toteuttaa verkkosovelluksen ohjelmakoodi jollain korkeamman tason
+ohjelmointikiellä, joka muunnetaan selaimen ymmärtämään muotoon käännösvaiheessa. Usein käytetään esimerkiksi
+CSS-tyyli\-kieleksi kääntyvää SCSS-kieltä. Kääntäjiä, jotka kääntävät frontend–kieliä selainyhteensopiviksi kutsutaan
+käännöstyökaluiksi (engl. build tool). Esimerkiksi tämän tutkielman käsittelykohteena oleva Elm-kieli ei ole
+sellaisenaan selainyhteensopiva, vaan vaatii kääntämisen HTML- ja JavaScript-kielille \cite{elmlang}.
+\cite{fullstackdeveloper}
+
+\section{Funktionaalinen web-ohjelmointi}
+Funktionaalinen web-ohjelmointi on kerännyt suosiota viime vuosina. Funktionaalinen ohjelmointi soveltuu erinomaisesti
+web-ohjelmointiin sen toistettavuuden ja testattavuuden ansiosta. Eri abstraktiotasojen selkeämpi erottelu on myös
+perustelu funktionaaliselle web-ohjelmoinnille. Backend-sovelluksen ohjelmointikieleksi voikin valita esimerkiksi
+Clojure- tai Elixir-kielen. \cite{functionalwebdev} Funktionaalinen ohjelmointi on yleistä etenkin frontend-kehityksessä
+funktionaalisia piirteitä suosivien tekniikoiden, kuten Reactin, ansiosta. Funktionaalinen frontend–ohjelmointi
+mahdollistaa tyypillisiä funktionaalisen ohjelmoinnin hyötyjä, kuten parantaa ohjelman testattavuutta.
+\cite{functionalreact} Koska tutkielman aihe on funktionaalinen frontend-web-kehitys, käsitellään seuraavaksi
+frontendia.
+
+Funktionaalista paradigmaa toteuttava frontend perustuu datan ja näkymän yhdistämiseen puhtaiden funktioiden avulla.
+Tämänkaltainen frontend vaatii jonkin eksplisiittisen mekanismin datan muuttamiseen ja näkymän piirtämiseen uudelleen.
+Funktionaaliset frontend-tekniikat suosivatkin usein muuttumatonta (engl. immutable) tilanhallintaa, joka vaatii tilan
+uudelleenasettamisen sen muuttamiseksi. Tämänkaltaiselle tilanhallinnalle on myös tyypillistä säilöä koko ohjelman tila
+yhdessä paikassa, ja muuttaa sitä lähettämällä sille käskyjä (engl. dispatching actions). Käskyn vastaanottaa puhdas
+funktio, joka ottaa parametreina käskyn ja aiemman tilan, palauttaen ohjelman uuden tilan. Näin ohjelma on näennäisesti
+puhtaan funktionaalinen ja sivuvaikutukseton. \cite{functionalreact}
+
+Kuten tosielämän ohjelmille on tyypillistä, frontendissa tarvitaan myös sivuvaikutuksia joidenkin toiminnallisuuksien
+toteuttamiseen. Sivuvaikutukset ovat hyödyllisiä esimerkiksi tiedon tallentamiseen selaimen muistiin ja satunnaisten
+numeroiden tuottamiseen. Funktionaaliset frontend-ohjelmistokehykset mahdollistavatkin tyypillisesti toiminnallisuuden
+sivuvaikutusten toteuttamiseen funktionaaliselle ohjelmoinnille tyypillisen rajatusti. \cite{elmlang}\cite{reactjs}
+
+\section{Funktionaalinen reaktiivinen ohjelmointi}
+Reaktiivinen ohjelmointi tarkoittaa asynkronisen datan ja tapahtumien kytkemistä muuttumattomiin datatyyppeihin
+ohjelmointikielen tai ohjelmistokehyksen sisäänrakennetuilla tekniikoilla. Muuttumattomien datavirtojen käsittely
+voidaan toteuttaa puhtaasti funktionaalisilla operaatioilla. Tämä on funktionaalisen reaktiivisen ohjelmoinnin (engl.
+Functional Reactive Programming, FRP) keskeinen konsepti, jota esimerkiksi React ja Elm hyödyntävät
+\cite{elmlang}\cite{reactjs}. \cite{fpmattered}
+
+Funktionaalinen reaktiivinen ohjelmointi mahdollistaa perinteisten puhtaiden funktioiden (esim. map, filter, reduce)
+käyttämisen sovelluksen kuvaamiseen. Keskeinen idea on, että ohjelman ympäristöstä tuleva data sidotaan näennäisesti
+muuttumattomiin signaaleihin, joita voidaan käsitellä puhtaasti funktionaalisesti. Kun data muuttuu, suoritetaan
+laskenta uudestaan uudella arvolla. Toteutus on tavallaan muuttumaton, vaikkakin data on muuttuvaa. Reaktiiviseen
+ohjelmointimalliin soveltuvia tapahtumia ja datalähteitä frontend-web-sovelluksessa ovat muun muassa DOM-tapahtumat ja
+rajapintakutsut. \cite{elmlang}
