@@ -1,0 +1,25 @@
+\BOOKMARK [0][-]{chapter.1}{Johdanto}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Funktionaalinen\040ohjelmointi}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Määritelmä}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Lambdakalkyyli}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Konseptit}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.3.1}{Tilattomuus}{section.2.3}% 6
+\BOOKMARK [2][-]{subsection.2.3.2}{Korkeamman\040asteen\040funktiot}{section.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.3.3}{Laiska\040laskenta}{section.2.3}% 8
+\BOOKMARK [2][-]{subsection.2.3.4}{Hahmonsovitus}{section.2.3}% 9
+\BOOKMARK [1][-]{section.2.4}{Funktionaalisen\040laskentamallin\040seuraukset}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Web-kehitys}{}% 11
+\BOOKMARK [1][-]{section.3.1}{World\040Wide\040Web}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.1.1}{Staattiset\040verkkosivut}{section.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.1.2}{Dynaamiset\040verkkosivut}{section.3.1}% 14
+\BOOKMARK [1][-]{section.3.2}{Backend}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Frontend}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{Funktionaalinen\040web-ohjelmointi}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{Funktionaalinen\040reaktiivinen\040ohjelmointi}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Funktionaaliset\040frontend-ohjelmistokehykset}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Ohjelmistokehykset}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Funktionaalinen\040ohjelmointi}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.3}{Funktionaalinen tilankäsittely}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.4}{Sivuvaikutukset}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.5}{Vertailu}{chapter.4}% 24
+\BOOKMARK [0][-]{chapter.5}{Loppupäätelmät}{}% 25
