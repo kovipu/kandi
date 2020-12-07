@@ -1,11 +1,15 @@
-# A template for BSc / MSc theses
+# Funktionaalinen ohjelmointi frontend-web-kehityksessä
 
-Document template suitable for use as a LaTeX master-file for bachelor's /
-master's thesis in University of Turku Department of Future Technologies.
-Merge requests are welcome - if you find an issue, [please report to us](issues/new).
+### TkK-tutkielma, Konsta Purtsi
 
-Compatible with: ShareLaTeX, pdfLaTeX, LuaLaTeX, XeLaTeX, LyX, latexmk.
+[Lue tästä.](https://kovipu.github.io/kandi/thesis.pdf)
 
-## Documentation
+## Suunnitelma
 
-**<https://ttweb.utugit.fi/thesis/doc/overview/>**
+- [x] Johdanto (1 sivu)
+- [x] Funktionaalinen ohjelmointi (6 sivua)
+- [x] Web-kehitys (6 sivua)
+- [x] Funktionaaliset frontend ohjelmistokehykset (6 sivua)
+- [x] Loppupäätelmät (1 sivua)
+
+Yhteensä 20 sivua.
