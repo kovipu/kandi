@@ -4,6 +4,12 @@
 
 [Lue tästä.](https://kovipu.github.io/kandi/thesis.pdf)
 
+## Kääntäminen PDF-tiedostoksi
+Asenna latexmk ja aja loitsu `latex`-kansiossa
+```
+latexmk -pdf thesis.tex
+```
+
 ## Suunnitelma
 
 - [x] Johdanto (1 sivu)

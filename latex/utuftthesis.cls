@@ -264,7 +264,7 @@
 \newcommand\publaben[1]{\renewcommand\p@blaben{#1}}
 \newcommand\pubtype[1]{\newcommand\p@btype{#1}}
 \newcommand\supervisors[1]{\renewcommand\s@pervisors{#1}}
-\newcommand{\department}[1]{\langchoose{#1}{Tulevaisuuden teknologioiden laitos}{Department of Future Technologies}}
+\newcommand{\department}[1]{\langchoose{#1}{Tietotekniikan laitos}{Department of Computing}}
 \newcommand{\university}[1]{\langchoose{#1}{Turun yliopisto}{University of Turku}}
 \newcommand{\University}[1]{\langchoose{#1}{\MakeUppercase{Turun yliopisto}}{\MakeUppercase{University of Turku}}}
 \newcommand{\labname}[1]{\langchoose{#1}{\p@blab}{\p@blaben}}
